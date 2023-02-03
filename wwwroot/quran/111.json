@@ -1,0 +1,39 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+      "verseStringB": "Condemned are the hands of Abee Lahab, and he is condemned."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+      "verseStringB": "His wealth did not avail him, nor did what he acquired."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "verseStringB": "He will enter a Blazing Fire."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
+      "verseStringB": "And his wife—the firewood carrier."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
+      "verseStringB": "Around her neck is a rope of thorns."
+    }
+  ],
+  "nameEnglish": "Thorns",
+  "nameTrans": "al-Masad ",
+  "nameArabic": "الـمسد",
+  "chapterNumber": 111,
+  "nVerses": 5
+}

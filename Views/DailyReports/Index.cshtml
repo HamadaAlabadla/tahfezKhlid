@@ -1,0 +1,102 @@
+﻿@model IEnumerable<tahfezKhalid.Models.DailyReport>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.student)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurahSavedFrom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VerseSavedFrom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurahSavedTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VerseSavedTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumPagesSaved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurahReviewFrom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VerseReviewFrom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurahReviewTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VerseReviewTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumPagesReview)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateReport)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.student.IdentificationNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurahSavedFrom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VerseSavedFrom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurahSavedTo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VerseSavedTo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumPagesSaved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurahReviewFrom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VerseReviewFrom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurahReviewTo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VerseReviewTo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumPagesReview)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateReport)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

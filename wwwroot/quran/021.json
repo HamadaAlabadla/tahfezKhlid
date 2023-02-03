@@ -1,0 +1,574 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "اقْتَرَبَ لِلنَّاسِ حِسَابُهُمْ وَهُمْ فِي غَفْلَةٍ مُعْرِضُونَ",
+      "verseStringB": "People’s reckoning has drawn near, but they turn away heedlessly."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "مَا يَأْتِيهِمْ مِنْ ذِكْرٍ مِنْ رَبِّهِمْ مُحْدَثٍ إِلَّا اسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ",
+      "verseStringB": "No fresh reminder comes to them from their Lord, but they listen to it playfully."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "لَاهِيَةً قُلُوبُهُمْ ۗ وَأَسَرُّوا النَّجْوَى الَّذِينَ ظَلَمُوا هَلْ هَٰذَا إِلَّا بَشَرٌ مِثْلُكُمْ ۖ أَفَتَأْتُونَ السِّحْرَ وَأَنْتُمْ تُبْصِرُونَ",
+      "verseStringB": "Their hearts distracted, the wrongdoers discuss secretly, “Is he anything but a human like you? Will you yield to sorcery, while you see?”"
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "قَالَ رَبِّي يَعْلَمُ الْقَوْلَ فِي السَّمَاءِ وَالْأَرْضِ ۖ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "verseStringB": "He said, “My Lord knows whatever is spoken in heaven and on earth. And He is the Hearer, the Knower.”"
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "بَلْ قَالُوا أَضْغَاثُ أَحْلَامٍ بَلِ افْتَرَاهُ بَلْ هُوَ شَاعِرٌ فَلْيَأْتِنَا بِآيَةٍ كَمَا أُرْسِلَ الْأَوَّلُونَ",
+      "verseStringB": "And they said, “A jumble of dreams,” and, “He made it up,” and, “He is a poet,” “Let him bring us a miracle, like those sent to the ancients.”"
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "مَا آمَنَتْ قَبْلَهُمْ مِنْ قَرْيَةٍ أَهْلَكْنَاهَا ۖ أَفَهُمْ يُؤْمِنُونَ",
+      "verseStringB": "None of the towns We destroyed before them had believed. Will they then believe?"
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَمَا أَرْسَلْنَا قَبْلَكَ إِلَّا رِجَالًا نُوحِي إِلَيْهِمْ ۖ فَاسْأَلُوا أَهْلَ الذِّكْرِ إِنْ كُنْتُمْ لَا تَعْلَمُونَ",
+      "verseStringB": "We did not send before you except men, whom We inspired. Ask the people of knowledge, if you do not know."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَمَا جَعَلْنَاهُمْ جَسَدًا لَا يَأْكُلُونَ الطَّعَامَ وَمَا كَانُوا خَالِدِينَ",
+      "verseStringB": "We did not make them bodies that ate no food, nor were they immortal."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "ثُمَّ صَدَقْنَاهُمُ الْوَعْدَ فَأَنْجَيْنَاهُمْ وَمَنْ نَشَاءُ وَأَهْلَكْنَا الْمُسْرِفِينَ",
+      "verseStringB": "Then We fulfilled the promise to them, and We rescued them together with whomever We willed, and We destroyed the extravagant."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "لَقَدْ أَنْزَلْنَا إِلَيْكُمْ كِتَابًا فِيهِ ذِكْرُكُمْ ۖ أَفَلَا تَعْقِلُونَ",
+      "verseStringB": "We revealed to you a Book containing your mention. Do you not reason?"
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "وَكَمْ قَصَمْنَا مِنْ قَرْيَةٍ كَانَتْ ظَالِمَةً وَأَنْشَأْنَا بَعْدَهَا قَوْمًا آخَرِينَ",
+      "verseStringB": "How many a guilty town have We shattered, and We established thereafter another people?"
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "فَلَمَّا أَحَسُّوا بَأْسَنَا إِذَا هُمْ مِنْهَا يَرْكُضُونَ",
+      "verseStringB": "And when they sensed Our Might, they started running away from it."
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "لَا تَرْكُضُوا وَارْجِعُوا إِلَىٰ مَا أُتْرِفْتُمْ فِيهِ وَمَسَاكِنِكُمْ لَعَلَّكُمْ تُسْأَلُونَ",
+      "verseStringB": "Do not run, but come back to your luxuries, and to your homes, so that you may be questioned."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "قَالُوا يَا وَيْلَنَا إِنَّا كُنَّا ظَالِمِينَ",
+      "verseStringB": "They said, “Woe to us; we were wrongdoers.”"
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "فَمَا زَالَتْ تِلْكَ دَعْوَاهُمْ حَتَّىٰ جَعَلْنَاهُمْ حَصِيدًا خَامِدِينَ",
+      "verseStringB": "This continued to be their cry—until We made them silent ashes."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "وَمَا خَلَقْنَا السَّمَاءَ وَالْأَرْضَ وَمَا بَيْنَهُمَا لَاعِبِينَ",
+      "verseStringB": "We did not create the sky, the earth, and everything between them in play."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "لَوْ أَرَدْنَا أَنْ نَتَّخِذَ لَهْوًا لَاتَّخَذْنَاهُ مِنْ لَدُنَّا إِنْ كُنَّا فَاعِلِينَ",
+      "verseStringB": "If We wanted amusement, We could have found it in Our presence, were We to do so."
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "بَلْ نَقْذِفُ بِالْحَقِّ عَلَى الْبَاطِلِ فَيَدْمَغُهُ فَإِذَا هُوَ زَاهِقٌ ۚ وَلَكُمُ الْوَيْلُ مِمَّا تَصِفُونَ",
+      "verseStringB": "In fact, We hurl the Truth against falsehood, and it crushes it, so it vanishes. And woe to you, for what you describe."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "وَلَهُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ وَمَنْ عِنْدَهُ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِ وَلَا يَسْتَحْسِرُونَ",
+      "verseStringB": "To Him belongs everyone in the heavens and on earth. Those near Him are never too proud to worship Him, nor do they tire."
+    },
+    {
+      "verseNumber": 20,
+      "verseString": "يُسَبِّحُونَ اللَّيْلَ وَالنَّهَارَ لَا يَفْتُرُونَ",
+      "verseStringB": "They praise night and day, without wavering."
+    },
+    {
+      "verseNumber": 21,
+      "verseString": "أَمِ اتَّخَذُوا آلِهَةً مِنَ الْأَرْضِ هُمْ يُنْشِرُونَ",
+      "verseStringB": "Or have they taken gods from the earth, who resurrect?"
+    },
+    {
+      "verseNumber": 22,
+      "verseString": "لَوْ كَانَ فِيهِمَا آلِهَةٌ إِلَّا اللَّهُ لَفَسَدَتَا ۚ فَسُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ عَمَّا يَصِفُونَ",
+      "verseStringB": "If there were in them gods other than Allah, they would have gone to ruin. So glory be to Allah, Lord of the Throne, above what they describe."
+    },
+    {
+      "verseNumber": 23,
+      "verseString": "لَا يُسْأَلُ عَمَّا يَفْعَلُ وَهُمْ يُسْأَلُونَ",
+      "verseStringB": "He will not be questioned about what He does, but they will be questioned."
+    },
+    {
+      "verseNumber": 24,
+      "verseString": "أَمِ اتَّخَذُوا مِنْ دُونِهِ آلِهَةً ۖ قُلْ هَاتُوا بُرْهَانَكُمْ ۖ هَٰذَا ذِكْرُ مَنْ مَعِيَ وَذِكْرُ مَنْ قَبْلِي ۗ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ الْحَقَّ ۖ فَهُمْ مُعْرِضُونَ",
+      "verseStringB": "Or have they taken gods besides Him? Say, “Produce your proof. This is a Message for those with me, and a Message for those before me.” But most of them do not know the truth, so they turn away."
+    },
+    {
+      "verseNumber": 25,
+      "verseString": "وَمَا أَرْسَلْنَا مِنْ قَبْلِكَ مِنْ رَسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ",
+      "verseStringB": "We sent no messenger before you, without inspiring him that: “There is no god except I, so worship Me.”"
+    },
+    {
+      "verseNumber": 26,
+      "verseString": "وَقَالُوا اتَّخَذَ الرَّحْمَٰنُ وَلَدًا ۗ سُبْحَانَهُ ۚ بَلْ عِبَادٌ مُكْرَمُونَ",
+      "verseStringB": "And they say, “The Mercy-Giver has taken a son.” Be He glorified; they are but honored servants."
+    },
+    {
+      "verseNumber": 27,
+      "verseString": "لَا يَسْبِقُونَهُ بِالْقَوْلِ وَهُمْ بِأَمْرِهِ يَعْمَلُونَ",
+      "verseStringB": "They do not precede Him in speech, and they act according to His command."
+    },
+    {
+      "verseNumber": 28,
+      "verseString": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يَشْفَعُونَ إِلَّا لِمَنِ ارْتَضَىٰ وَهُمْ مِنْ خَشْيَتِهِ مُشْفِقُونَ",
+      "verseStringB": "He knows what is ahead of them, and what is behind them. And they cannot intercede, except for whom He approves. And they tremble in awe of Him."
+    },
+    {
+      "verseNumber": 29,
+      "verseString": "وَمَنْ يَقُلْ مِنْهُمْ إِنِّي إِلَٰهٌ مِنْ دُونِهِ فَذَٰلِكَ نَجْزِيهِ جَهَنَّمَ ۚ كَذَٰلِكَ نَجْزِي الظَّالِمِينَ",
+      "verseStringB": "And whoever of them says, “I am a god besides Him,” We will repay him with Hell. Thus We repay the wrongdoers."
+    },
+    {
+      "verseNumber": 30,
+      "verseString": "أَوَلَمْ يَرَ الَّذِينَ كَفَرُوا أَنَّ السَّمَاوَاتِ وَالْأَرْضَ كَانَتَا رَتْقًا فَفَتَقْنَاهُمَا ۖ وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ ۖ أَفَلَا يُؤْمِنُونَ",
+      "verseStringB": "Do the unbelievers not see that the heavens and the earth were joined together, and We split them apart? And We made from water every living thing. Will they not believe?"
+    },
+    {
+      "verseNumber": 31,
+      "verseString": "وَجَعَلْنَا فِي الْأَرْضِ رَوَاسِيَ أَنْ تَمِيدَ بِهِمْ وَجَعَلْنَا فِيهَا فِجَاجًا سُبُلًا لَعَلَّهُمْ يَهْتَدُونَ",
+      "verseStringB": "And We placed on earth stabilizers, lest it sways with them. And We placed on it signposts and passages, so that they may be guided."
+    },
+    {
+      "verseNumber": 32,
+      "verseString": "وَجَعَلْنَا السَّمَاءَ سَقْفًا مَحْفُوظًا ۖ وَهُمْ عَنْ آيَاتِهَا مُعْرِضُونَ",
+      "verseStringB": "And We made the sky a protected ceiling, yet they turn away from its wonders."
+    },
+    {
+      "verseNumber": 33,
+      "verseString": "وَهُوَ الَّذِي خَلَقَ اللَّيْلَ وَالنَّهَارَ وَالشَّمْسَ وَالْقَمَرَ ۖ كُلٌّ فِي فَلَكٍ يَسْبَحُونَ",
+      "verseStringB": "It is He who created the night and the day, and the sun and the moon—each gliding in an orbit."
+    },
+    {
+      "verseNumber": 34,
+      "verseString": "وَمَا جَعَلْنَا لِبَشَرٍ مِنْ قَبْلِكَ الْخُلْدَ ۖ أَفَإِنْ مِتَّ فَهُمُ الْخَالِدُونَ",
+      "verseStringB": "We did not grant immortality to any human before you. Should you die, are they then the immortal?"
+    },
+    {
+      "verseNumber": 35,
+      "verseString": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ ۗ وَنَبْلُوكُمْ بِالشَّرِّ وَالْخَيْرِ فِتْنَةً ۖ وَإِلَيْنَا تُرْجَعُونَ",
+      "verseStringB": "Every soul will taste death. We burden you with bad and good—a test. And to Us, you will be returned."
+    },
+    {
+      "verseNumber": 36,
+      "verseString": "وَإِذَا رَآكَ الَّذِينَ كَفَرُوا إِنْ يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَٰذَا الَّذِي يَذْكُرُ آلِهَتَكُمْ وَهُمْ بِذِكْرِ الرَّحْمَٰنِ هُمْ كَافِرُونَ",
+      "verseStringB": "And when those who disbelieve see you, they only make fun of you: “Is this the one who mentions your gods?” And they reject the mention of the Gracious."
+    },
+    {
+      "verseNumber": 37,
+      "verseString": "خُلِقَ الْإِنْسَانُ مِنْ عَجَلٍ ۚ سَأُرِيكُمْ آيَاتِي فَلَا تَسْتَعْجِلُونِ",
+      "verseStringB": "The human being was created of rush. I will show you My signs, so do not seek to rush Me."
+    },
+    {
+      "verseNumber": 38,
+      "verseString": "وَيَقُولُونَ مَتَىٰ هَٰذَا الْوَعْدُ إِنْ كُنْتُمْ صَادِقِينَ",
+      "verseStringB": "And they say, “When will this promise come true—if you are truthful?”"
+    },
+    {
+      "verseNumber": 39,
+      "verseString": "لَوْ يَعْلَمُ الَّذِينَ كَفَرُوا حِينَ لَا يَكُفُّونَ عَنْ وُجُوهِهِمُ النَّارَ وَلَا عَنْ ظُهُورِهِمْ وَلَا هُمْ يُنْصَرُونَ",
+      "verseStringB": "If those who disbelieve only knew, when they cannot keep the fire off their faces, and off their backs, and they will not be helped."
+    },
+    {
+      "verseNumber": 40,
+      "verseString": "بَلْ تَأْتِيهِمْ بَغْتَةً فَتَبْهَتُهُمْ فَلَا يَسْتَطِيعُونَ رَدَّهَا وَلَا هُمْ يُنْظَرُونَ",
+      "verseStringB": "In fact, it will come upon them suddenly, and it will bewilder them. They will be unable to repel it, and they will not be delayed."
+    },
+    {
+      "verseNumber": 41,
+      "verseString": "وَلَقَدِ اسْتُهْزِئَ بِرُسُلٍ مِنْ قَبْلِكَ فَحَاقَ بِالَّذِينَ سَخِرُوا مِنْهُمْ مَا كَانُوا بِهِ يَسْتَهْزِئُونَ",
+      "verseStringB": "Messengers before you were ridiculed, but those who jeered became besieged by what they used to ridicule."
+    },
+    {
+      "verseNumber": 42,
+      "verseString": "قُلْ مَنْ يَكْلَؤُكُمْ بِاللَّيْلِ وَالنَّهَارِ مِنَ الرَّحْمَٰنِ ۗ بَلْ هُمْ عَنْ ذِكْرِ رَبِّهِمْ مُعْرِضُونَ",
+      "verseStringB": "Say, “Who will protect you, by night and by day, from the Beneficent?” But they turn away from the remembrance of their Lord."
+    },
+    {
+      "verseNumber": 43,
+      "verseString": "أَمْ لَهُمْ آلِهَةٌ تَمْنَعُهُمْ مِنْ دُونِنَا ۚ لَا يَسْتَطِيعُونَ نَصْرَ أَنْفُسِهِمْ وَلَا هُمْ مِنَّا يُصْحَبُونَ",
+      "verseStringB": "Or do they have gods who defend them against Us? They cannot help themselves, nor are they accompanied by Us."
+    },
+    {
+      "verseNumber": 44,
+      "verseString": "بَلْ مَتَّعْنَا هَٰؤُلَاءِ وَآبَاءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ الْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِي الْأَرْضَ نَنْقُصُهَا مِنْ أَطْرَافِهَا ۚ أَفَهُمُ الْغَالِبُونَ",
+      "verseStringB": "We have given these enjoyments, and their ancestors—until life grew long for them. Do they not consider how We erode the land at its extremities? Is it they who will prevail?"
+    },
+    {
+      "verseNumber": 45,
+      "verseString": "قُلْ إِنَّمَا أُنْذِرُكُمْ بِالْوَحْيِ ۚ وَلَا يَسْمَعُ الصُّمُّ الدُّعَاءَ إِذَا مَا يُنْذَرُونَ",
+      "verseStringB": "Say, “I am warning you through inspiration.” But the deaf cannot hear the call when they are warned."
+    },
+    {
+      "verseNumber": 46,
+      "verseString": "وَلَئِنْ مَسَّتْهُمْ نَفْحَةٌ مِنْ عَذَابِ رَبِّكَ لَيَقُولُنَّ يَا وَيْلَنَا إِنَّا كُنَّا ظَالِمِينَ",
+      "verseStringB": "And when a breath of your Lord’s punishment touches them, they say, “Woe to us, we were wrongdoers.”"
+    },
+    {
+      "verseNumber": 47,
+      "verseString": "وَنَضَعُ الْمَوَازِينَ الْقِسْطَ لِيَوْمِ الْقِيَامَةِ فَلَا تُظْلَمُ نَفْسٌ شَيْئًا ۖ وَإِنْ كَانَ مِثْقَالَ حَبَّةٍ مِنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَاسِبِينَ",
+      "verseStringB": "And We will set the scales of justice for the Day of Resurrection—so that no soul will suffer the least injustice. And even if it were the weight of a mustard seed, We will bring it. We are Sufficient as Reckoners."
+    },
+    {
+      "verseNumber": 48,
+      "verseString": "وَلَقَدْ آتَيْنَا مُوسَىٰ وَهَارُونَ الْفُرْقَانَ وَضِيَاءً وَذِكْرًا لِلْمُتَّقِينَ",
+      "verseStringB": "And We gave Moses and Aaron the Criterion, and illumination, and a reminder for the righteous."
+    },
+    {
+      "verseNumber": 49,
+      "verseString": "الَّذِينَ يَخْشَوْنَ رَبَّهُمْ بِالْغَيْبِ وَهُمْ مِنَ السَّاعَةِ مُشْفِقُونَ",
+      "verseStringB": "Those who fear their Lord in private, and are apprehensive of the Hour."
+    },
+    {
+      "verseNumber": 50,
+      "verseString": "وَهَٰذَا ذِكْرٌ مُبَارَكٌ أَنْزَلْنَاهُ ۚ أَفَأَنْتُمْ لَهُ مُنْكِرُونَ",
+      "verseStringB": "This too is a blessed message that We revealed. Are you going to deny it?"
+    },
+    {
+      "verseNumber": 51,
+      "verseString": "وَلَقَدْ آتَيْنَا إِبْرَاهِيمَ رُشْدَهُ مِنْ قَبْلُ وَكُنَّا بِهِ عَالِمِينَ",
+      "verseStringB": "And We gave Abraham his sound judgment formerly, and We knew him well."
+    },
+    {
+      "verseNumber": 52,
+      "verseString": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِ مَا هَٰذِهِ التَّمَاثِيلُ الَّتِي أَنْتُمْ لَهَا عَاكِفُونَ",
+      "verseStringB": "When he said to his father and his people, “What are these statues to which you are devoted?”"
+    },
+    {
+      "verseNumber": 53,
+      "verseString": "قَالُوا وَجَدْنَا آبَاءَنَا لَهَا عَابِدِينَ",
+      "verseStringB": "They said, “We found our forefathers worshiping them.”"
+    },
+    {
+      "verseNumber": 54,
+      "verseString": "قَالَ لَقَدْ كُنْتُمْ أَنْتُمْ وَآبَاؤُكُمْ فِي ضَلَالٍ مُبِينٍ",
+      "verseStringB": "He said, “You and your forefathers have obviously been astray.”"
+    },
+    {
+      "verseNumber": 55,
+      "verseString": "قَالُوا أَجِئْتَنَا بِالْحَقِّ أَمْ أَنْتَ مِنَ اللَّاعِبِينَ",
+      "verseStringB": "They said, “Did you come to us with the truth, or are you playing?”"
+    },
+    {
+      "verseNumber": 56,
+      "verseString": "قَالَ بَلْ رَبُّكُمْ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ الَّذِي فَطَرَهُنَّ وَأَنَا عَلَىٰ ذَٰلِكُمْ مِنَ الشَّاهِدِينَ",
+      "verseStringB": "He said, “Your Lord is the Lord of the heavens and the earth, He who originated them, and I bear witness to that."
+    },
+    {
+      "verseNumber": 57,
+      "verseString": "وَتَاللَّهِ لَأَكِيدَنَّ أَصْنَامَكُمْ بَعْدَ أَنْ تُوَلُّوا مُدْبِرِينَ",
+      "verseStringB": "“By Allah, I will have a plan for your statues, after you have gone away.”"
+    },
+    {
+      "verseNumber": 58,
+      "verseString": "فَجَعَلَهُمْ جُذَاذًا إِلَّا كَبِيرًا لَهُمْ لَعَلَّهُمْ إِلَيْهِ يَرْجِعُونَ",
+      "verseStringB": "So he reduced them into pieces, except for their biggest, so that they may return to it."
+    },
+    {
+      "verseNumber": 59,
+      "verseString": "قَالُوا مَنْ فَعَلَ هَٰذَا بِآلِهَتِنَا إِنَّهُ لَمِنَ الظَّالِمِينَ",
+      "verseStringB": "They said, “Who did this to our gods? He is a wrongdoer!”"
+    },
+    {
+      "verseNumber": 60,
+      "verseString": "قَالُوا سَمِعْنَا فَتًى يَذْكُرُهُمْ يُقَالُ لَهُ إِبْرَاهِيمُ",
+      "verseStringB": "They said, “We heard a young man mention them. He is called Abraham.”"
+    },
+    {
+      "verseNumber": 61,
+      "verseString": "قَالُوا فَأْتُوا بِهِ عَلَىٰ أَعْيُنِ النَّاسِ لَعَلَّهُمْ يَشْهَدُونَ",
+      "verseStringB": "They said, “Then bring him before the people’s eyes, so that they may witness.”"
+    },
+    {
+      "verseNumber": 62,
+      "verseString": "قَالُوا أَأَنْتَ فَعَلْتَ هَٰذَا بِآلِهَتِنَا يَا إِبْرَاهِيمُ",
+      "verseStringB": "They said, “Was it you who did this to our gods, O Abraham?”"
+    },
+    {
+      "verseNumber": 63,
+      "verseString": "قَالَ بَلْ فَعَلَهُ كَبِيرُهُمْ هَٰذَا فَاسْأَلُوهُمْ إِنْ كَانُوا يَنْطِقُونَ",
+      "verseStringB": "He said, “No, this one—the biggest of them—did it. Ask them, if they can speak.”"
+    },
+    {
+      "verseNumber": 64,
+      "verseString": "فَرَجَعُوا إِلَىٰ أَنْفُسِهِمْ فَقَالُوا إِنَّكُمْ أَنْتُمُ الظَّالِمُونَ",
+      "verseStringB": "So they came back to their senses, and said, “You yourselves are the wrongdoers.”"
+    },
+    {
+      "verseNumber": 65,
+      "verseString": "ثُمَّ نُكِسُوا عَلَىٰ رُءُوسِهِمْ لَقَدْ عَلِمْتَ مَا هَٰؤُلَاءِ يَنْطِقُونَ",
+      "verseStringB": "But they reversed themselves: “You already know that these cannot speak.”"
+    },
+    {
+      "verseNumber": 66,
+      "verseString": "قَالَ أَفَتَعْبُدُونَ مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُكُمْ شَيْئًا وَلَا يَضُرُّكُمْ",
+      "verseStringB": "He said, “Do you worship, instead of Allah, what can neither benefit you nor harm you in anything?"
+    },
+    {
+      "verseNumber": 67,
+      "verseString": "أُفٍّ لَكُمْ وَلِمَا تَعْبُدُونَ مِنْ دُونِ اللَّهِ ۖ أَفَلَا تَعْقِلُونَ",
+      "verseStringB": "Fie on you, and on whatever you worship below Allah. Do you not understand?”"
+    },
+    {
+      "verseNumber": 68,
+      "verseString": "قَالُوا حَرِّقُوهُ وَانْصُرُوا آلِهَتَكُمْ إِنْ كُنْتُمْ فَاعِلِينَ",
+      "verseStringB": "They said, “Burn him and support your gods—if you are going to act.”"
+    },
+    {
+      "verseNumber": 69,
+      "verseString": "قُلْنَا يَا نَارُ كُونِي بَرْدًا وَسَلَامًا عَلَىٰ إِبْرَاهِيمَ",
+      "verseStringB": "We said, “O fire, be coolness and safety for Abraham.”"
+    },
+    {
+      "verseNumber": 70,
+      "verseString": "وَأَرَادُوا بِهِ كَيْدًا فَجَعَلْنَاهُمُ الْأَخْسَرِينَ",
+      "verseStringB": "And they intended to harm him, but We made them the worst losers."
+    },
+    {
+      "verseNumber": 71,
+      "verseString": "وَنَجَّيْنَاهُ وَلُوطًا إِلَى الْأَرْضِ الَّتِي بَارَكْنَا فِيهَا لِلْعَالَمِينَ",
+      "verseStringB": "And We saved him, along with Lot, to the land that We blessed for all people."
+    },
+    {
+      "verseNumber": 72,
+      "verseString": "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ نَافِلَةً ۖ وَكُلًّا جَعَلْنَا صَالِحِينَ",
+      "verseStringB": "And We gave him Isaac, and in addition, Jacob, and We made all of them righteous."
+    },
+    {
+      "verseNumber": 73,
+      "verseString": "وَجَعَلْنَاهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَا إِلَيْهِمْ فِعْلَ الْخَيْرَاتِ وَإِقَامَ الصَّلَاةِ وَإِيتَاءَ الزَّكَاةِ ۖ وَكَانُوا لَنَا عَابِدِينَ",
+      "verseStringB": "And We made them leaders, guiding by Our command. And We inspired them to do good works, and to observe the prayer, and to give out charity. And they were worshippers of Us."
+    },
+    {
+      "verseNumber": 74,
+      "verseString": "وَلُوطًا آتَيْنَاهُ حُكْمًا وَعِلْمًا وَنَجَّيْنَاهُ مِنَ الْقَرْيَةِ الَّتِي كَانَتْ تَعْمَلُ الْخَبَائِثَ ۗ إِنَّهُمْ كَانُوا قَوْمَ سَوْءٍ فَاسِقِينَ",
+      "verseStringB": "And Lot—We gave him wisdom and knowledge, and We saved him from the town that practiced the abominations. They were bad, perverted people."
+    },
+    {
+      "verseNumber": 75,
+      "verseString": "وَأَدْخَلْنَاهُ فِي رَحْمَتِنَا ۖ إِنَّهُ مِنَ الصَّالِحِينَ",
+      "verseStringB": "And We admitted him into Our mercy. He was of the righteous."
+    },
+    {
+      "verseNumber": 76,
+      "verseString": "وَنُوحًا إِذْ نَادَىٰ مِنْ قَبْلُ فَاسْتَجَبْنَا لَهُ فَنَجَّيْنَاهُ وَأَهْلَهُ مِنَ الْكَرْبِ الْعَظِيمِ",
+      "verseStringB": "And Noah, when he cried out before. So We answered him, and We saved him and his family from the great disaster."
+    },
+    {
+      "verseNumber": 77,
+      "verseString": "وَنَصَرْنَاهُ مِنَ الْقَوْمِ الَّذِينَ كَذَّبُوا بِآيَاتِنَا ۚ إِنَّهُمْ كَانُوا قَوْمَ سَوْءٍ فَأَغْرَقْنَاهُمْ أَجْمَعِينَ",
+      "verseStringB": "And We made him prevail against the people who rejected Our signs. They were bad people, so We drowned them all."
+    },
+    {
+      "verseNumber": 78,
+      "verseString": "وَدَاوُودَ وَسُلَيْمَانَ إِذْ يَحْكُمَانِ فِي الْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ الْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَاهِدِينَ",
+      "verseStringB": "And David and Solomon, when they gave judgment regarding the crops; when some people’s sheep strayed in it. And We were witnesses to their judgment."
+    },
+    {
+      "verseNumber": 79,
+      "verseString": "فَفَهَّمْنَاهَا سُلَيْمَانَ ۚ وَكُلًّا آتَيْنَا حُكْمًا وَعِلْمًا ۚ وَسَخَّرْنَا مَعَ دَاوُودَ الْجِبَالَ يُسَبِّحْنَ وَالطَّيْرَ ۚ وَكُنَّا فَاعِلِينَ",
+      "verseStringB": "And We gave Solomon an understanding of it. And to each, We gave wisdom and knowledge. And We subjected the mountains along with David to hymn Our praises—also the birds. We did this."
+    },
+    {
+      "verseNumber": 80,
+      "verseString": "وَعَلَّمْنَاهُ صَنْعَةَ لَبُوسٍ لَكُمْ لِتُحْصِنَكُمْ مِنْ بَأْسِكُمْ ۖ فَهَلْ أَنْتُمْ شَاكِرُونَ",
+      "verseStringB": "And We taught him the making of armor for you, to protect you from your violence. Will you be appreciative?"
+    },
+    {
+      "verseNumber": 81,
+      "verseString": "وَلِسُلَيْمَانَ الرِّيحَ عَاصِفَةً تَجْرِي بِأَمْرِهِ إِلَى الْأَرْضِ الَّتِي بَارَكْنَا فِيهَا ۚ وَكُنَّا بِكُلِّ شَيْءٍ عَالِمِينَ",
+      "verseStringB": "And for Solomon, the stormy wind, blowing by his command towards the land that We blessed. We know all things."
+    },
+    {
+      "verseNumber": 82,
+      "verseString": "وَمِنَ الشَّيَاطِينِ مَنْ يَغُوصُونَ لَهُ وَيَعْمَلُونَ عَمَلًا دُونَ ذَٰلِكَ ۖ وَكُنَّا لَهُمْ حَافِظِينَ",
+      "verseStringB": "And of the devils were some that dived for him. And they performed other, lesser tasks. But We kept them restrained."
+    },
+    {
+      "verseNumber": 83,
+      "verseString": "وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُ أَنِّي مَسَّنِيَ الضُّرُّ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
+      "verseStringB": "And Job, when he cried out to his Lord: “Great harm has afflicted me, and you are the Most Merciful of the merciful.”"
+    },
+    {
+      "verseNumber": 84,
+      "verseString": "فَاسْتَجَبْنَا لَهُ فَكَشَفْنَا مَا بِهِ مِنْ ضُرٍّ ۖ وَآتَيْنَاهُ أَهْلَهُ وَمِثْلَهُمْ مَعَهُمْ رَحْمَةً مِنْ عِنْدِنَا وَذِكْرَىٰ لِلْعَابِدِينَ",
+      "verseStringB": "So We answered him, and We removed the affliction that was upon him, and We restored his family to him—and their likes with them—mercy from Us, and a reminder to the servants."
+    },
+    {
+      "verseNumber": 85,
+      "verseString": "وَإِسْمَاعِيلَ وَإِدْرِيسَ وَذَا الْكِفْلِ ۖ كُلٌّ مِنَ الصَّابِرِينَ",
+      "verseStringB": "And Ishmael, and Enoch, and Ezekiel—each was among the patient."
+    },
+    {
+      "verseNumber": 86,
+      "verseString": "وَأَدْخَلْنَاهُمْ فِي رَحْمَتِنَا ۖ إِنَّهُمْ مِنَ الصَّالِحِينَ",
+      "verseStringB": "And We admitted them into Our mercy. They were of the righteous."
+    },
+    {
+      "verseNumber": 87,
+      "verseString": "وَذَا النُّونِ إِذْ ذَهَبَ مُغَاضِبًا فَظَنَّ أَنْ لَنْ نَقْدِرَ عَلَيْهِ فَنَادَىٰ فِي الظُّلُمَاتِ أَنْ لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+      "verseStringB": "And Jonah, when he stormed out in a fury, thinking that We had no power over him. But then He cried out in the darkness: “There is no god but You! Glory be to You! I was of the wrongdoers!”"
+    },
+    {
+      "verseNumber": 88,
+      "verseString": "فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ ۚ وَكَذَٰلِكَ نُنْجِي الْمُؤْمِنِينَ",
+      "verseStringB": "So We answered him, and We saved him from grief. Thus We save the believers."
+    },
+    {
+      "verseNumber": 89,
+      "verseString": "وَزَكَرِيَّا إِذْ نَادَىٰ رَبَّهُ رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+      "verseStringB": "And Zechariah, when he cried out to his Lord, “My Lord, do not leave me alone, although you are the Best of Inheritors.”"
+    },
+    {
+      "verseNumber": 90,
+      "verseString": "فَاسْتَجَبْنَا لَهُ وَوَهَبْنَا لَهُ يَحْيَىٰ وَأَصْلَحْنَا لَهُ زَوْجَهُ ۚ إِنَّهُمْ كَانُوا يُسَارِعُونَ فِي الْخَيْرَاتِ وَيَدْعُونَنَا رَغَبًا وَرَهَبًا ۖ وَكَانُوا لَنَا خَاشِعِينَ",
+      "verseStringB": "So We answered him, and We gave him John, and We cured his wife for him. They used to vie in righteous deeds. And they used to call on Us, in hope and awe. And they were humble before Us."
+    },
+    {
+      "verseNumber": 91,
+      "verseString": "وَالَّتِي أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِنْ رُوحِنَا وَجَعَلْنَاهَا وَابْنَهَا آيَةً لِلْعَالَمِينَ",
+      "verseStringB": "And she who guarded her virginity. We breathed into her from Our spirit, and We made her and her son a sign for the worlds."
+    },
+    {
+      "verseNumber": 92,
+      "verseString": "إِنَّ هَٰذِهِ أُمَّتُكُمْ أُمَّةً وَاحِدَةً وَأَنَا رَبُّكُمْ فَاعْبُدُونِ",
+      "verseStringB": "This community of yours is one community, and I am your Lord, so serve Me."
+    },
+    {
+      "verseNumber": 93,
+      "verseString": "وَتَقَطَّعُوا أَمْرَهُمْ بَيْنَهُمْ ۖ كُلٌّ إِلَيْنَا رَاجِعُونَ",
+      "verseStringB": "But they splintered themselves into factions. Yet to Us, they will all return."
+    },
+    {
+      "verseNumber": 94,
+      "verseString": "فَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ وَهُوَ مُؤْمِنٌ فَلَا كُفْرَانَ لِسَعْيِهِ وَإِنَّا لَهُ كَاتِبُونَ",
+      "verseStringB": "Whoever does righteous deeds, while he is a believer: his effort will not be denied. We are writing it down for him."
+    },
+    {
+      "verseNumber": 95,
+      "verseString": "وَحَرَامٌ عَلَىٰ قَرْيَةٍ أَهْلَكْنَاهَا أَنَّهُمْ لَا يَرْجِعُونَ",
+      "verseStringB": "There is a ban on a town that We destroyed—they will not return."
+    },
+    {
+      "verseNumber": 96,
+      "verseString": "حَتَّىٰ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُمْ مِنْ كُلِّ حَدَبٍ يَنْسِلُونَ",
+      "verseStringB": "Until, when Gog and Magog have broken loose, swarming down from every mound."
+    },
+    {
+      "verseNumber": 97,
+      "verseString": "وَاقْتَرَبَ الْوَعْدُ الْحَقُّ فَإِذَا هِيَ شَاخِصَةٌ أَبْصَارُ الَّذِينَ كَفَرُوا يَا وَيْلَنَا قَدْ كُنَّا فِي غَفْلَةٍ مِنْ هَٰذَا بَلْ كُنَّا ظَالِمِينَ",
+      "verseStringB": "And the promise of truth has drawn near. The sights of those who disbelieved will stare in horror: “Woe to us. We were oblivious to this. In fact, we were wrongdoers.”"
+    },
+    {
+      "verseNumber": 98,
+      "verseString": "إِنَّكُمْ وَمَا تَعْبُدُونَ مِنْ دُونِ اللَّهِ حَصَبُ جَهَنَّمَ أَنْتُمْ لَهَا وَارِدُونَ",
+      "verseStringB": "You and what you worship besides Allah are firewood for Hell. You will descend into it."
+    },
+    {
+      "verseNumber": 99,
+      "verseString": "لَوْ كَانَ هَٰؤُلَاءِ آلِهَةً مَا وَرَدُوهَا ۖ وَكُلٌّ فِيهَا خَالِدُونَ",
+      "verseStringB": "Had these been gods, they would not have descended into it. All will remain in it forever."
+    },
+    {
+      "verseNumber": 100,
+      "verseString": "لَهُمْ فِيهَا زَفِيرٌ وَهُمْ فِيهَا لَا يَسْمَعُونَ",
+      "verseStringB": "In it, they will wail. In it, they will not hear."
+    },
+    {
+      "verseNumber": 101,
+      "verseString": "إِنَّ الَّذِينَ سَبَقَتْ لَهُمْ مِنَّا الْحُسْنَىٰ أُولَٰئِكَ عَنْهَا مُبْعَدُونَ",
+      "verseStringB": "As for those who deserved good from Us—these will be kept away from it."
+    },
+    {
+      "verseNumber": 102,
+      "verseString": "لَا يَسْمَعُونَ حَسِيسَهَا ۖ وَهُمْ فِي مَا اشْتَهَتْ أَنْفُسُهُمْ خَالِدُونَ",
+      "verseStringB": "They will not hear its hissing, and they will delight in what their souls desire forever."
+    },
+    {
+      "verseNumber": 103,
+      "verseString": "لَا يَحْزُنُهُمُ الْفَزَعُ الْأَكْبَرُ وَتَتَلَقَّاهُمُ الْمَلَائِكَةُ هَٰذَا يَوْمُكُمُ الَّذِي كُنْتُمْ تُوعَدُونَ",
+      "verseStringB": "The Supreme Horror will not worry them, and the angels will receive them: “This is your day, which you were promised.”"
+    },
+    {
+      "verseNumber": 104,
+      "verseString": "يَوْمَ نَطْوِي السَّمَاءَ كَطَيِّ السِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَا أَوَّلَ خَلْقٍ نُعِيدُهُ ۚ وَعْدًا عَلَيْنَا ۚ إِنَّا كُنَّا فَاعِلِينَ",
+      "verseStringB": "On the Day when We fold the heaven, like the folding of a book. Just as We began the first creation, so We will repeat it—a promise binding on Us. We will do it."
+    },
+    {
+      "verseNumber": 105,
+      "verseString": "وَلَقَدْ كَتَبْنَا فِي الزَّبُورِ مِنْ بَعْدِ الذِّكْرِ أَنَّ الْأَرْضَ يَرِثُهَا عِبَادِيَ الصَّالِحُونَ",
+      "verseStringB": "And We wrote in the Psalms, after the Reminder, that the earth will be inherited by My righteous servants."
+    },
+    {
+      "verseNumber": 106,
+      "verseString": "إِنَّ فِي هَٰذَا لَبَلَاغًا لِقَوْمٍ عَابِدِينَ",
+      "verseStringB": "Surely in this is a notification for a worshiping people."
+    },
+    {
+      "verseNumber": 107,
+      "verseString": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ",
+      "verseStringB": "We did not send you except as a mercy for humankind."
+    },
+    {
+      "verseNumber": 108,
+      "verseString": "قُلْ إِنَّمَا يُوحَىٰ إِلَيَّ أَنَّمَا إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ ۖ فَهَلْ أَنْتُمْ مُسْلِمُونَ",
+      "verseStringB": "Say, “It is inspired in me, that your God is One God. Are you going to submit?”"
+    },
+    {
+      "verseNumber": 109,
+      "verseString": "فَإِنْ تَوَلَّوْا فَقُلْ آذَنْتُكُمْ عَلَىٰ سَوَاءٍ ۖ وَإِنْ أَدْرِي أَقَرِيبٌ أَمْ بَعِيدٌ مَا تُوعَدُونَ",
+      "verseStringB": "But if they turn away, then say, “I have warned you all equally. And I do not know whether what you are promised is near or far.”"
+    },
+    {
+      "verseNumber": 110,
+      "verseString": "إِنَّهُ يَعْلَمُ الْجَهْرَ مِنَ الْقَوْلِ وَيَعْلَمُ مَا تَكْتُمُونَ",
+      "verseStringB": "He knows what is said openly, and He knows what you conceal."
+    },
+    {
+      "verseNumber": 111,
+      "verseString": "وَإِنْ أَدْرِي لَعَلَّهُ فِتْنَةٌ لَكُمْ وَمَتَاعٌ إِلَىٰ حِينٍ",
+      "verseStringB": "“And I know not; perhaps it is a trial for you, and an enjoyment for a while.”"
+    },
+    {
+      "verseNumber": 112,
+      "verseString": "قَالَ رَبِّ احْكُمْ بِالْحَقِّ ۗ وَرَبُّنَا الرَّحْمَٰنُ الْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "verseStringB": "He said, “My Lord, judge with justice.” And, “Our Lord is the Gracious, Whose help is sought against what you describe.”"
+    }
+  ],
+  "nameEnglish": "The Prophets",
+  "nameTrans": "al-Anbiya",
+  "nameArabic": "الأنبياء",
+  "chapterNumber": 21,
+  "nVerses": 112
+}

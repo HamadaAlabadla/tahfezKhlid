@@ -1,0 +1,49 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
+      "verseStringB": "Have you considered him who denies the religion?"
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
+      "verseStringB": "It is he who pushes the orphan away."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
+      "verseStringB": "And does not urge the feeding of the poor."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "فَوَيْلٌ لِلْمُصَلِّينَ",
+      "verseStringB": "So woe to those who pray."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
+      "verseStringB": "Those who are heedless of their prayers."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "الَّذِينَ هُمْ يُرَاءُونَ",
+      "verseStringB": "Those who put on the appearance."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَيَمْنَعُونَ الْمَاعُونَ",
+      "verseStringB": "And refuse small kindnesses."
+    }
+  ],
+  "nameEnglish": "Assistance",
+  "nameTrans": "al-Ma'un",
+  "nameArabic": "المـاعون",
+  "chapterNumber": 107,
+  "nVerses": 7
+}

@@ -1,0 +1,61 @@
+﻿@using tahfezKhalid.Models
+@model tahfezKhalid.Models.Session
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    TempData["newUserSessions"] = TempData["UserSessions"] as List<UserSession> ;
+}
+
+<h1>Edit</h1>
+
+<h4>Session</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="CreationDate" />
+            <input type="hidden" asp-for="NumberExams" />
+            <input type="hidden" asp-for="Status" />
+            <input type="hidden" asp-for="StayNumberExams" />
+            <input type="hidden" asp-for="StudentsNumber" />
+            <input name="oldSupervisorId" type="hidden" value="@ViewBag.oldSupervisorId" />
+            <input name="oldMemorizerId" type="hidden" value="@ViewBag.oldMemorizerId"/>
+            @*@foreach (UserSession item in (TempData["UserSessions"] as List<UserSession>))
+            {
+                <input value="@item" type="hidden" name="oldUserSessions" />
+            }*@
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NumberPages" class="control-label"></label>
+                <input asp-for="NumberPages" class="form-control" />
+                <span asp-validation-for="NumberPages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label"> اسم المشرف الميداني</label>
+                <select name="supervisorId" class="form-control" asp-items="@ViewBag.userSupervisors" ></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label"> اسم المحفظ</label>
+                <select name="memorizerId" class="form-control" asp-items="@ViewBag.userMemorizers" ></select>
+            </div>
+
+ 
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,44 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+      "verseStringB": "Say, “O disbelievers."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+      "verseStringB": "I do not worship what you worship."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "verseStringB": "Nor do you worship what I worship."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ",
+      "verseStringB": "Nor do I serve what you serve."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "verseStringB": "Nor do you serve what I serve."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+      "verseStringB": "To you your religion, and to me my religion.”"
+    }
+  ],
+  "nameEnglish": "The Disbelievers",
+  "nameTrans": "al-Kafirun",
+  "nameArabic": "الـكافرون",
+  "chapterNumber": 109,
+  "nVerses": 6
+}

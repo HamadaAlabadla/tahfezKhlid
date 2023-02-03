@@ -1,0 +1,59 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "وَيْلٌ لِكُلِّ هُمَزَةٍ لُمَزَةٍ",
+      "verseStringB": "Woe to every slandering backbiter."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ",
+      "verseStringB": "Who amasses wealth and counts it over."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ",
+      "verseStringB": "Thinking that his wealth has eternalized him."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "كَلَّا ۖ لَيُنْبَذَنَّ فِي الْحُطَمَةِ",
+      "verseStringB": "By no means. He will be thrown into the Crusher."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَمَا أَدْرَاكَ مَا الْحُطَمَةُ",
+      "verseStringB": "And what will make you realize what the Crusher is?"
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "نَارُ اللَّهِ الْمُوقَدَةُ",
+      "verseStringB": "Allah's kindled Fire."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ",
+      "verseStringB": "That laps to the hearts."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "إِنَّهَا عَلَيْهِمْ مُؤْصَدَةٌ",
+      "verseStringB": "It closes in on them."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "فِي عَمَدٍ مُمَدَّدَةٍ",
+      "verseStringB": "In extended columns."
+    }
+  ],
+  "nameEnglish": "The Backbiter",
+  "nameTrans": "al-Humazah",
+  "nameArabic": "الـهمزة",
+  "chapterNumber": 104,
+  "nVerses": 9
+}

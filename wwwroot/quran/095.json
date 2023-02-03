@@ -1,0 +1,54 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "وَالتِّينِ وَالزَّيْتُونِ",
+      "verseStringB": "By the fig and the olive."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَطُورِ سِينِينَ",
+      "verseStringB": "And Mount Sinai."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَهَٰذَا الْبَلَدِ الْأَمِينِ",
+      "verseStringB": "And this secure land."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
+      "verseStringB": "We created the human being in the best design."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
+      "verseStringB": "Then We reduced him to the lowest of the low."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "verseStringB": "Except those who believe and do good deeds—they will have an unending reward."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ",
+      "verseStringB": "So what makes you deny the religion?"
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+      "verseStringB": "Is Allah not the Wisest of Judges?"
+    }
+  ],
+  "nameEnglish": "The Fig",
+  "nameTrans": "at-Tin",
+  "nameArabic": "الـتين",
+  "chapterNumber": 95,
+  "nVerses": 8
+}

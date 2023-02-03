@@ -1,0 +1,69 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "الْقَارِعَةُ",
+      "verseStringB": "The Shocker."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "مَا الْقَارِعَةُ",
+      "verseStringB": "What is the Shocker?"
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ",
+      "verseStringB": "And how would you know what the Shocker is?"
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
+      "verseStringB": "The Day when people will be like scattered moths."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوشِ",
+      "verseStringB": "And the mountains will be like fluffed up wool."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ",
+      "verseStringB": "As for he whose scales are heavy."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ",
+      "verseStringB": "He will be in a pleasant life."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ",
+      "verseStringB": "But as for he whose scales are light."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "فَأُمُّهُ هَاوِيَةٌ",
+      "verseStringB": "His home is the Abyss."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَمَا أَدْرَاكَ مَا هِيَهْ",
+      "verseStringB": "And what will make you realize what it is?"
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "نَارٌ حَامِيَةٌ",
+      "verseStringB": "A Raging Fire."
+    }
+  ],
+  "nameEnglish": "The Shocker",
+  "nameTrans": "al-Qari'ah",
+  "nameArabic": "الـقارعـة",
+  "chapterNumber": 101,
+  "nVerses": 11
+}

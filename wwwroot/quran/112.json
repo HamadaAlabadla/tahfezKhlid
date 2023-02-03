@@ -1,0 +1,34 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "verseStringB": "Say, “He is Allah, the One."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "اللَّهُ الصَّمَدُ",
+      "verseStringB": "Allah, the Eternal."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "verseStringB": "He begets not, nor was He begotten."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+      "verseStringB": "And there is none comparable to Him.”"
+    }
+  ],
+  "nameEnglish": "Sincerity",
+  "nameTrans": "al-Ikhlas",
+  "nameArabic": "الإخلاص",
+  "chapterNumber": 112,
+  "nVerses": 4
+}

@@ -1,0 +1,109 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "إِذَا السَّمَاءُ انْفَطَرَتْ",
+      "verseStringB": "When the sky breaks apart."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَإِذَا الْكَوَاكِبُ انْتَثَرَتْ",
+      "verseStringB": "When the planets are scattered."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَإِذَا الْبِحَارُ فُجِّرَتْ",
+      "verseStringB": "When the oceans are exploded."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَإِذَا الْقُبُورُ بُعْثِرَتْ",
+      "verseStringB": "When the graves are tossed around."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "عَلِمَتْ نَفْسٌ مَا قَدَّمَتْ وَأَخَّرَتْ",
+      "verseStringB": "Every soul will know what it has advanced, and what it has deferred."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "يَا أَيُّهَا الْإِنْسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ",
+      "verseStringB": "O, man! What deluded you concerning your Lord, the Most Generous?"
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ",
+      "verseStringB": "He Who created you, and formed you, and proportioned you."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ",
+      "verseStringB": "In whatever form He willed, He assembled you."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ",
+      "verseStringB": "But you reject the religion."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ",
+      "verseStringB": "Although there are guardians over you."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "كِرَامًا كَاتِبِينَ",
+      "verseStringB": "Honest recorders."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+      "verseStringB": "They know everything you do."
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+      "verseStringB": "The righteous will be in bliss."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ",
+      "verseStringB": "And the wicked will be in Hell."
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "يَصْلَوْنَهَا يَوْمَ الدِّينِ",
+      "verseStringB": "They will enter it on Judgment Day."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "وَمَا هُمْ عَنْهَا بِغَائِبِينَ",
+      "verseStringB": "And they will not be absent from it."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+      "verseStringB": "And what will make you realize what Judgment Day is?"
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+      "verseStringB": "Then again, what will make you realize what Judgment Day is?"
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِنَفْسٍ شَيْئًا ۖ وَالْأَمْرُ يَوْمَئِذٍ لِلَّهِ",
+      "verseStringB": "The Day when no soul will avail another soul whatsoever—and all authority on that Day is Allah’s."
+    }
+  ],
+  "nameEnglish": "The Shattering",
+  "nameTrans": "al-Infitar",
+  "nameArabic": "الانفطار",
+  "chapterNumber": 82,
+  "nVerses": 19
+}

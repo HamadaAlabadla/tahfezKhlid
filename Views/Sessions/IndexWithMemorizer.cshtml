@@ -1,0 +1,106 @@
+﻿@model IEnumerable<tahfezKhalid.Models.Session>
+
+@{
+    ViewData["Title"] = "الحلقات";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>الحلقات</h1>
+
+<div style="display:inline-block">
+    <a  class="btn btn-outline-success" asp-action="Create">إنشاء حلقة جديدة</a>
+</div>
+<div style="display:inline-block">
+    <a  class="btn btn-outline-success"  asp-controller="Home" asp-action="Index" asp-route-Id="1">المحفظين </a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentsNumber)
+            </th>
+
+            <th>
+                المشرف الميداني
+            </th>
+            <th>
+                اسم المحفظ
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberPages)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberExams)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StayNumberExams)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentsNumber)
+                </td>
+                <td>
+                    @foreach (var user in item.UserSessions)
+                    {
+                        if (user.user.TypeUser == tahfez.Models.TypeUser.مشرف)
+                        {
+                            @Html.DisplayFor(modeluser => user.user.Name)
+                            break;
+                        }
+
+                    }
+                </td>
+
+                <td>
+                    @foreach (var user in item.UserSessions)
+                    {
+                        if (user.user.TypeUser == tahfez.Models.TypeUser.محفظ)
+                        {
+                            @Html.DisplayFor(modeluser => user.user.Name)
+                            break;
+                        }
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberPages)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberExams)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StayNumberExams)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+
+                <td>
+                    <a style="display:inline-block" class="btn btn-outline-success" asp-controller="Sessions" asp-action="Edit" asp-route-id="@item.Id">تعديل</a>
+                    <a style="display:inline-block" class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">تعطيل</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

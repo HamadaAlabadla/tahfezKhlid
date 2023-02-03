@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using tahfez.Models
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+<ul class="navbar-nav ms-auto">
+@if (SignInManager.IsSignedIn(User))
+{
+    @*<li class="nav-item">
+        <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">مرحبا @((await UserManager.GetUserAsync(User)).Name)  !</a>
+    </li>*@
+    <li id="manage" class=" nav-item mx-0 mx-lg-1"><a class=" nav-link1 py-3 px-0 px-lg-3 rounded" id="logout" asp-area="Identity" asp-page="/Account/Manage/Index"title="Manage" >مرحبا @((await UserManager.GetUserAsync(User)).Name)  !</a></li>
+    <li class="nav-item">
+            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="/Identity/Account/Login">
+            <button id="logout" type="submit" class="nav-link nav-link1 btn btn-link text-danger">تسجيل الخروج</button>
+        </form>
+    </li>
+    @*<li class=" nav-item mx-0 mx-lg-1"><a class="nav-link1 py-3 px-0 px-lg-3 rounded" id="logout" asp-area="Identity" asp-page="/Account/logout" asp-route-returnUrl="/Identity/Account/Login">تسجيل الخروج</a></li>*@
+}
+else
+{
+    @*<li class="nav-item">
+        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>*@
+    <li class=" nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" id="login" asp-area="Identity" asp-page="/Account/Login">تسجيل الدخول</a></li>
+}
+</ul>

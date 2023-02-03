@@ -1,0 +1,154 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِنَ الْجِنِّ فَقَالُوا إِنَّا سَمِعْنَا قُرْآنًا عَجَبًا",
+      "verseStringB": "Say, “It was revealed to me that a group of jinn listened in, and said, ‘We have heard a wondrous Recitation."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "يَهْدِي إِلَى الرُّشْدِ فَآمَنَّا بِهِ ۖ وَلَنْ نُشْرِكَ بِرَبِّنَا أَحَدًا",
+      "verseStringB": "It guides to sound judgment, so we have believed in it, and we will never associate anyone with our Lord."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَأَنَّهُ تَعَالَىٰ جَدُّ رَبِّنَا مَا اتَّخَذَ صَاحِبَةً وَلَا وَلَدًا",
+      "verseStringB": "And He—exalted be the Grandeur of our Lord—never had a spouse, nor a child."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَأَنَّهُ كَانَ يَقُولُ سَفِيهُنَا عَلَى اللَّهِ شَطَطًا",
+      "verseStringB": "But the fools among us used to say nonsense about Allah."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَأَنَّا ظَنَنَّا أَنْ لَنْ تَقُولَ الْإِنْسُ وَالْجِنُّ عَلَى اللَّهِ كَذِبًا",
+      "verseStringB": "And we had thought that humans and jinn would never speak lies about Allah."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "وَأَنَّهُ كَانَ رِجَالٌ مِنَ الْإِنْسِ يَعُوذُونَ بِرِجَالٍ مِنَ الْجِنِّ فَزَادُوهُمْ رَهَقًا",
+      "verseStringB": "And some individual humans used to seek power through some individual jinn, but they only increased them in confusion."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَأَنَّهُمْ ظَنُّوا كَمَا ظَنَنْتُمْ أَنْ لَنْ يَبْعَثَ اللَّهُ أَحَدًا",
+      "verseStringB": "And they thought, as you thought, that Allah would resurrect no one."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَأَنَّا لَمَسْنَا السَّمَاءَ فَوَجَدْنَاهَا مُلِئَتْ حَرَسًا شَدِيدًا وَشُهُبًا",
+      "verseStringB": "And we probed the heaven, and we found it filled with fierce guards and projectiles."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَاعِدَ لِلسَّمْعِ ۖ فَمَنْ يَسْتَمِعِ الْآنَ يَجِدْ لَهُ شِهَابًا رَصَدًا",
+      "verseStringB": "And we used to take up positions to listen in, but whoever listens now finds a flare lying in wait for him."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَأَنَّا لَا نَدْرِي أَشَرٌّ أُرِيدَ بِمَنْ فِي الْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا",
+      "verseStringB": "And we do not know whether ill is intended for those on earth, or whether their Lord intends guidance for them."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "وَأَنَّا مِنَّا الصَّالِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَائِقَ قِدَدًا",
+      "verseStringB": "And among us are the righteous, but some of us are otherwise. We follow divergent paths."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "وَأَنَّا ظَنَنَّا أَنْ لَنْ نُعْجِزَ اللَّهَ فِي الْأَرْضِ وَلَنْ نُعْجِزَهُ هَرَبًا",
+      "verseStringB": "And we knew for certain that we could never thwart Allah on earth; nor could we ever thwart Him by fleeing."
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "وَأَنَّا لَمَّا سَمِعْنَا الْهُدَىٰ آمَنَّا بِهِ ۖ فَمَنْ يُؤْمِنْ بِرَبِّهِ فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا",
+      "verseStringB": "And when we heard the guidance, we believed in it. Whoever believes in his Lord fears neither denial nor burden."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "وَأَنَّا مِنَّا الْمُسْلِمُونَ وَمِنَّا الْقَاسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُولَٰئِكَ تَحَرَّوْا رَشَدًا",
+      "verseStringB": "And among us are the submitters, and among us are the deviant. As for those who have submitted—it is they who have attained Right Guidance."
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "وَأَمَّا الْقَاسِطُونَ فَكَانُوا لِجَهَنَّمَ حَطَبًا",
+      "verseStringB": "But as for the unjust—they will be fuel for Hell.’”"
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "وَأَنْ لَوِ اسْتَقَامُوا عَلَى الطَّرِيقَةِ لَأَسْقَيْنَاهُمْ مَاءً غَدَقًا",
+      "verseStringB": "And had they kept true to the Path, We would have given them abundant water to drink."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "لِنَفْتِنَهُمْ فِيهِ ۚ وَمَنْ يُعْرِضْ عَنْ ذِكْرِ رَبِّهِ يَسْلُكْهُ عَذَابًا صَعَدًا",
+      "verseStringB": "To test them with it. Whoever turns away from his Lord's remembrance, He will direct him to torment ever mounting."
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "وَأَنَّ الْمَسَاجِدَ لِلَّهِ فَلَا تَدْعُوا مَعَ اللَّهِ أَحَدًا",
+      "verseStringB": "And the places of worship are for Allah. So do not call, besides Allah, upon anyone else."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "وَأَنَّهُ لَمَّا قَامَ عَبْدُ اللَّهِ يَدْعُوهُ كَادُوا يَكُونُونَ عَلَيْهِ لِبَدًا",
+      "verseStringB": "And when Allah's servant stood up calling on Him, they almost fell on him in a mass."
+    },
+    {
+      "verseNumber": 20,
+      "verseString": "قُلْ إِنَّمَا أَدْعُو رَبِّي وَلَا أُشْرِكُ بِهِ أَحَدًا",
+      "verseStringB": "Say, “I pray only to my Lord, and I never associate anyone with Him.”"
+    },
+    {
+      "verseNumber": 21,
+      "verseString": "قُلْ إِنِّي لَا أَمْلِكُ لَكُمْ ضَرًّا وَلَا رَشَدًا",
+      "verseStringB": "Say, “It is not in my power to harm you, nor to bring you to right conduct.”"
+    },
+    {
+      "verseNumber": 22,
+      "verseString": "قُلْ إِنِّي لَنْ يُجِيرَنِي مِنَ اللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِنْ دُونِهِ مُلْتَحَدًا",
+      "verseStringB": "Say, “None will protect me from Allah; and I will find no refuge, except in Him."
+    },
+    {
+      "verseNumber": 23,
+      "verseString": "إِلَّا بَلَاغًا مِنَ اللَّهِ وَرِسَالَاتِهِ ۚ وَمَنْ يَعْصِ اللَّهَ وَرَسُولَهُ فَإِنَّ لَهُ نَارَ جَهَنَّمَ خَالِدِينَ فِيهَا أَبَدًا",
+      "verseStringB": "Except for a proclamation from Allah and His messages. Whoever disobeys Allah and His Messenger—for him is the Fire of Hell, remaining in it forever.”"
+    },
+    {
+      "verseNumber": 24,
+      "verseString": "حَتَّىٰ إِذَا رَأَوْا مَا يُوعَدُونَ فَسَيَعْلَمُونَ مَنْ أَضْعَفُ نَاصِرًا وَأَقَلُّ عَدَدًا",
+      "verseStringB": "Until, when they see what they were promised, they will know who is weaker in helpers, and fewer in number."
+    },
+    {
+      "verseNumber": 25,
+      "verseString": "قُلْ إِنْ أَدْرِي أَقَرِيبٌ مَا تُوعَدُونَ أَمْ يَجْعَلُ لَهُ رَبِّي أَمَدًا",
+      "verseStringB": "Say, “I do not know whether what you are promised is near, or if my Lord will extend it for a period.”"
+    },
+    {
+      "verseNumber": 26,
+      "verseString": "عَالِمُ الْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِ أَحَدًا",
+      "verseStringB": "The Knower of the invisible; He does not disclose His Unseen to anyone."
+    },
+    {
+      "verseNumber": 27,
+      "verseString": "إِلَّا مَنِ ارْتَضَىٰ مِنْ رَسُولٍ فَإِنَّهُ يَسْلُكُ مِنْ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِ رَصَدًا",
+      "verseStringB": "Except to a Messenger of His choosing. He then dispatches guards in front of him, and behind him."
+    },
+    {
+      "verseNumber": 28,
+      "verseString": "لِيَعْلَمَ أَنْ قَدْ أَبْلَغُوا رِسَالَاتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَيْءٍ عَدَدًا",
+      "verseStringB": "So that He may know that they have conveyed their Lord’s message. He surrounds whatsoever is with them, and He has tallied everything by number."
+    }
+  ],
+  "nameEnglish": "The Jinn",
+  "nameTrans": "al-Jinn",
+  "nameArabic": "الجن",
+  "chapterNumber": 72,
+  "nVerses": 28
+}

@@ -1,0 +1,849 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\tahfezKhalid.bundle.scp.css",
+      "PackagePath": "staticwebassets\\tahfezKhalid.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\Quran.json",
+      "PackagePath": "staticwebassets\\Quran.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\always.mp3",
+      "PackagePath": "staticwebassets\\always.mp3"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Screenshot_1.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot_1.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Screenshot_2.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot_2.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Screenshot_3.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot_3.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Screenshot_4.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot_4.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Screenshot_5.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot_5.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Screenshot_6.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot_6.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Students\\Screenshot_1.png",
+      "PackagePath": "staticwebassets\\images\\Students\\Screenshot_1.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Students\\Screenshot_2.png",
+      "PackagePath": "staticwebassets\\images\\Students\\Screenshot_2.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Students\\Screenshot_3.png",
+      "PackagePath": "staticwebassets\\images\\Students\\Screenshot_3.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Students\\Screenshot_4.png",
+      "PackagePath": "staticwebassets\\images\\Students\\Screenshot_4.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Welcome.jpg",
+      "PackagePath": "staticwebassets\\images\\Welcome.jpg"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\avataaars.svg",
+      "PackagePath": "staticwebassets\\images\\avataaars.svg"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\memorizer.jpg",
+      "PackagePath": "staticwebassets\\images\\memorizer.jpg"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\parent.png",
+      "PackagePath": "staticwebassets\\images\\parent.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\prtofile.png",
+      "PackagePath": "staticwebassets\\images\\prtofile.png"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\session.jpg",
+      "PackagePath": "staticwebassets\\images\\session.jpg"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\student.jpg",
+      "PackagePath": "staticwebassets\\images\\student.jpg"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\supervisor.webp",
+      "PackagePath": "staticwebassets\\images\\supervisor.webp"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\js\\LogoChange.js",
+      "PackagePath": "staticwebassets\\js\\LogoChange.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\js\\report.js",
+      "PackagePath": "staticwebassets\\js\\report.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\js\\student.js",
+      "PackagePath": "staticwebassets\\js\\student.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\001.json",
+      "PackagePath": "staticwebassets\\quran\\001.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\002.json",
+      "PackagePath": "staticwebassets\\quran\\002.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\003.json",
+      "PackagePath": "staticwebassets\\quran\\003.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\004.json",
+      "PackagePath": "staticwebassets\\quran\\004.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\005.json",
+      "PackagePath": "staticwebassets\\quran\\005.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\006.json",
+      "PackagePath": "staticwebassets\\quran\\006.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\007.json",
+      "PackagePath": "staticwebassets\\quran\\007.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\008.json",
+      "PackagePath": "staticwebassets\\quran\\008.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\009.json",
+      "PackagePath": "staticwebassets\\quran\\009.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\010.json",
+      "PackagePath": "staticwebassets\\quran\\010.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\011.json",
+      "PackagePath": "staticwebassets\\quran\\011.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\012.json",
+      "PackagePath": "staticwebassets\\quran\\012.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\013.json",
+      "PackagePath": "staticwebassets\\quran\\013.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\014.json",
+      "PackagePath": "staticwebassets\\quran\\014.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\015.json",
+      "PackagePath": "staticwebassets\\quran\\015.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\016.json",
+      "PackagePath": "staticwebassets\\quran\\016.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\017.json",
+      "PackagePath": "staticwebassets\\quran\\017.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\018.json",
+      "PackagePath": "staticwebassets\\quran\\018.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\019.json",
+      "PackagePath": "staticwebassets\\quran\\019.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\020.json",
+      "PackagePath": "staticwebassets\\quran\\020.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\021.json",
+      "PackagePath": "staticwebassets\\quran\\021.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\022.json",
+      "PackagePath": "staticwebassets\\quran\\022.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\023.json",
+      "PackagePath": "staticwebassets\\quran\\023.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\024.json",
+      "PackagePath": "staticwebassets\\quran\\024.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\025.json",
+      "PackagePath": "staticwebassets\\quran\\025.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\026.json",
+      "PackagePath": "staticwebassets\\quran\\026.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\027.json",
+      "PackagePath": "staticwebassets\\quran\\027.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\028.json",
+      "PackagePath": "staticwebassets\\quran\\028.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\029.json",
+      "PackagePath": "staticwebassets\\quran\\029.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\030.json",
+      "PackagePath": "staticwebassets\\quran\\030.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\031.json",
+      "PackagePath": "staticwebassets\\quran\\031.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\032.json",
+      "PackagePath": "staticwebassets\\quran\\032.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\033.json",
+      "PackagePath": "staticwebassets\\quran\\033.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\034.json",
+      "PackagePath": "staticwebassets\\quran\\034.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\035.json",
+      "PackagePath": "staticwebassets\\quran\\035.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\036.json",
+      "PackagePath": "staticwebassets\\quran\\036.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\037.json",
+      "PackagePath": "staticwebassets\\quran\\037.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\038.json",
+      "PackagePath": "staticwebassets\\quran\\038.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\039.json",
+      "PackagePath": "staticwebassets\\quran\\039.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\040.json",
+      "PackagePath": "staticwebassets\\quran\\040.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\041.json",
+      "PackagePath": "staticwebassets\\quran\\041.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\042.json",
+      "PackagePath": "staticwebassets\\quran\\042.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\043.json",
+      "PackagePath": "staticwebassets\\quran\\043.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\044.json",
+      "PackagePath": "staticwebassets\\quran\\044.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\045.json",
+      "PackagePath": "staticwebassets\\quran\\045.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\046.json",
+      "PackagePath": "staticwebassets\\quran\\046.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\047.json",
+      "PackagePath": "staticwebassets\\quran\\047.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\048.json",
+      "PackagePath": "staticwebassets\\quran\\048.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\049.json",
+      "PackagePath": "staticwebassets\\quran\\049.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\050.json",
+      "PackagePath": "staticwebassets\\quran\\050.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\051.json",
+      "PackagePath": "staticwebassets\\quran\\051.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\052.json",
+      "PackagePath": "staticwebassets\\quran\\052.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\053.json",
+      "PackagePath": "staticwebassets\\quran\\053.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\054.json",
+      "PackagePath": "staticwebassets\\quran\\054.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\055.json",
+      "PackagePath": "staticwebassets\\quran\\055.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\056.json",
+      "PackagePath": "staticwebassets\\quran\\056.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\057.json",
+      "PackagePath": "staticwebassets\\quran\\057.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\058.json",
+      "PackagePath": "staticwebassets\\quran\\058.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\059.json",
+      "PackagePath": "staticwebassets\\quran\\059.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\060.json",
+      "PackagePath": "staticwebassets\\quran\\060.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\061.json",
+      "PackagePath": "staticwebassets\\quran\\061.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\062.json",
+      "PackagePath": "staticwebassets\\quran\\062.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\063.json",
+      "PackagePath": "staticwebassets\\quran\\063.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\064.json",
+      "PackagePath": "staticwebassets\\quran\\064.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\065.json",
+      "PackagePath": "staticwebassets\\quran\\065.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\066.json",
+      "PackagePath": "staticwebassets\\quran\\066.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\067.json",
+      "PackagePath": "staticwebassets\\quran\\067.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\068.json",
+      "PackagePath": "staticwebassets\\quran\\068.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\069.json",
+      "PackagePath": "staticwebassets\\quran\\069.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\070.json",
+      "PackagePath": "staticwebassets\\quran\\070.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\071.json",
+      "PackagePath": "staticwebassets\\quran\\071.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\072.json",
+      "PackagePath": "staticwebassets\\quran\\072.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\073.json",
+      "PackagePath": "staticwebassets\\quran\\073.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\074.json",
+      "PackagePath": "staticwebassets\\quran\\074.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\075.json",
+      "PackagePath": "staticwebassets\\quran\\075.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\076.json",
+      "PackagePath": "staticwebassets\\quran\\076.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\077.json",
+      "PackagePath": "staticwebassets\\quran\\077.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\078.json",
+      "PackagePath": "staticwebassets\\quran\\078.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\079.json",
+      "PackagePath": "staticwebassets\\quran\\079.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\080.json",
+      "PackagePath": "staticwebassets\\quran\\080.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\081.json",
+      "PackagePath": "staticwebassets\\quran\\081.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\082.json",
+      "PackagePath": "staticwebassets\\quran\\082.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\083.json",
+      "PackagePath": "staticwebassets\\quran\\083.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\084.json",
+      "PackagePath": "staticwebassets\\quran\\084.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\085.json",
+      "PackagePath": "staticwebassets\\quran\\085.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\086.json",
+      "PackagePath": "staticwebassets\\quran\\086.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\087.json",
+      "PackagePath": "staticwebassets\\quran\\087.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\088.json",
+      "PackagePath": "staticwebassets\\quran\\088.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\089.json",
+      "PackagePath": "staticwebassets\\quran\\089.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\090.json",
+      "PackagePath": "staticwebassets\\quran\\090.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\091.json",
+      "PackagePath": "staticwebassets\\quran\\091.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\092.json",
+      "PackagePath": "staticwebassets\\quran\\092.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\093.json",
+      "PackagePath": "staticwebassets\\quran\\093.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\094.json",
+      "PackagePath": "staticwebassets\\quran\\094.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\095.json",
+      "PackagePath": "staticwebassets\\quran\\095.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\096.json",
+      "PackagePath": "staticwebassets\\quran\\096.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\097.json",
+      "PackagePath": "staticwebassets\\quran\\097.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\098.json",
+      "PackagePath": "staticwebassets\\quran\\098.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\099.json",
+      "PackagePath": "staticwebassets\\quran\\099.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\100.json",
+      "PackagePath": "staticwebassets\\quran\\100.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\101.json",
+      "PackagePath": "staticwebassets\\quran\\101.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\102.json",
+      "PackagePath": "staticwebassets\\quran\\102.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\103.json",
+      "PackagePath": "staticwebassets\\quran\\103.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\104.json",
+      "PackagePath": "staticwebassets\\quran\\104.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\105.json",
+      "PackagePath": "staticwebassets\\quran\\105.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\106.json",
+      "PackagePath": "staticwebassets\\quran\\106.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\107.json",
+      "PackagePath": "staticwebassets\\quran\\107.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\108.json",
+      "PackagePath": "staticwebassets\\quran\\108.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\109.json",
+      "PackagePath": "staticwebassets\\quran\\109.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\110.json",
+      "PackagePath": "staticwebassets\\quran\\110.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\111.json",
+      "PackagePath": "staticwebassets\\quran\\111.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\112.json",
+      "PackagePath": "staticwebassets\\quran\\112.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\113.json",
+      "PackagePath": "staticwebassets\\quran\\113.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\114.json",
+      "PackagePath": "staticwebassets\\quran\\114.json"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\quran\\_readme.txt",
+      "PackagePath": "staticwebassets\\quran\\_readme.txt"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\signalr\\dist\\browser\\signalr.js.map",
+      "PackagePath": "staticwebassets\\signalr\\dist\\browser\\signalr.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\signalr\\dist\\browser\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\signalr\\dist\\browser\\signalr.min.js.map"
+    },
+    {
+      "Id": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\welcome.mp3",
+      "PackagePath": "staticwebassets\\welcome.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.tahfezKhalid.props",
+      "PackagePath": "build\\tahfezKhalid.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.tahfezKhalid.props",
+      "PackagePath": "buildMultiTargeting\\tahfezKhalid.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.tahfezKhalid.props",
+      "PackagePath": "buildTransitive\\tahfezKhalid.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.tahfezKhalid.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

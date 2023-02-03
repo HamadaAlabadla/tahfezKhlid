@@ -1,0 +1,39 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "verseStringB": "Say, “I seek refuge in the Lord of Daybreak."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "مِنْ شَرِّ مَا خَلَقَ",
+      "verseStringB": "From the evil of what He created."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "verseStringB": "And from the evil of the darkness as it gathers."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+      "verseStringB": "And from the evil of those who practice sorcery."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "verseStringB": "And from the evil of an envier when he envies.”"
+    }
+  ],
+  "nameEnglish": "Daybreak",
+  "nameTrans": "al-Falaq",
+  "nameArabic": "الـفلق",
+  "chapterNumber": 113,
+  "nVerses": 5
+}

@@ -1,0 +1,69 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "وَالْعَادِيَاتِ ضَبْحًا",
+      "verseStringB": "By the panting chargers."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "فَالْمُورِيَاتِ قَدْحًا",
+      "verseStringB": "By the igniters of sparks."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "فَالْمُغِيرَاتِ صُبْحًا",
+      "verseStringB": "By the raiders at dawn."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "فَأَثَرْنَ بِهِ نَقْعًا",
+      "verseStringB": "Raising clouds of dust."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "فَوَسَطْنَ بِهِ جَمْعًا",
+      "verseStringB": "Storming into the midst."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ",
+      "verseStringB": "The human being is ungrateful to his Lord."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَإِنَّهُ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
+      "verseStringB": "And he bears witness to that."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ",
+      "verseStringB": "And he is fierce in his love of good things."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ",
+      "verseStringB": "Does he not know? When the graves’ contents are scattered around."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَحُصِّلَ مَا فِي الصُّدُورِ",
+      "verseStringB": "And the hearts’ contents are retrieved."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "إِنَّ رَبَّهُمْ بِهِمْ يَوْمَئِذٍ لَخَبِيرٌ",
+      "verseStringB": "On that Day, their Lord is fully informed of them."
+    }
+  ],
+  "nameEnglish": "The Racers",
+  "nameTrans": "al-'Adiyat",
+  "nameArabic": "الـعاديات",
+  "chapterNumber": 100,
+  "nVerses": 11
+}

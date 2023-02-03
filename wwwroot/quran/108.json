@@ -1,0 +1,29 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+      "verseStringB": "We have given you plenty."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+      "verseStringB": "So pray to your Lord and sacrifice."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+      "verseStringB": "He who hates you is cut off."
+    }
+  ],
+  "nameEnglish": "Plenty",
+  "nameTrans": "al-Kawthar",
+  "nameArabic": "الـكوثر",
+  "chapterNumber": 108,
+  "nVerses": 3
+}

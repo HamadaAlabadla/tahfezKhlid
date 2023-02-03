@@ -1,0 +1,92 @@
+﻿@model tahfezKhalid.Models.DailyReport
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>DailyReport</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="studentId" class="control-label"></label>
+                <select asp-for="studentId" class="form-control" asp-items="ViewBag.studentId"></select>
+                <span asp-validation-for="studentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdentificationNumber" class="control-label"></label>
+                <select asp-for="IdentificationNumber" class="form-control" asp-items="ViewBag.IdentificationNumber"></select>
+                <span asp-validation-for="IdentificationNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurahSavedFrom" class="control-label"></label>
+                <input asp-for="SurahSavedFrom" class="form-control" />
+                <span asp-validation-for="SurahSavedFrom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VerseSavedFrom" class="control-label"></label>
+                <input asp-for="VerseSavedFrom" class="form-control" />
+                <span asp-validation-for="VerseSavedFrom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurahSavedTo" class="control-label"></label>
+                <input asp-for="SurahSavedTo" class="form-control" />
+                <span asp-validation-for="SurahSavedTo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VerseSavedTo" class="control-label"></label>
+                <input asp-for="VerseSavedTo" class="form-control" />
+                <span asp-validation-for="VerseSavedTo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumPagesSaved" class="control-label"></label>
+                <input asp-for="NumPagesSaved" class="form-control" />
+                <span asp-validation-for="NumPagesSaved" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurahReviewFrom" class="control-label"></label>
+                <input asp-for="SurahReviewFrom" class="form-control" />
+                <span asp-validation-for="SurahReviewFrom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VerseReviewFrom" class="control-label"></label>
+                <input asp-for="VerseReviewFrom" class="form-control" />
+                <span asp-validation-for="VerseReviewFrom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurahReviewTo" class="control-label"></label>
+                <input asp-for="SurahReviewTo" class="form-control" />
+                <span asp-validation-for="SurahReviewTo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VerseReviewTo" class="control-label"></label>
+                <input asp-for="VerseReviewTo" class="form-control" />
+                <span asp-validation-for="VerseReviewTo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumPagesReview" class="control-label"></label>
+                <input asp-for="NumPagesReview" class="form-control" />
+                <span asp-validation-for="NumPagesReview" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateReport" class="control-label"></label>
+                <input asp-for="DateReport" class="form-control" />
+                <span asp-validation-for="DateReport" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

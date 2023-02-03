@@ -1,0 +1,39 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "إِنَّا أَنْزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+      "verseStringB": "We sent it down on the Night of Destiny."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
+      "verseStringB": "But how would you know what the Night of Destiny is?"
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ أَلْفِ شَهْرٍ",
+      "verseStringB": "The Night of Destiny is better than a thousand months."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِمْ مِنْ كُلِّ أَمْرٍ",
+      "verseStringB": "In it descend the angels and the Spirit, by their Lord's permission, with every command."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+      "verseStringB": "Peace it is—until the break of dawn."
+    }
+  ],
+  "nameEnglish": "Destiny",
+  "nameTrans": "al-Qadr",
+  "nameArabic": "الـقدر",
+  "chapterNumber": 97,
+  "nVerses": 5
+}

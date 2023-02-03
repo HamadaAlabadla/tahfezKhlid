@@ -1,0 +1,494 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "إِذَا وَقَعَتِ الْوَاقِعَةُ",
+      "verseStringB": "When the Inevitable occurs."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+      "verseStringB": "Of its occurrence, there is no denial."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "خَافِضَةٌ رَافِعَةٌ",
+      "verseStringB": "Bringing low, raising high."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "إِذَا رُجَّتِ الْأَرْضُ رَجًّا",
+      "verseStringB": "When the earth is shaken with a shock."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَبُسَّتِ الْجِبَالُ بَسًّا",
+      "verseStringB": "And the mountains are crushed and crumbled."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "فَكَانَتْ هَبَاءً مُنْبَثًّا",
+      "verseStringB": "And become scattered dust."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَكُنْتُمْ أَزْوَاجًا ثَلَاثَةً",
+      "verseStringB": "And you become three classes."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ",
+      "verseStringB": "Those on the Right—what of those on the Right?"
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "وَأَصْحَابُ الْمَشْأَمَةِ مَا أَصْحَابُ الْمَشْأَمَةِ",
+      "verseStringB": "And those on the Left—what of those on the Left?"
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَالسَّابِقُونَ السَّابِقُونَ",
+      "verseStringB": "And the forerunners, the forerunners."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "أُولَٰئِكَ الْمُقَرَّبُونَ",
+      "verseStringB": "These are the nearest."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "فِي جَنَّاتِ النَّعِيمِ",
+      "verseStringB": "In the Gardens of Bliss."
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "ثُلَّةٌ مِنَ الْأَوَّلِينَ",
+      "verseStringB": "A group from the ancients."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "وَقَلِيلٌ مِنَ الْآخِرِينَ",
+      "verseStringB": "And a few from the latecomers."
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "عَلَىٰ سُرُرٍ مَوْضُونَةٍ",
+      "verseStringB": "On jeweled thrones."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "مُتَّكِئِينَ عَلَيْهَا مُتَقَابِلِينَ",
+      "verseStringB": "Reclining on them, facing one another."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "يَطُوفُ عَلَيْهِمْ وِلْدَانٌ مُخَلَّدُونَ",
+      "verseStringB": "Circulating among them will be eternalized youth."
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِنْ مَعِينٍ",
+      "verseStringB": "With goblets, pitchers, and a cup from a flowing spring."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "لَا يُصَدَّعُونَ عَنْهَا وَلَا يُنْزِفُونَ",
+      "verseStringB": "Causing them neither headache nor intoxication."
+    },
+    {
+      "verseNumber": 20,
+      "verseString": "وَفَاكِهَةٍ مِمَّا يَتَخَيَّرُونَ",
+      "verseStringB": "And fruits of their choice."
+    },
+    {
+      "verseNumber": 21,
+      "verseString": "وَلَحْمِ طَيْرٍ مِمَّا يَشْتَهُونَ",
+      "verseStringB": "And the meat of birds as they desire."
+    },
+    {
+      "verseNumber": 22,
+      "verseString": "وَحُورٌ عِينٌ",
+      "verseStringB": "And lovely companions."
+    },
+    {
+      "verseNumber": 23,
+      "verseString": "كَأَمْثَالِ اللُّؤْلُؤِ الْمَكْنُونِ",
+      "verseStringB": "The likenesses of pristine pearls."
+    },
+    {
+      "verseNumber": 24,
+      "verseString": "جَزَاءً بِمَا كَانُوا يَعْمَلُونَ",
+      "verseStringB": "A reward for what they used to do."
+    },
+    {
+      "verseNumber": 25,
+      "verseString": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
+      "verseStringB": "In it they will hear no nonsense and no accusations."
+    },
+    {
+      "verseNumber": 26,
+      "verseString": "إِلَّا قِيلًا سَلَامًا سَلَامًا",
+      "verseStringB": "But only the greeting: “Peace, peace.”"
+    },
+    {
+      "verseNumber": 27,
+      "verseString": "وَأَصْحَابُ الْيَمِينِ مَا أَصْحَابُ الْيَمِينِ",
+      "verseStringB": "And those on the Right—what of those on the Right?"
+    },
+    {
+      "verseNumber": 28,
+      "verseString": "فِي سِدْرٍ مَخْضُودٍ",
+      "verseStringB": "In lush orchards."
+    },
+    {
+      "verseNumber": 29,
+      "verseString": "وَطَلْحٍ مَنْضُودٍ",
+      "verseStringB": "And sweet-smelling plants."
+    },
+    {
+      "verseNumber": 30,
+      "verseString": "وَظِلٍّ مَمْدُودٍ",
+      "verseStringB": "And extended shade."
+    },
+    {
+      "verseNumber": 31,
+      "verseString": "وَمَاءٍ مَسْكُوبٍ",
+      "verseStringB": "And outpouring water."
+    },
+    {
+      "verseNumber": 32,
+      "verseString": "وَفَاكِهَةٍ كَثِيرَةٍ",
+      "verseStringB": "And abundant fruit."
+    },
+    {
+      "verseNumber": 33,
+      "verseString": "لَا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
+      "verseStringB": "Never out of season, and never forbidden."
+    },
+    {
+      "verseNumber": 34,
+      "verseString": "وَفُرُشٍ مَرْفُوعَةٍ",
+      "verseStringB": "And elevated mattresses."
+    },
+    {
+      "verseNumber": 35,
+      "verseString": "إِنَّا أَنْشَأْنَاهُنَّ إِنْشَاءً",
+      "verseStringB": "We created them of unique creation."
+    },
+    {
+      "verseNumber": 36,
+      "verseString": "فَجَعَلْنَاهُنَّ أَبْكَارًا",
+      "verseStringB": "And made them virgins."
+    },
+    {
+      "verseNumber": 37,
+      "verseString": "عُرُبًا أَتْرَابًا",
+      "verseStringB": "Tender and un-aging."
+    },
+    {
+      "verseNumber": 38,
+      "verseString": "لِأَصْحَابِ الْيَمِينِ",
+      "verseStringB": "For those on the Right."
+    },
+    {
+      "verseNumber": 39,
+      "verseString": "ثُلَّةٌ مِنَ الْأَوَّلِينَ",
+      "verseStringB": "Many from those of old."
+    },
+    {
+      "verseNumber": 40,
+      "verseString": "وَثُلَّةٌ مِنَ الْآخِرِينَ",
+      "verseStringB": "And many from the latecomers."
+    },
+    {
+      "verseNumber": 41,
+      "verseString": "وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ",
+      "verseStringB": "And those on the Left—what of those on the Left?"
+    },
+    {
+      "verseNumber": 42,
+      "verseString": "فِي سَمُومٍ وَحَمِيمٍ",
+      "verseStringB": "Amid scorching wind and boiling water."
+    },
+    {
+      "verseNumber": 43,
+      "verseString": "وَظِلٍّ مِنْ يَحْمُومٍ",
+      "verseStringB": "And a shade of black smoke."
+    },
+    {
+      "verseNumber": 44,
+      "verseString": "لَا بَارِدٍ وَلَا كَرِيمٍ",
+      "verseStringB": "Neither cool nor refreshing."
+    },
+    {
+      "verseNumber": 45,
+      "verseString": "إِنَّهُمْ كَانُوا قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+      "verseStringB": "Before that, they lived in luxury."
+    },
+    {
+      "verseNumber": 46,
+      "verseString": "وَكَانُوا يُصِرُّونَ عَلَى الْحِنْثِ الْعَظِيمِ",
+      "verseStringB": "And they persisted in immense wrongdoing."
+    },
+    {
+      "verseNumber": 47,
+      "verseString": "وَكَانُوا يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا أَإِنَّا لَمَبْعُوثُونَ",
+      "verseStringB": "And they used to say, “When we are dead and become dust and bones, are we to be resurrected?"
+    },
+    {
+      "verseNumber": 48,
+      "verseString": "أَوَآبَاؤُنَا الْأَوَّلُونَ",
+      "verseStringB": "And our ancestors of old?”"
+    },
+    {
+      "verseNumber": 49,
+      "verseString": "قُلْ إِنَّ الْأَوَّلِينَ وَالْآخِرِينَ",
+      "verseStringB": "Say, “Those of old and those of later times."
+    },
+    {
+      "verseNumber": 50,
+      "verseString": "لَمَجْمُوعُونَ إِلَىٰ مِيقَاتِ يَوْمٍ مَعْلُومٍ",
+      "verseStringB": "Will be gathered for the appointment of a familiar Day.”"
+    },
+    {
+      "verseNumber": 51,
+      "verseString": "ثُمَّ إِنَّكُمْ أَيُّهَا الضَّالُّونَ الْمُكَذِّبُونَ",
+      "verseStringB": "Then you, O misguided deniers."
+    },
+    {
+      "verseNumber": 52,
+      "verseString": "لَآكِلُونَ مِنْ شَجَرٍ مِنْ زَقُّومٍ",
+      "verseStringB": "Will be eating from the Tree of Bitterness."
+    },
+    {
+      "verseNumber": 53,
+      "verseString": "فَمَالِئُونَ مِنْهَا الْبُطُونَ",
+      "verseStringB": "Will be filling your bellies with it."
+    },
+    {
+      "verseNumber": 54,
+      "verseString": "فَشَارِبُونَ عَلَيْهِ مِنَ الْحَمِيمِ",
+      "verseStringB": "Will be drinking on top of it boiling water."
+    },
+    {
+      "verseNumber": 55,
+      "verseString": "فَشَارِبُونَ شُرْبَ الْهِيمِ",
+      "verseStringB": "Drinking as parched camels drink."
+    },
+    {
+      "verseNumber": 56,
+      "verseString": "هَٰذَا نُزُلُهُمْ يَوْمَ الدِّينِ",
+      "verseStringB": "This is their hospitality on the Day of Retribution."
+    },
+    {
+      "verseNumber": 57,
+      "verseString": "نَحْنُ خَلَقْنَاكُمْ فَلَوْلَا تُصَدِّقُونَ",
+      "verseStringB": "We created you—if only you would believe!"
+    },
+    {
+      "verseNumber": 58,
+      "verseString": "أَفَرَأَيْتُمْ مَا تُمْنُونَ",
+      "verseStringB": "Have you seen what you ejaculate?"
+    },
+    {
+      "verseNumber": 59,
+      "verseString": "أَأَنْتُمْ تَخْلُقُونَهُ أَمْ نَحْنُ الْخَالِقُونَ",
+      "verseStringB": "Is it you who create it, or are We the Creators?"
+    },
+    {
+      "verseNumber": 60,
+      "verseString": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ الْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+      "verseStringB": "We mandated death among you, and We will not be surpassed."
+    },
+    {
+      "verseNumber": 61,
+      "verseString": "عَلَىٰ أَنْ نُبَدِّلَ أَمْثَالَكُمْ وَنُنْشِئَكُمْ فِي مَا لَا تَعْلَمُونَ",
+      "verseStringB": "In replacing you with your likes, and transforming you into what you do not know."
+    },
+    {
+      "verseNumber": 62,
+      "verseString": "وَلَقَدْ عَلِمْتُمُ النَّشْأَةَ الْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+      "verseStringB": "You have known the first formation. Then why do you not reflect?"
+    },
+    {
+      "verseNumber": 63,
+      "verseString": "أَفَرَأَيْتُمْ مَا تَحْرُثُونَ",
+      "verseStringB": "Have you seen what you cultivate?"
+    },
+    {
+      "verseNumber": 64,
+      "verseString": "أَأَنْتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ",
+      "verseStringB": "Is it you who sow it, or are We the Sowers?"
+    },
+    {
+      "verseNumber": 65,
+      "verseString": "لَوْ نَشَاءُ لَجَعَلْنَاهُ حُطَامًا فَظَلْتُمْ تَفَكَّهُونَ",
+      "verseStringB": "If We will, We can turn it into rubble; then you will lament."
+    },
+    {
+      "verseNumber": 66,
+      "verseString": "إِنَّا لَمُغْرَمُونَ",
+      "verseStringB": "“We are penalized."
+    },
+    {
+      "verseNumber": 67,
+      "verseString": "بَلْ نَحْنُ مَحْرُومُونَ",
+      "verseStringB": "No—we have been deprived.”"
+    },
+    {
+      "verseNumber": 68,
+      "verseString": "أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ",
+      "verseStringB": "Have you seen the water that you drink?"
+    },
+    {
+      "verseNumber": 69,
+      "verseString": "أَأَنْتُمْ أَنْزَلْتُمُوهُ مِنَ الْمُزْنِ أَمْ نَحْنُ الْمُنْزِلُونَ",
+      "verseStringB": "Is it you who sent it down from the clouds, or are We the senders?"
+    },
+    {
+      "verseNumber": 70,
+      "verseString": "لَوْ نَشَاءُ جَعَلْنَاهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ",
+      "verseStringB": "If We will, We can make it bitter. So why are you not thankful?"
+    },
+    {
+      "verseNumber": 71,
+      "verseString": "أَفَرَأَيْتُمُ النَّارَ الَّتِي تُورُونَ",
+      "verseStringB": "Have you seen the fire you kindle?"
+    },
+    {
+      "verseNumber": 72,
+      "verseString": "أَأَنْتُمْ أَنْشَأْتُمْ شَجَرَتَهَا أَمْ نَحْنُ الْمُنْشِئُونَ",
+      "verseStringB": "Is it you who produce its tree, or are We the Producers?"
+    },
+    {
+      "verseNumber": 73,
+      "verseString": "نَحْنُ جَعَلْنَاهَا تَذْكِرَةً وَمَتَاعًا لِلْمُقْوِينَ",
+      "verseStringB": "We made it a reminder, and comfort for the users."
+    },
+    {
+      "verseNumber": 74,
+      "verseString": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
+      "verseStringB": "So glorify the Name of your Lord, the Great."
+    },
+    {
+      "verseNumber": 75,
+      "verseString": "فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ",
+      "verseStringB": "I swear by the positions of the stars."
+    },
+    {
+      "verseNumber": 76,
+      "verseString": "وَإِنَّهُ لَقَسَمٌ لَوْ تَعْلَمُونَ عَظِيمٌ",
+      "verseStringB": "And it is a tremendous oath—if you only knew."
+    },
+    {
+      "verseNumber": 77,
+      "verseString": "إِنَّهُ لَقُرْآنٌ كَرِيمٌ",
+      "verseStringB": "It is a Noble Quran."
+    },
+    {
+      "verseNumber": 78,
+      "verseString": "فِي كِتَابٍ مَكْنُونٍ",
+      "verseStringB": "In a well-protected Book."
+    },
+    {
+      "verseNumber": 79,
+      "verseString": "لَا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ",
+      "verseStringB": "None can grasp it except the purified."
+    },
+    {
+      "verseNumber": 80,
+      "verseString": "تَنْزِيلٌ مِنْ رَبِّ الْعَالَمِينَ",
+      "verseStringB": "A revelation from the Lord of the Worlds."
+    },
+    {
+      "verseNumber": 81,
+      "verseString": "أَفَبِهَٰذَا الْحَدِيثِ أَنْتُمْ مُدْهِنُونَ",
+      "verseStringB": "Is it this discourse that you take so lightly?"
+    },
+    {
+      "verseNumber": 82,
+      "verseString": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+      "verseStringB": "And you make it your livelihood to deny it?"
+    },
+    {
+      "verseNumber": 83,
+      "verseString": "فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ",
+      "verseStringB": "So when it has reached the throat."
+    },
+    {
+      "verseNumber": 84,
+      "verseString": "وَأَنْتُمْ حِينَئِذٍ تَنْظُرُونَ",
+      "verseStringB": "While you are looking on."
+    },
+    {
+      "verseNumber": 85,
+      "verseString": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْكُمْ وَلَٰكِنْ لَا تُبْصِرُونَ",
+      "verseStringB": "We are closer to it than you are, but you cannot see."
+    },
+    {
+      "verseNumber": 86,
+      "verseString": "فَلَوْلَا إِنْ كُنْتُمْ غَيْرَ مَدِينِينَ",
+      "verseStringB": "Why, then, if you are unconstrained."
+    },
+    {
+      "verseNumber": 87,
+      "verseString": "تَرْجِعُونَهَا إِنْ كُنْتُمْ صَادِقِينَ",
+      "verseStringB": "You do not bring it back, if you are truthful?"
+    },
+    {
+      "verseNumber": 88,
+      "verseString": "فَأَمَّا إِنْ كَانَ مِنَ الْمُقَرَّبِينَ",
+      "verseStringB": "But if he is one of those brought near."
+    },
+    {
+      "verseNumber": 89,
+      "verseString": "فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ",
+      "verseStringB": "Then happiness, and fragrance, and Garden of Delights."
+    },
+    {
+      "verseNumber": 90,
+      "verseString": "وَأَمَّا إِنْ كَانَ مِنْ أَصْحَابِ الْيَمِينِ",
+      "verseStringB": "And if he is among those on the Right."
+    },
+    {
+      "verseNumber": 91,
+      "verseString": "فَسَلَامٌ لَكَ مِنْ أَصْحَابِ الْيَمِينِ",
+      "verseStringB": "Then, “Peace upon you,” from those on the Right."
+    },
+    {
+      "verseNumber": 92,
+      "verseString": "وَأَمَّا إِنْ كَانَ مِنَ الْمُكَذِّبِينَ الضَّالِّينَ",
+      "verseStringB": "But if he is among the deniers, the mistaken."
+    },
+    {
+      "verseNumber": 93,
+      "verseString": "فَنُزُلٌ مِنْ حَمِيمٍ",
+      "verseStringB": "Then a welcome of Inferno."
+    },
+    {
+      "verseNumber": 94,
+      "verseString": "وَتَصْلِيَةُ جَحِيمٍ",
+      "verseStringB": "And burning in Hell."
+    },
+    {
+      "verseNumber": 95,
+      "verseString": "إِنَّ هَٰذَا لَهُوَ حَقُّ الْيَقِينِ",
+      "verseStringB": "This is the absolute truth."
+    },
+    {
+      "verseNumber": 96,
+      "verseString": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
+      "verseStringB": "So glorify the Name of your Lord, the Magnificent."
+    }
+  ],
+  "nameEnglish": "The Inevitable",
+  "nameTrans": "al-Waqi'ah",
+  "nameArabic": "الواقعـة",
+  "chapterNumber": 56,
+  "nVerses": 96
+}

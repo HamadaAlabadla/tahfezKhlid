@@ -1,0 +1,39 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+      "verseStringB": "Have you not seen how your Lord dealt with the masters of the elephant?"
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+      "verseStringB": "Did He not make their plan go wrong?"
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "verseStringB": "And sent against them flocks of birds."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ",
+      "verseStringB": "Striking them with stones of baked clay."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
+      "verseStringB": "Leaving them like chewed-up leaves."
+    }
+  ],
+  "nameEnglish": "The Elephant",
+  "nameTrans": "al-Fil",
+  "nameArabic": "الـفيل",
+  "chapterNumber": 105,
+  "nVerses": 5
+}

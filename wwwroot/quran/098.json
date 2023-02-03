@@ -1,0 +1,54 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+      "verseStringB": "Those who disbelieve among the People of the Scripture and the Polytheists were not apart until the Clear Evidence came to them."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "رَسُولٌ مِنَ اللَّهِ يَتْلُو صُحُفًا مُطَهَّرَةً",
+      "verseStringB": "A messenger from Allah reciting purified scriptures."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "فِيهَا كُتُبٌ قَيِّمَةٌ",
+      "verseStringB": "Containing valuable writings."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِنْ بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ",
+      "verseStringB": "Those who were given the Scripture did not splinter, until after the Clear Evidence came to them."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ ۚ وَذَٰلِكَ دِينُ الْقَيِّمَةِ",
+      "verseStringB": "They were only commanded to worship Allah, devoting their faith to Him alone, and to practice regular prayer, and to give the purifying charity—that is the upright religion."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا ۚ أُولَٰئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
+      "verseStringB": "Those who disbelieve among the People of the Scripture and the Polytheists will be in the Fire of Hell, remaining in it forever. These are the worst of creatures."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ هُمْ خَيْرُ الْبَرِيَّةِ",
+      "verseStringB": "As for those who believe and do good works—these are the best of creatures."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "جَزَاؤُهُمْ عِنْدَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِيَ رَبَّهُ",
+      "verseStringB": "Their reward is with their Lord: Gardens of Eden beneath which rivers flow, remaining in them forever. Allah is pleased with them, and they are pleased with Him. That is for whoever fears His Lord."
+    }
+  ],
+  "nameEnglish": "Clear Evidence",
+  "nameTrans": "al-Bayyinah",
+  "nameArabic": "الـبينة",
+  "chapterNumber": 98,
+  "nVerses": 8
+}

@@ -1,0 +1,34 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "لِإِيلَافِ قُرَيْشٍ",
+      "verseStringB": "For the security of Quraish."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+      "verseStringB": "Their security during winter and summer journeys."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+      "verseStringB": "Let them worship the Lord of this House."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ",
+      "verseStringB": "Who has fed them against hunger, and secured them against fear."
+    }
+  ],
+  "nameEnglish": "Quraish",
+  "nameTrans": "Quraysh",
+  "nameArabic": "قريش",
+  "chapterNumber": 106,
+  "nVerses": 4
+}

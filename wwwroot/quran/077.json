@@ -1,0 +1,264 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "وَالْمُرْسَلَاتِ عُرْفًا",
+      "verseStringB": "By those sent in succession."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "فَالْعَاصِفَاتِ عَصْفًا",
+      "verseStringB": "And those storming turbulently."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَالنَّاشِرَاتِ نَشْرًا",
+      "verseStringB": "And the spreaders spreading."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "فَالْفَارِقَاتِ فَرْقًا",
+      "verseStringB": "And the separators separating."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "فَالْمُلْقِيَاتِ ذِكْرًا",
+      "verseStringB": "And those delivering a reminder."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "عُذْرًا أَوْ نُذْرًا",
+      "verseStringB": "Excusing or warning."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ",
+      "verseStringB": "What you are promised will surely happen."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "فَإِذَا النُّجُومُ طُمِسَتْ",
+      "verseStringB": "When the stars are blotted out."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "وَإِذَا السَّمَاءُ فُرِجَتْ",
+      "verseStringB": "And the sky is fractured."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَإِذَا الْجِبَالُ نُسِفَتْ",
+      "verseStringB": "And the mountains are powdered."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
+      "verseStringB": "And the messengers’ time is appointed."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
+      "verseStringB": "Until which Day was it postponed?"
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "لِيَوْمِ الْفَصْلِ",
+      "verseStringB": "Until the Day of Separation."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ",
+      "verseStringB": "And what will make you realize what the Day of Separation is?"
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the liars."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ",
+      "verseStringB": "Did We not destroy the ancients?"
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "ثُمَّ نُتْبِعُهُمُ الْآخِرِينَ",
+      "verseStringB": "Then succeeded them with the others?"
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "كَذَٰلِكَ نَفْعَلُ بِالْمُجْرِمِينَ",
+      "verseStringB": "Thus We deal with the guilty."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the deniers."
+    },
+    {
+      "verseNumber": 20,
+      "verseString": "أَلَمْ نَخْلُقْكُمْ مِنْ مَاءٍ مَهِينٍ",
+      "verseStringB": "Did We not create you from a base fluid?"
+    },
+    {
+      "verseNumber": 21,
+      "verseString": "فَجَعَلْنَاهُ فِي قَرَارٍ مَكِينٍ",
+      "verseStringB": "Then lodged it in a secure place?"
+    },
+    {
+      "verseNumber": 22,
+      "verseString": "إِلَىٰ قَدَرٍ مَعْلُومٍ",
+      "verseStringB": "For a known period?"
+    },
+    {
+      "verseNumber": 23,
+      "verseString": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ",
+      "verseStringB": "And We measured. How excellently We measure."
+    },
+    {
+      "verseNumber": 24,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the falsifiers."
+    },
+    {
+      "verseNumber": 25,
+      "verseString": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
+      "verseStringB": "Did We not make the earth a homestead?"
+    },
+    {
+      "verseNumber": 26,
+      "verseString": "أَحْيَاءً وَأَمْوَاتًا",
+      "verseStringB": "For the living and the dead?"
+    },
+    {
+      "verseNumber": 27,
+      "verseString": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُمْ مَاءً فُرَاتًا",
+      "verseStringB": "And We placed on it lofty mountains, and We gave you fresh water to drink?"
+    },
+    {
+      "verseNumber": 28,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the rejecters."
+    },
+    {
+      "verseNumber": 29,
+      "verseString": "انْطَلِقُوا إِلَىٰ مَا كُنْتُمْ بِهِ تُكَذِّبُونَ",
+      "verseStringB": "“Proceed to what you used to deny.”"
+    },
+    {
+      "verseNumber": 30,
+      "verseString": "انْطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
+      "verseStringB": "“Proceed to a three-pronged shadow.”"
+    },
+    {
+      "verseNumber": 31,
+      "verseString": "لَا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ",
+      "verseStringB": "That provides no shade, nor avails against the flames."
+    },
+    {
+      "verseNumber": 32,
+      "verseString": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
+      "verseStringB": "It shoots up sparks like towers."
+    },
+    {
+      "verseNumber": 33,
+      "verseString": "كَأَنَّهُ جِمَالَتٌ صُفْرٌ",
+      "verseStringB": "As if they are yellow camels."
+    },
+    {
+      "verseNumber": 34,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the liars."
+    },
+    {
+      "verseNumber": 35,
+      "verseString": "هَٰذَا يَوْمُ لَا يَنْطِقُونَ",
+      "verseStringB": "This is a Day when they will not speak."
+    },
+    {
+      "verseNumber": 36,
+      "verseString": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+      "verseStringB": "And they will not be permitted to offer excuses."
+    },
+    {
+      "verseNumber": 37,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the falsifiers."
+    },
+    {
+      "verseNumber": 38,
+      "verseString": "هَٰذَا يَوْمُ الْفَصْلِ ۖ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
+      "verseStringB": "This is the Day of Separation. We have gathered you, together with the ancients."
+    },
+    {
+      "verseNumber": 39,
+      "verseString": "فَإِنْ كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
+      "verseStringB": "So if you have a scheme, then scheme against Me!"
+    },
+    {
+      "verseNumber": 40,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the falsifiers."
+    },
+    {
+      "verseNumber": 41,
+      "verseString": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
+      "verseStringB": "The reverent will be amidst shades and springs."
+    },
+    {
+      "verseNumber": 42,
+      "verseString": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ",
+      "verseStringB": "And fruits of whatever they desire."
+    },
+    {
+      "verseNumber": 43,
+      "verseString": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
+      "verseStringB": "“Eat and drink pleasantly, for what you used to do.”"
+    },
+    {
+      "verseNumber": 44,
+      "verseString": "إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
+      "verseStringB": "Thus We reward the virtuous."
+    },
+    {
+      "verseNumber": 45,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the deniers."
+    },
+    {
+      "verseNumber": 46,
+      "verseString": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُمْ مُجْرِمُونَ",
+      "verseStringB": "“Eat and enjoy a little; you are guilty.”"
+    },
+    {
+      "verseNumber": 47,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the liars."
+    },
+    {
+      "verseNumber": 48,
+      "verseString": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
+      "verseStringB": "And when it is said to them, “Bow down,” they do not bow down."
+    },
+    {
+      "verseNumber": 49,
+      "verseString": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "verseStringB": "Woe on that Day to the deniers."
+    },
+    {
+      "verseNumber": 50,
+      "verseString": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+      "verseStringB": "So in what saying, beyond this, will they believe?"
+    }
+  ],
+  "nameEnglish": "The Unleashed",
+  "nameTrans": "al-Mursalat",
+  "nameArabic": "الـمرسلات",
+  "chapterNumber": 77,
+  "nVerses": 50
+}

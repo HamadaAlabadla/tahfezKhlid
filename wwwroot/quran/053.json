@@ -1,0 +1,324 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "وَالنَّجْمِ إِذَا هَوَىٰ",
+      "verseStringB": "By the star, as it falls."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
+      "verseStringB": "Your friend has not strayed, nor has he erred."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَمَا يَنْطِقُ عَنِ الْهَوَىٰ",
+      "verseStringB": "Nor does he speak out of desire."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+      "verseStringB": "It is, but a revealed revelation."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "عَلَّمَهُ شَدِيدُ الْقُوَىٰ",
+      "verseStringB": "Taught to him by the Extremely Powerful."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "ذُو مِرَّةٍ فَاسْتَوَىٰ",
+      "verseStringB": "Possessor of vigor. He settled."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَهُوَ بِالْأُفُقِ الْأَعْلَىٰ",
+      "verseStringB": "While he was at the highest horizon."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "ثُمَّ دَنَا فَتَدَلَّىٰ",
+      "verseStringB": "Then he drew near, and He hovered around."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
+      "verseStringB": "He was within two bows’ length, or closer."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "فَأَوْحَىٰ إِلَىٰ عَبْدِهِ مَا أَوْحَىٰ",
+      "verseStringB": "Then He revealed to His servant what He revealed."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "مَا كَذَبَ الْفُؤَادُ مَا رَأَىٰ",
+      "verseStringB": "The heart did not lie about what he saw."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "أَفَتُمَارُونَهُ عَلَىٰ مَا يَرَىٰ",
+      "verseStringB": "Will you dispute with him concerning what he saw?"
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "وَلَقَدْ رَآهُ نَزْلَةً أُخْرَىٰ",
+      "verseStringB": "He saw him in another descent."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "عِنْدَ سِدْرَةِ الْمُنْتَهَىٰ",
+      "verseStringB": "At the Lote Tree of Extremity."
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "عِنْدَهَا جَنَّةُ الْمَأْوَىٰ",
+      "verseStringB": "Near which is the Garden of Refuge."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "إِذْ يَغْشَى السِّدْرَةَ مَا يَغْشَىٰ",
+      "verseStringB": "As there covered the Lotus Tree what covered it."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ",
+      "verseStringB": "The sight did not waver, nor did it overreach."
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "لَقَدْ رَأَىٰ مِنْ آيَاتِ رَبِّهِ الْكُبْرَىٰ",
+      "verseStringB": "He saw some of the Great Signs of his Lord."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "أَفَرَأَيْتُمُ اللَّاتَ وَالْعُزَّىٰ",
+      "verseStringB": "Have you considered al-Lat and al-Uzza?"
+    },
+    {
+      "verseNumber": 20,
+      "verseString": "وَمَنَاةَ الثَّالِثَةَ الْأُخْرَىٰ",
+      "verseStringB": "And Manat, the third one, the other?"
+    },
+    {
+      "verseNumber": 21,
+      "verseString": "أَلَكُمُ الذَّكَرُ وَلَهُ الْأُنْثَىٰ",
+      "verseStringB": "Are you to have the males, and He the females?"
+    },
+    {
+      "verseNumber": 22,
+      "verseString": "تِلْكَ إِذًا قِسْمَةٌ ضِيزَىٰ",
+      "verseStringB": "What a bizarre distribution."
+    },
+    {
+      "verseNumber": 23,
+      "verseString": "إِنْ هِيَ إِلَّا أَسْمَاءٌ سَمَّيْتُمُوهَا أَنْتُمْ وَآبَاؤُكُمْ مَا أَنْزَلَ اللَّهُ بِهَا مِنْ سُلْطَانٍ ۚ إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَمَا تَهْوَى الْأَنْفُسُ ۖ وَلَقَدْ جَاءَهُمْ مِنْ رَبِّهِمُ الْهُدَىٰ",
+      "verseStringB": "These are nothing but names, which you have invented, you and your forefathers—a practice Allah has never authorized. They follow nothing but assumptions, and what the ego desires, although guidance has come to them from their Lord."
+    },
+    {
+      "verseNumber": 24,
+      "verseString": "أَمْ لِلْإِنْسَانِ مَا تَمَنَّىٰ",
+      "verseStringB": "Or is the human being to have whatever he desires?"
+    },
+    {
+      "verseNumber": 25,
+      "verseString": "فَلِلَّهِ الْآخِرَةُ وَالْأُولَىٰ",
+      "verseStringB": "To Allah belong the Last and the First."
+    },
+    {
+      "verseNumber": 26,
+      "verseString": "وَكَمْ مِنْ مَلَكٍ فِي السَّمَاوَاتِ لَا تُغْنِي شَفَاعَتُهُمْ شَيْئًا إِلَّا مِنْ بَعْدِ أَنْ يَأْذَنَ اللَّهُ لِمَنْ يَشَاءُ وَيَرْضَىٰ",
+      "verseStringB": "How many an angel is there in the heavens whose intercession avails nothing, except after Allah gives permission to whomever He wills, and approves?"
+    },
+    {
+      "verseNumber": 27,
+      "verseString": "إِنَّ الَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ لَيُسَمُّونَ الْمَلَائِكَةَ تَسْمِيَةَ الْأُنْثَىٰ",
+      "verseStringB": "Those who do not believe in the Hereafter name the angels with female names."
+    },
+    {
+      "verseNumber": 28,
+      "verseString": "وَمَا لَهُمْ بِهِ مِنْ عِلْمٍ ۖ إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ ۖ وَإِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا",
+      "verseStringB": "They have no knowledge of it. They follow nothing but assumptions, and assumptions are no substitute for the truth."
+    },
+    {
+      "verseNumber": 29,
+      "verseString": "فَأَعْرِضْ عَنْ مَنْ تَوَلَّىٰ عَنْ ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا الْحَيَاةَ الدُّنْيَا",
+      "verseStringB": "So avoid whoever has turned away from Our remembrance, and desires nothing but the present life."
+    },
+    {
+      "verseNumber": 30,
+      "verseString": "ذَٰلِكَ مَبْلَغُهُمْ مِنَ الْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَنْ ضَلَّ عَنْ سَبِيلِهِ وَهُوَ أَعْلَمُ بِمَنِ اهْتَدَىٰ",
+      "verseStringB": "That is the extent of their knowledge. Your Lord knows best who has strayed from His path, and He knows best who has accepted guidance."
+    },
+    {
+      "verseNumber": 31,
+      "verseString": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ لِيَجْزِيَ الَّذِينَ أَسَاءُوا بِمَا عَمِلُوا وَيَجْزِيَ الَّذِينَ أَحْسَنُوا بِالْحُسْنَى",
+      "verseStringB": "To Allah belongs whatever is in Heaven and whatever is on Earth. He will penalize those who commit evil according to their deeds. And He will reward those who do good with the best."
+    },
+    {
+      "verseNumber": 32,
+      "verseString": "الَّذِينَ يَجْتَنِبُونَ كَبَائِرَ الْإِثْمِ وَالْفَوَاحِشَ إِلَّا اللَّمَمَ ۚ إِنَّ رَبَّكَ وَاسِعُ الْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنْشَأَكُمْ مِنَ الْأَرْضِ وَإِذْ أَنْتُمْ أَجِنَّةٌ فِي بُطُونِ أُمَّهَاتِكُمْ ۖ فَلَا تُزَكُّوا أَنْفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ اتَّقَىٰ",
+      "verseStringB": "Those who avoid major sins and indecencies—except what is slight—your Lord is of Vast Forgiveness. He knew you well, ever since He produced you from the earth, and ever since you were embryos in your mothers’ wombs. So do not acclaim your own virtue; He is fully aware of the righteous."
+    },
+    {
+      "verseNumber": 33,
+      "verseString": "أَفَرَأَيْتَ الَّذِي تَوَلَّىٰ",
+      "verseStringB": "Have you considered him who turned away?"
+    },
+    {
+      "verseNumber": 34,
+      "verseString": "وَأَعْطَىٰ قَلِيلًا وَأَكْدَىٰ",
+      "verseStringB": "And gave a little, and then withheld?"
+    },
+    {
+      "verseNumber": 35,
+      "verseString": "أَعِنْدَهُ عِلْمُ الْغَيْبِ فَهُوَ يَرَىٰ",
+      "verseStringB": "Does he possess knowledge of the unseen, and can therefore foresee?"
+    },
+    {
+      "verseNumber": 36,
+      "verseString": "أَمْ لَمْ يُنَبَّأْ بِمَا فِي صُحُفِ مُوسَىٰ",
+      "verseStringB": "Or was he not informed of what is in the Scrolls of Moses?"
+    },
+    {
+      "verseNumber": 37,
+      "verseString": "وَإِبْرَاهِيمَ الَّذِي وَفَّىٰ",
+      "verseStringB": "And of Abraham, who fulfilled?"
+    },
+    {
+      "verseNumber": 38,
+      "verseString": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ",
+      "verseStringB": "That no bearer of burdens bears the burdens of another."
+    },
+    {
+      "verseNumber": 39,
+      "verseString": "وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَىٰ",
+      "verseStringB": "And that the human being attains only what he strives for."
+    },
+    {
+      "verseNumber": 40,
+      "verseString": "وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ",
+      "verseStringB": "And that his efforts will be witnessed."
+    },
+    {
+      "verseNumber": 41,
+      "verseString": "ثُمَّ يُجْزَاهُ الْجَزَاءَ الْأَوْفَىٰ",
+      "verseStringB": "Then he will be rewarded for it with the fullest reward."
+    },
+    {
+      "verseNumber": 42,
+      "verseString": "وَأَنَّ إِلَىٰ رَبِّكَ الْمُنْتَهَىٰ",
+      "verseStringB": "And that to your Lord is the finality."
+    },
+    {
+      "verseNumber": 43,
+      "verseString": "وَأَنَّهُ هُوَ أَضْحَكَ وَأَبْكَىٰ",
+      "verseStringB": "And that it is He who causes laughter and weeping."
+    },
+    {
+      "verseNumber": 44,
+      "verseString": "وَأَنَّهُ هُوَ أَمَاتَ وَأَحْيَا",
+      "verseStringB": "And that it is He who causes death and gives life."
+    },
+    {
+      "verseNumber": 45,
+      "verseString": "وَأَنَّهُ خَلَقَ الزَّوْجَيْنِ الذَّكَرَ وَالْأُنْثَىٰ",
+      "verseStringB": "And that it is He who created the two types—the male and the female."
+    },
+    {
+      "verseNumber": 46,
+      "verseString": "مِنْ نُطْفَةٍ إِذَا تُمْنَىٰ",
+      "verseStringB": "From a drop when ejected."
+    },
+    {
+      "verseNumber": 47,
+      "verseString": "وَأَنَّ عَلَيْهِ النَّشْأَةَ الْأُخْرَىٰ",
+      "verseStringB": "And that upon Him lies the second genesis."
+    },
+    {
+      "verseNumber": 48,
+      "verseString": "وَأَنَّهُ هُوَ أَغْنَىٰ وَأَقْنَىٰ",
+      "verseStringB": "And that it is He who enriches and impoverishes."
+    },
+    {
+      "verseNumber": 49,
+      "verseString": "وَأَنَّهُ هُوَ رَبُّ الشِّعْرَىٰ",
+      "verseStringB": "And that it is He who is Lord of Sirius."
+    },
+    {
+      "verseNumber": 50,
+      "verseString": "وَأَنَّهُ أَهْلَكَ عَادًا الْأُولَىٰ",
+      "verseStringB": "And that it is He who destroyed Aad the Former."
+    },
+    {
+      "verseNumber": 51,
+      "verseString": "وَثَمُودَ فَمَا أَبْقَىٰ",
+      "verseStringB": "And Thamood, sparing none."
+    },
+    {
+      "verseNumber": 52,
+      "verseString": "وَقَوْمَ نُوحٍ مِنْ قَبْلُ ۖ إِنَّهُمْ كَانُوا هُمْ أَظْلَمَ وَأَطْغَىٰ",
+      "verseStringB": "And the people of Noah aforetime; for they were most unjust and most oppressive."
+    },
+    {
+      "verseNumber": 53,
+      "verseString": "وَالْمُؤْتَفِكَةَ أَهْوَىٰ",
+      "verseStringB": "And He razed the overthrown cities."
+    },
+    {
+      "verseNumber": 54,
+      "verseString": "فَغَشَّاهَا مَا غَشَّىٰ",
+      "verseStringB": "And He covered them with whatever covered them."
+    },
+    {
+      "verseNumber": 55,
+      "verseString": "فَبِأَيِّ آلَاءِ رَبِّكَ تَتَمَارَىٰ",
+      "verseStringB": "So which of your Lord's marvels will you deny?"
+    },
+    {
+      "verseNumber": 56,
+      "verseString": "هَٰذَا نَذِيرٌ مِنَ النُّذُرِ الْأُولَىٰ",
+      "verseStringB": "This is a warning, just like the previous warnings."
+    },
+    {
+      "verseNumber": 57,
+      "verseString": "أَزِفَتِ الْآزِفَةُ",
+      "verseStringB": "The imminent has drawn near."
+    },
+    {
+      "verseNumber": 58,
+      "verseString": "لَيْسَ لَهَا مِنْ دُونِ اللَّهِ كَاشِفَةٌ",
+      "verseStringB": "None besides Allah can unveil it."
+    },
+    {
+      "verseNumber": 59,
+      "verseString": "أَفَمِنْ هَٰذَا الْحَدِيثِ تَعْجَبُونَ",
+      "verseStringB": "Do you marvel at this discourse?"
+    },
+    {
+      "verseNumber": 60,
+      "verseString": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
+      "verseStringB": "And laugh, and do not weep?"
+    },
+    {
+      "verseNumber": 61,
+      "verseString": "وَأَنْتُمْ سَامِدُونَ",
+      "verseStringB": "Lost in your frivolity?"
+    },
+    {
+      "verseNumber": 62,
+      "verseString": "فَاسْجُدُوا لِلَّهِ وَاعْبُدُوا ۩",
+      "verseStringB": "So bow down to Allah—and worship!"
+    }
+  ],
+  "nameEnglish": "The Star",
+  "nameTrans": "an-Najm",
+  "nameArabic": "الـنجـم",
+  "chapterNumber": 53,
+  "nVerses": 62
+}

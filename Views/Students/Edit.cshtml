@@ -1,0 +1,81 @@
+﻿@model tahfezKhalid.Models.Student
+
+@{
+    ViewData["Title"] = "تعديل بيانات طالب";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>تعديل بيانات الطالب @Model.Name</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Surah" />
+            <input type="hidden" asp-for="Verse" />
+            <input type="hidden" asp-for="ParentId" />
+            <input type="hidden" asp-for="Parent" />
+            <input type="hidden" asp-for="Session" />
+            <input type="hidden" asp-for="Image" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdentificationNumber" class="control-label"></label>
+                <input readonly asp-for="IdentificationNumber" class="form-control" />
+                <span asp-validation-for="IdentificationNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateAdded" class="control-label"></label>
+                <input readonly asp-for="DateAdded" class="form-control" />
+                <span asp-validation-for="DateAdded" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input type="file" name="file" class="form-control" autocomplete="Image" aria-required="true" />
+            </div>
+            <div class="form-group">
+                <label asp-for="SessionId" class="control-label"></label>
+                <select  asp-for="SessionId" class="form-control" asp-items="ViewBag.Session"></select>
+                <span asp-validation-for="SessionId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ParentId" class="control-label"></label>
+                <input readonly asp-for="Parent.Name" class="form-control" />
+                <span asp-validation-for="ParentId" class="text-danger"></span>
+            </div>
+@*            <div class="form-group">
+                <label asp-for="Surah" class="control-label"></label>
+                <input disabled asp-for="Surah" class="form-control" />
+                <span asp-validation-for="Surah" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Verse" class="control-label"></label>
+                <input disabled asp-for="Verse" class="form-control" />
+                <span asp-validation-for="Verse" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="FinalExam" class="control-label"></label>
+                <input readonly asp-for="FinalExam" class="form-control" />
+                <span asp-validation-for="FinalExam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="حفظ" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-outline-secondary" asp-action="IndexStudent" asp-route-SessionId="@Model.SessionId">العودة إلى القائمة</a>
+</div>
+

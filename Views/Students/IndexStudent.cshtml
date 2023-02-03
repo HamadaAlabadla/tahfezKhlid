@@ -1,0 +1,80 @@
+﻿@model IEnumerable<tahfezKhalid.Models.Student>
+
+@{
+    ViewData["Title"] = "IndexStudent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>طلاب حلقة @ViewBag.sessionName </h1>
+
+<p>
+    <a class="btn btn-outline-success" asp-action="Create" asp-route-Id = "@ViewBag.sessionId">إضافة طالب جديد</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdentificationNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateAdded)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parent.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FinalExam)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdentificationNumber)
+                </td>
+                @{
+                    var date = DateOnly.FromDateTime( item.DateOfBirth).ToShortDateString();
+                    var dateAdded = DateOnly.FromDateTime(item.DateAdded).ToShortDateString();
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => dateAdded)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Parent.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Parent.PhoneNumber)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.FinalExam)
+                </td>
+                <td>
+                    <img class="rounded-3" style="width:100px;height:100px" src="~/images/Students/@Html.DisplayFor(modelItem => item.Image)">
+                </td>
+                <td>
+                    <a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.Id">تعديل</a> 
+                    <a class=" btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">إزالة</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

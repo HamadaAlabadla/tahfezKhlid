@@ -1,0 +1,69 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "وَالضُّحَىٰ",
+      "verseStringB": "By the morning brightness."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَاللَّيْلِ إِذَا سَجَىٰ",
+      "verseStringB": "And the night as it settles."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "verseStringB": "Your Lord did not abandon you, nor is He displeased."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَىٰ",
+      "verseStringB": "The Hereafter is better for you than the First."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
+      "verseStringB": "And your Lord will give you, and you will be satisfied."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَىٰ",
+      "verseStringB": "Did He not find you orphaned, and He sheltered you?"
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَوَجَدَكَ ضَالًّا فَهَدَىٰ",
+      "verseStringB": "And found you wandering, and He guided you?"
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ",
+      "verseStringB": "And found you in need, and He enriched you?"
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
+      "verseStringB": "Therefore, do not mistreat the orphan."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+      "verseStringB": "Nor snub the seeker."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "verseStringB": "But proclaim the blessings of your Lord."
+    }
+  ],
+  "nameEnglish": "Morning Brighness",
+  "nameTrans": "adh-Duha",
+  "nameArabic": "الضـحى",
+  "chapterNumber": 93,
+  "nVerses": 11
+}

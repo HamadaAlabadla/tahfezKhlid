@@ -1,0 +1,54 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا",
+      "verseStringB": "When the earth is shaken with its quake."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا",
+      "verseStringB": "And the earth brings out its loads."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَقَالَ الْإِنْسَانُ مَا لَهَا",
+      "verseStringB": "And the human being says, “What is the matter with it?”"
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+      "verseStringB": "On that Day, it will convey its chronicles."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "verseStringB": "Because your Lord will have inspired it."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ",
+      "verseStringB": "On that Day, the people will emerge in droves, to be shown their works."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
+      "verseStringB": "Whoever does an atom's weight of good will see it."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ",
+      "verseStringB": "And whoever does an atom's weight of evil will see it."
+    }
+  ],
+  "nameEnglish": "The Quake",
+  "nameTrans": "az-Zalzalah",
+  "nameArabic": "الـزلزلة",
+  "chapterNumber": 99,
+  "nVerses": 8
+}

@@ -1,0 +1,894 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُمْ مِنْ نَفْسٍ وَاحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَاءً ۚ وَاتَّقُوا اللَّهَ الَّذِي تَسَاءَلُونَ بِهِ وَالْأَرْحَامَ ۚ إِنَّ اللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
+      "verseStringB": "O, people! Be conscious of your Lord, who created you from a single soul, and created its mate from it, and propagated from them countless men and women. And revere Allah whom you ask about, and family relations. Allah is Watchful over you."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَآتُوا الْيَتَامَىٰ أَمْوَالَهُمْ ۖ وَلَا تَتَبَدَّلُوا الْخَبِيثَ بِالطَّيِّبِ ۖ وَلَا تَأْكُلُوا أَمْوَالَهُمْ إِلَىٰ أَمْوَالِكُمْ ۚ إِنَّهُ كَانَ حُوبًا كَبِيرًا",
+      "verseStringB": "And give orphans their properties, and do not substitute the bad for the good, nor consume their properties by combining them with yours, for that would be a grave sin."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا فِي الْيَتَامَىٰ فَانْكِحُوا مَا طَابَ لَكُمْ مِنَ النِّسَاءِ مَثْنَىٰ وَثُلَاثَ وَرُبَاعَ ۖ فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا فَوَاحِدَةً أَوْ مَا مَلَكَتْ أَيْمَانُكُمْ ۚ ذَٰلِكَ أَدْنَىٰ أَلَّا تَعُولُوا",
+      "verseStringB": "If you fear you cannot act fairly towards the orphans—then marry the women you like—two, or three, or four. But if you fear you will not be fair, then one, or what you already have. That makes it more likely that you avoid bias."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَآتُوا النِّسَاءَ صَدُقَاتِهِنَّ نِحْلَةً ۚ فَإِنْ طِبْنَ لَكُمْ عَنْ شَيْءٍ مِنْهُ نَفْسًا فَكُلُوهُ هَنِيئًا مَرِيئًا",
+      "verseStringB": "And give women their dowries graciously. But if they willingly forego some of it, then consume it with enjoyment and pleasure."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "وَلَا تُؤْتُوا السُّفَهَاءَ أَمْوَالَكُمُ الَّتِي جَعَلَ اللَّهُ لَكُمْ قِيَامًا وَارْزُقُوهُمْ فِيهَا وَاكْسُوهُمْ وَقُولُوا لَهُمْ قَوْلًا مَعْرُوفًا",
+      "verseStringB": "And do not give the immature your money which Allah has assigned to you for support. But provide for them from it, and clothe them, and speak to them with kind words."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ فَإِنْ آنَسْتُمْ مِنْهُمْ رُشْدًا فَادْفَعُوا إِلَيْهِمْ أَمْوَالَهُمْ ۖ وَلَا تَأْكُلُوهَا إِسْرَافًا وَبِدَارًا أَنْ يَكْبَرُوا ۚ وَمَنْ كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَنْ كَانَ فَقِيرًا فَلْيَأْكُلْ بِالْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَالَهُمْ فَأَشْهِدُوا عَلَيْهِمْ ۚ وَكَفَىٰ بِاللَّهِ حَسِيبًا",
+      "verseStringB": "And test the orphans until they reach the age of marriage. If you find them to be mature enough, hand over their wealth to them. And do not consume it wastefully or recklessly before they grow up. The rich should not receive compensation, but the poor may charge fairly. When you hand over their wealth to them, have it witnessed for them. Allah suffices as a Reckoner."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "لِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ ۚ نَصِيبًا مَفْرُوضًا",
+      "verseStringB": "Men receive a share of what the parents and relatives leave behind, and women receive a share of what the parents and relatives leave behind—be it little or much—a legal share."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَإِذَا حَضَرَ الْقِسْمَةَ أُولُو الْقُرْبَىٰ وَالْيَتَامَىٰ وَالْمَسَاكِينُ فَارْزُقُوهُمْ مِنْهُ وَقُولُوا لَهُمْ قَوْلًا مَعْرُوفًا",
+      "verseStringB": "If the distribution is attended by the relatives, the orphans, and the needy: offer them something from it, and speak to them kindly."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "وَلْيَخْشَ الَّذِينَ لَوْ تَرَكُوا مِنْ خَلْفِهِمْ ذُرِّيَّةً ضِعَافًا خَافُوا عَلَيْهِمْ فَلْيَتَّقُوا اللَّهَ وَلْيَقُولُوا قَوْلًا سَدِيدًا",
+      "verseStringB": "Those who are concerned about the fate of their weak children, in case they leave them behind, should fear Allah, and say appropriate words."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "إِنَّ الَّذِينَ يَأْكُلُونَ أَمْوَالَ الْيَتَامَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِي بُطُونِهِمْ نَارًا ۖ وَسَيَصْلَوْنَ سَعِيرًا",
+      "verseStringB": "Those who consume the orphans’ wealth illicitly consume fire into their bellies, and they will roast in a Blaze."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "يُوصِيكُمُ اللَّهُ فِي أَوْلَادِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ ۚ فَإِنْ كُنَّ نِسَاءً فَوْقَ اثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۖ وَإِنْ كَانَتْ وَاحِدَةً فَلَهَا النِّصْفُ ۚ وَلِأَبَوَيْهِ لِكُلِّ وَاحِدٍ مِنْهُمَا السُّدُسُ مِمَّا تَرَكَ إِنْ كَانَ لَهُ وَلَدٌ ۚ فَإِنْ لَمْ يَكُنْ لَهُ وَلَدٌ وَوَرِثَهُ أَبَوَاهُ فَلِأُمِّهِ الثُّلُثُ ۚ فَإِنْ كَانَ لَهُ إِخْوَةٌ فَلِأُمِّهِ السُّدُسُ ۚ مِنْ بَعْدِ وَصِيَّةٍ يُوصِي بِهَا أَوْ دَيْنٍ ۗ آبَاؤُكُمْ وَأَبْنَاؤُكُمْ لَا تَدْرُونَ أَيُّهُمْ أَقْرَبُ لَكُمْ نَفْعًا ۚ فَرِيضَةً مِنَ اللَّهِ ۗ إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+      "verseStringB": "Allah instructs you regarding your children: the male receives the equivalent share of two females. If they are daughters, more than two, they get two-thirds of what he leaves. If there is only one, she gets one-half. As for the parents, each gets one-sixth of what he leaves, if he had children. If he had no children, and his parents inherit from him, his mother gets one-third. If he has siblings, his mother gets one-sixth. After fulfilling any will or debt. Your parents and your children: you don’t know which of them are nearer to you in benefit. This is Allah's Law. Allah is Knowing and Judicious."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "وَلَكُمْ نِصْفُ مَا تَرَكَ أَزْوَاجُكُمْ إِنْ لَمْ يَكُنْ لَهُنَّ وَلَدٌ ۚ فَإِنْ كَانَ لَهُنَّ وَلَدٌ فَلَكُمُ الرُّبُعُ مِمَّا تَرَكْنَ ۚ مِنْ بَعْدِ وَصِيَّةٍ يُوصِينَ بِهَا أَوْ دَيْنٍ ۚ وَلَهُنَّ الرُّبُعُ مِمَّا تَرَكْتُمْ إِنْ لَمْ يَكُنْ لَكُمْ وَلَدٌ ۚ فَإِنْ كَانَ لَكُمْ وَلَدٌ فَلَهُنَّ الثُّمُنُ مِمَّا تَرَكْتُمْ ۚ مِنْ بَعْدِ وَصِيَّةٍ تُوصُونَ بِهَا أَوْ دَيْنٍ ۗ وَإِنْ كَانَ رَجُلٌ يُورَثُ كَلَالَةً أَوِ امْرَأَةٌ وَلَهُ أَخٌ أَوْ أُخْتٌ فَلِكُلِّ وَاحِدٍ مِنْهُمَا السُّدُسُ ۚ فَإِنْ كَانُوا أَكْثَرَ مِنْ ذَٰلِكَ فَهُمْ شُرَكَاءُ فِي الثُّلُثِ ۚ مِنْ بَعْدِ وَصِيَّةٍ يُوصَىٰ بِهَا أَوْ دَيْنٍ غَيْرَ مُضَارٍّ ۚ وَصِيَّةً مِنَ اللَّهِ ۗ وَاللَّهُ عَلِيمٌ حَلِيمٌ",
+      "verseStringB": "And you get one-half of what your wives leave: if they had no children. If they had children, you get one-fourth of what they leave. After fulfilling any will or debt. They get one-fourth of what you leave: if you have no children. If you have children, they get one-eighth of what you leave. After fulfilling any will or debt. If a man or woman leaves neither parents nor children, but has a brother or sister, each of them gets one-sixth. If there are more siblings, they share one-third. After fulfilling any will or debt, without prejudice. This is a will from Allah. Allah is Knowing and Clement."
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "تِلْكَ حُدُودُ اللَّهِ ۚ وَمَنْ يُطِعِ اللَّهَ وَرَسُولَهُ يُدْخِلْهُ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا ۚ وَذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
+      "verseStringB": "These are the limits set by Allah. Whoever obeys Allah and His Messenger, He will admit him into Gardens beneath which rivers flow, to stay there forever. That is the ultimate attainment."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "وَمَنْ يَعْصِ اللَّهَ وَرَسُولَهُ وَيَتَعَدَّ حُدُودَهُ يُدْخِلْهُ نَارًا خَالِدًا فِيهَا وَلَهُ عَذَابٌ مُهِينٌ",
+      "verseStringB": "But whoever disobeys Allah and His Messenger, and oversteps His limits, He will cast him into a Fire, to stay there forever, and he will suffer a humiliating punishment."
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "وَاللَّاتِي يَأْتِينَ الْفَاحِشَةَ مِنْ نِسَائِكُمْ فَاسْتَشْهِدُوا عَلَيْهِنَّ أَرْبَعَةً مِنْكُمْ ۖ فَإِنْ شَهِدُوا فَأَمْسِكُوهُنَّ فِي الْبُيُوتِ حَتَّىٰ يَتَوَفَّاهُنَّ الْمَوْتُ أَوْ يَجْعَلَ اللَّهُ لَهُنَّ سَبِيلًا",
+      "verseStringB": "Those of your women who commit lewdness—you must have four witnesses against them, from among yourselves. If they testify, confine them to the homes until death claims them, or Allah makes a way for them."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "وَاللَّذَانِ يَأْتِيَانِهَا مِنْكُمْ فَآذُوهُمَا ۖ فَإِنْ تَابَا وَأَصْلَحَا فَأَعْرِضُوا عَنْهُمَا ۗ إِنَّ اللَّهَ كَانَ تَوَّابًا رَحِيمًا",
+      "verseStringB": "And if two men among you commit it, punish them both. But if they repent and reform, then leave them alone. Allah is Redeemer, Mercy-Giver."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "إِنَّمَا التَّوْبَةُ عَلَى اللَّهِ لِلَّذِينَ يَعْمَلُونَ السُّوءَ بِجَهَالَةٍ ثُمَّ يَتُوبُونَ مِنْ قَرِيبٍ فَأُولَٰئِكَ يَتُوبُ اللَّهُ عَلَيْهِمْ ۗ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+      "verseStringB": "Allah accepts the repentance of those who commit evil in ignorance, then repent soon after. These—Allah will relent towards them. Allah is Knowing and Wise."
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "وَلَيْسَتِ التَّوْبَةُ لِلَّذِينَ يَعْمَلُونَ السَّيِّئَاتِ حَتَّىٰ إِذَا حَضَرَ أَحَدَهُمُ الْمَوْتُ قَالَ إِنِّي تُبْتُ الْآنَ وَلَا الَّذِينَ يَمُوتُونَ وَهُمْ كُفَّارٌ ۚ أُولَٰئِكَ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًا",
+      "verseStringB": "But repentance is not accepted from those who commit evils, until when death approaches one of them, he says, “Now I repent,” nor from those who die as unbelievers. These—We have prepared for them a painful punishment."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا يَحِلُّ لَكُمْ أَنْ تَرِثُوا النِّسَاءَ كَرْهًا ۖ وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا بِبَعْضِ مَا آتَيْتُمُوهُنَّ إِلَّا أَنْ يَأْتِينَ بِفَاحِشَةٍ مُبَيِّنَةٍ ۚ وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ ۚ فَإِنْ كَرِهْتُمُوهُنَّ فَعَسَىٰ أَنْ تَكْرَهُوا شَيْئًا وَيَجْعَلَ اللَّهُ فِيهِ خَيْرًا كَثِيرًا",
+      "verseStringB": "O you who believe! It is not lawful for you to inherit women against their will. And do not coerce them to take away some of what you had given them—unless they commit a proven adultery. And live with them in kindness. If you happen to dislike them, it may be that you dislike something in which Allah has placed much good."
+    },
+    {
+      "verseNumber": 20,
+      "verseString": "وَإِنْ أَرَدْتُمُ اسْتِبْدَالَ زَوْجٍ مَكَانَ زَوْجٍ وَآتَيْتُمْ إِحْدَاهُنَّ قِنْطَارًا فَلَا تَأْخُذُوا مِنْهُ شَيْئًا ۚ أَتَأْخُذُونَهُ بُهْتَانًا وَإِثْمًا مُبِينًا",
+      "verseStringB": "And if you desire to take one wife in place of another, even if you have given one of them a fortune, take nothing back from it. Would you take it back fraudulently and sinfully?"
+    },
+    {
+      "verseNumber": 21,
+      "verseString": "وَكَيْفَ تَأْخُذُونَهُ وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍ وَأَخَذْنَ مِنْكُمْ مِيثَاقًا غَلِيظًا",
+      "verseStringB": "And how could you take it back, when you have been intimate with one another, and they have received from you a firm commitment?"
+    },
+    {
+      "verseNumber": 22,
+      "verseString": "وَلَا تَنْكِحُوا مَا نَكَحَ آبَاؤُكُمْ مِنَ النِّسَاءِ إِلَّا مَا قَدْ سَلَفَ ۚ إِنَّهُ كَانَ فَاحِشَةً وَمَقْتًا وَسَاءَ سَبِيلًا",
+      "verseStringB": "And do not marry women that your fathers married, except what previously took place. It is improper, indecent, and a bad practice."
+    },
+    {
+      "verseNumber": 23,
+      "verseString": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَاتُكُمْ وَبَنَاتُكُمْ وَأَخَوَاتُكُمْ وَعَمَّاتُكُمْ وَخَالَاتُكُمْ وَبَنَاتُ الْأَخِ وَبَنَاتُ الْأُخْتِ وَأُمَّهَاتُكُمُ اللَّاتِي أَرْضَعْنَكُمْ وَأَخَوَاتُكُمْ مِنَ الرَّضَاعَةِ وَأُمَّهَاتُ نِسَائِكُمْ وَرَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُمْ مِنْ نِسَائِكُمُ اللَّاتِي دَخَلْتُمْ بِهِنَّ فَإِنْ لَمْ تَكُونُوا دَخَلْتُمْ بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَائِلُ أَبْنَائِكُمُ الَّذِينَ مِنْ أَصْلَابِكُمْ وَأَنْ تَجْمَعُوا بَيْنَ الْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
+      "verseStringB": "Forbidden for you are your mothers, your daughters, your sisters, your paternal aunts, your maternal aunts, your brother's daughters, your sister's daughters, your foster-mothers who nursed you, your sisters through nursing, your wives' mothers, and your stepdaughters in your guardianship—born of wives you have gone into—but if you have not gone into them, there is no blame on you. And the wives of your genetic sons, and marrying two sisters simultaneously—except what previously took place. Allah is Oft-Forgiving, Most Merciful."
+    },
+    {
+      "verseNumber": 24,
+      "verseString": "وَالْمُحْصَنَاتُ مِنَ النِّسَاءِ إِلَّا مَا مَلَكَتْ أَيْمَانُكُمْ ۖ كِتَابَ اللَّهِ عَلَيْكُمْ ۚ وَأُحِلَّ لَكُمْ مَا وَرَاءَ ذَٰلِكُمْ أَنْ تَبْتَغُوا بِأَمْوَالِكُمْ مُحْصِنِينَ غَيْرَ مُسَافِحِينَ ۚ فَمَا اسْتَمْتَعْتُمْ بِهِ مِنْهُنَّ فَآتُوهُنَّ أُجُورَهُنَّ فَرِيضَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا تَرَاضَيْتُمْ بِهِ مِنْ بَعْدِ الْفَرِيضَةِ ۚ إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+      "verseStringB": "And all married women, except those you rightfully possess. This is Allah’s decree, binding upon you. Permitted for you are those that lie outside these limits, provided you seek them in legal marriage, with gifts from your property, seeking marriage, not prostitution. If you wish to enjoy them, then give them their dowry—a legal obligation. You commit no error by agreeing to any change to the dowry. Allah is All-Knowing, All-Wise."
+    },
+    {
+      "verseNumber": 25,
+      "verseString": "وَمَنْ لَمْ يَسْتَطِعْ مِنْكُمْ طَوْلًا أَنْ يَنْكِحَ الْمُحْصَنَاتِ الْمُؤْمِنَاتِ فَمِنْ مَا مَلَكَتْ أَيْمَانُكُمْ مِنْ فَتَيَاتِكُمُ الْمُؤْمِنَاتِ ۚ وَاللَّهُ أَعْلَمُ بِإِيمَانِكُمْ ۚ بَعْضُكُمْ مِنْ بَعْضٍ ۚ فَانْكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَآتُوهُنَّ أُجُورَهُنَّ بِالْمَعْرُوفِ مُحْصَنَاتٍ غَيْرَ مُسَافِحَاتٍ وَلَا مُتَّخِذَاتِ أَخْدَانٍ ۚ فَإِذَا أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَاحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى الْمُحْصَنَاتِ مِنَ الْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِيَ الْعَنَتَ مِنْكُمْ ۚ وَأَنْ تَصْبِرُوا خَيْرٌ لَكُمْ ۗ وَاللَّهُ غَفُورٌ رَحِيمٌ",
+      "verseStringB": "If any of you lacks the means to marry free believing women, he may marry one of the believing maids under your control. Allah knows all about your faith. You are from one another. Marry them with the consent of their guardians, and give them their rightful compensations—to be protected—neither committing adultery nor taking secret lovers. When they are married, if they commit adultery, their punishment shall be half that of free women. That is for those among you who fear falling into decadence. But to practice self-control is better for you. Allah is Most Forgiving, Most Merciful."
+    },
+    {
+      "verseNumber": 26,
+      "verseString": "يُرِيدُ اللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ سُنَنَ الَّذِينَ مِنْ قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ ۗ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+      "verseStringB": "Allah intends to make things clear to you, and to guide you in the ways of those before you, and to redeem you. Allah is Most Knowing, Most Wise."
+    },
+    {
+      "verseNumber": 27,
+      "verseString": "وَاللَّهُ يُرِيدُ أَنْ يَتُوبَ عَلَيْكُمْ وَيُرِيدُ الَّذِينَ يَتَّبِعُونَ الشَّهَوَاتِ أَنْ تَمِيلُوا مَيْلًا عَظِيمًا",
+      "verseStringB": "Allah intends to relent towards you, but those who follow their lusts desire you to turn away utterly."
+    },
+    {
+      "verseNumber": 28,
+      "verseString": "يُرِيدُ اللَّهُ أَنْ يُخَفِّفَ عَنْكُمْ ۚ وَخُلِقَ الْإِنْسَانُ ضَعِيفًا",
+      "verseStringB": "Allah intends to lighten your burden—the human being was created weak."
+    },
+    {
+      "verseNumber": 29,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ إِلَّا أَنْ تَكُونَ تِجَارَةً عَنْ تَرَاضٍ مِنْكُمْ ۚ وَلَا تَقْتُلُوا أَنْفُسَكُمْ ۚ إِنَّ اللَّهَ كَانَ بِكُمْ رَحِيمًا",
+      "verseStringB": "O you who believe! Do not consume each other’s wealth illicitly, but trade by mutual consent. And do not kill yourselves, for Allah is Merciful towards you."
+    },
+    {
+      "verseNumber": 30,
+      "verseString": "وَمَنْ يَفْعَلْ ذَٰلِكَ عُدْوَانًا وَظُلْمًا فَسَوْفَ نُصْلِيهِ نَارًا ۚ وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
+      "verseStringB": "Whoever does that, out of hostility and wrongdoing, We will cast him into a Fire. And that is easy for Allah."
+    },
+    {
+      "verseNumber": 31,
+      "verseString": "إِنْ تَجْتَنِبُوا كَبَائِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنْكُمْ سَيِّئَاتِكُمْ وَنُدْخِلْكُمْ مُدْخَلًا كَرِيمًا",
+      "verseStringB": "If you avoid the worst of what you are forbidden, We will remit your sins, and admit you through a Gate of Honor."
+    },
+    {
+      "verseNumber": 32,
+      "verseString": "وَلَا تَتَمَنَّوْا مَا فَضَّلَ اللَّهُ بِهِ بَعْضَكُمْ عَلَىٰ بَعْضٍ ۚ لِلرِّجَالِ نَصِيبٌ مِمَّا اكْتَسَبُوا ۖ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا اكْتَسَبْنَ ۚ وَاسْأَلُوا اللَّهَ مِنْ فَضْلِهِ ۗ إِنَّ اللَّهَ كَانَ بِكُلِّ شَيْءٍ عَلِيمًا",
+      "verseStringB": "And do not desire what Allah has favored some of you above others. For men is a share of what they have earned, and for women is a share of what they have earned. And ask Allah of His favor. Allah has knowledge of all things."
+    },
+    {
+      "verseNumber": 33,
+      "verseString": "وَلِكُلٍّ جَعَلْنَا مَوَالِيَ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ ۚ وَالَّذِينَ عَقَدَتْ أَيْمَانُكُمْ فَآتُوهُمْ نَصِيبَهُمْ ۚ إِنَّ اللَّهَ كَانَ عَلَىٰ كُلِّ شَيْءٍ شَهِيدًا",
+      "verseStringB": "To each, We have appointed beneficiaries for what parents and relatives leave behind. Those to whom you have given your oath, give them their share. Allah is Witness over all things."
+    },
+    {
+      "verseNumber": 34,
+      "verseString": "الرِّجَالُ قَوَّامُونَ عَلَى النِّسَاءِ بِمَا فَضَّلَ اللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَا أَنْفَقُوا مِنْ أَمْوَالِهِمْ ۚ فَالصَّالِحَاتُ قَانِتَاتٌ حَافِظَاتٌ لِلْغَيْبِ بِمَا حَفِظَ اللَّهُ ۚ وَاللَّاتِي تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَاهْجُرُوهُنَّ فِي الْمَضَاجِعِ وَاضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ اللَّهَ كَانَ عَلِيًّا كَبِيرًا",
+      "verseStringB": "Men are the caretakers of women, as Allah has given some of them an advantage over others, and because they spend from their wealth. The good women are loyal; guarding what Allah would have them guard. As for those from whom you fear treason: advise them, then abandon them in their beds, then discipline them. But if they obey you, seek no way against them. Allah is Sublime, Great."
+    },
+    {
+      "verseNumber": 35,
+      "verseString": "وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَابْعَثُوا حَكَمًا مِنْ أَهْلِهِ وَحَكَمًا مِنْ أَهْلِهَا إِنْ يُرِيدَا إِصْلَاحًا يُوَفِّقِ اللَّهُ بَيْنَهُمَا ۗ إِنَّ اللَّهَ كَانَ عَلِيمًا خَبِيرًا",
+      "verseStringB": "If you fear a breach between the two, appoint an arbitrator from his family and an arbitrator from her family. If they desire reconciliation, Allah will restore harmony between them. Allah is Knowledgeable, Expert."
+    },
+    {
+      "verseNumber": 36,
+      "verseString": "وَاعْبُدُوا اللَّهَ وَلَا تُشْرِكُوا بِهِ شَيْئًا ۖ وَبِالْوَالِدَيْنِ إِحْسَانًا وَبِذِي الْقُرْبَىٰ وَالْيَتَامَىٰ وَالْمَسَاكِينِ وَالْجَارِ ذِي الْقُرْبَىٰ وَالْجَارِ الْجُنُبِ وَالصَّاحِبِ بِالْجَنْبِ وَابْنِ السَّبِيلِ وَمَا مَلَكَتْ أَيْمَانُكُمْ ۗ إِنَّ اللَّهَ لَا يُحِبُّ مَنْ كَانَ مُخْتَالًا فَخُورًا",
+      "verseStringB": "And worship Allah, and ascribe no partners to Him, and be good to the parents, and the relatives, and the orphans, and the poor, and the close neighbor, and the distant neighbor, and close friends, and the traveler, and your servants. Allah does not love the arrogant showoff."
+    },
+    {
+      "verseNumber": 37,
+      "verseString": "الَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ النَّاسَ بِالْبُخْلِ وَيَكْتُمُونَ مَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ ۗ وَأَعْتَدْنَا لِلْكَافِرِينَ عَذَابًا مُهِينًا",
+      "verseStringB": "Those who are stingy, and exhort people to stinginess, and conceal what Allah has given them from His grace. We have prepared for the unbelievers a humiliating punishment."
+    },
+    {
+      "verseNumber": 38,
+      "verseString": "وَالَّذِينَ يُنْفِقُونَ أَمْوَالَهُمْ رِئَاءَ النَّاسِ وَلَا يُؤْمِنُونَ بِاللَّهِ وَلَا بِالْيَوْمِ الْآخِرِ ۗ وَمَنْ يَكُنِ الشَّيْطَانُ لَهُ قَرِينًا فَسَاءَ قَرِينًا",
+      "verseStringB": "And those who spend their money to be seen by people, and believe neither in Allah nor in the Last Day. Whoever has Satan as a companion—what a bad companion."
+    },
+    {
+      "verseNumber": 39,
+      "verseString": "وَمَاذَا عَلَيْهِمْ لَوْ آمَنُوا بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَأَنْفَقُوا مِمَّا رَزَقَهُمُ اللَّهُ ۚ وَكَانَ اللَّهُ بِهِمْ عَلِيمًا",
+      "verseStringB": "What would they have lost, had they believed in Allah and the Last Day, and donated from what Allah has given them? Allah knows them well."
+    },
+    {
+      "verseNumber": 40,
+      "verseString": "إِنَّ اللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ ۖ وَإِنْ تَكُ حَسَنَةً يُضَاعِفْهَا وَيُؤْتِ مِنْ لَدُنْهُ أَجْرًا عَظِيمًا",
+      "verseStringB": "Allah never commits an atom's weight of injustice. And if there is a good deed, He multiplies it. And He gives, from His Presence, a grand compensation."
+    },
+    {
+      "verseNumber": 41,
+      "verseString": "فَكَيْفَ إِذَا جِئْنَا مِنْ كُلِّ أُمَّةٍ بِشَهِيدٍ وَجِئْنَا بِكَ عَلَىٰ هَٰؤُلَاءِ شَهِيدًا",
+      "verseStringB": "Then how will it be, when We bring a witness from every community, and We bring you as a witness against these?"
+    },
+    {
+      "verseNumber": 42,
+      "verseString": "يَوْمَئِذٍ يَوَدُّ الَّذِينَ كَفَرُوا وَعَصَوُا الرَّسُولَ لَوْ تُسَوَّىٰ بِهِمُ الْأَرْضُ وَلَا يَكْتُمُونَ اللَّهَ حَدِيثًا",
+      "verseStringB": "On that Day, those who disbelieved and disobeyed the Messenger will wish that the earth was leveled with them. They will not be able to hide a single fact from Allah."
+    },
+    {
+      "verseNumber": 43,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَقْرَبُوا الصَّلَاةَ وَأَنْتُمْ سُكَارَىٰ حَتَّىٰ تَعْلَمُوا مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِي سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا ۚ وَإِنْ كُنْتُمْ مَرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِنْكُمْ مِنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ اللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "verseStringB": "O you who believe! Do not approach the prayer while intoxicated, until you know what you say; nor after sexual orgasm—unless you are traveling—until you have bathed. If you are sick or traveling, or one of you has relieved himself, or you had intercourse with women, and cannot find any water, then purify yourselves with clean sand—wiping your faces and hands. Allah is Pardoning, Forgiving."
+    },
+    {
+      "verseNumber": 44,
+      "verseString": "أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِنَ الْكِتَابِ يَشْتَرُونَ الضَّلَالَةَ وَيُرِيدُونَ أَنْ تَضِلُّوا السَّبِيلَ",
+      "verseStringB": "Have you not considered those who were given a portion of the Scripture? They buy misguidance, and they wish you would lose the way."
+    },
+    {
+      "verseNumber": 45,
+      "verseString": "وَاللَّهُ أَعْلَمُ بِأَعْدَائِكُمْ ۚ وَكَفَىٰ بِاللَّهِ وَلِيًّا وَكَفَىٰ بِاللَّهِ نَصِيرًا",
+      "verseStringB": "But Allah best knows your enemies. Allah is a sufficient Protector, and Allah is a sufficient Supporter."
+    },
+    {
+      "verseNumber": 46,
+      "verseString": "مِنَ الَّذِينَ هَادُوا يُحَرِّفُونَ الْكَلِمَ عَنْ مَوَاضِعِهِ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَاسْمَعْ غَيْرَ مُسْمَعٍ وَرَاعِنَا لَيًّا بِأَلْسِنَتِهِمْ وَطَعْنًا فِي الدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا سَمِعْنَا وَأَطَعْنَا وَاسْمَعْ وَانْظُرْنَا لَكَانَ خَيْرًا لَهُمْ وَأَقْوَمَ وَلَٰكِنْ لَعَنَهُمُ اللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "verseStringB": "Among the Jews are some who take words out of context, and say, “We hear and we disobey,” and, “Hear without listening,” and, “Observe us.” Twisting with their tongues, and slandering the religion. Had they said, “We hear and we obey”, and “Listen”, and “Give us your attention,” it would have been better for them, and more appropriate. But Allah has cursed them for their disbelief. They do not believe, except a few."
+    },
+    {
+      "verseNumber": 47,
+      "verseString": "يَا أَيُّهَا الَّذِينَ أُوتُوا الْكِتَابَ آمِنُوا بِمَا نَزَّلْنَا مُصَدِّقًا لِمَا مَعَكُمْ مِنْ قَبْلِ أَنْ نَطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَىٰ أَدْبَارِهَا أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّا أَصْحَابَ السَّبْتِ ۚ وَكَانَ أَمْرُ اللَّهِ مَفْعُولًا",
+      "verseStringB": "O you who were given the Scripture! Believe in what We revealed, confirming what you have, before We obliterate faces and turn them inside out, or curse them as We cursed the Sabbath-breakers. The command of Allah is always done."
+    },
+    {
+      "verseNumber": 48,
+      "verseString": "إِنَّ اللَّهَ لَا يَغْفِرُ أَنْ يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَنْ يَشَاءُ ۚ وَمَنْ يُشْرِكْ بِاللَّهِ فَقَدِ افْتَرَىٰ إِثْمًا عَظِيمًا",
+      "verseStringB": "Allah does not forgive associating with Him, but He forgives anything less than that to whomever He wills. Whoever associates others with Allah has devised a monstrous sin."
+    },
+    {
+      "verseNumber": 49,
+      "verseString": "أَلَمْ تَرَ إِلَى الَّذِينَ يُزَكُّونَ أَنْفُسَهُمْ ۚ بَلِ اللَّهُ يُزَكِّي مَنْ يَشَاءُ وَلَا يُظْلَمُونَ فَتِيلًا",
+      "verseStringB": "Have you considered those who claim purity for themselves? Rather, Allah purifies whom He wills, and they will not be wronged a bit."
+    },
+    {
+      "verseNumber": 50,
+      "verseString": "انْظُرْ كَيْفَ يَفْتَرُونَ عَلَى اللَّهِ الْكَذِبَ ۖ وَكَفَىٰ بِهِ إِثْمًا مُبِينًا",
+      "verseStringB": "See how they fabricate lies about Allah. This in itself is a blatant sin."
+    },
+    {
+      "verseNumber": 51,
+      "verseString": "أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِنَ الْكِتَابِ يُؤْمِنُونَ بِالْجِبْتِ وَالطَّاغُوتِ وَيَقُولُونَ لِلَّذِينَ كَفَرُوا هَٰؤُلَاءِ أَهْدَىٰ مِنَ الَّذِينَ آمَنُوا سَبِيلًا",
+      "verseStringB": "Have you considered those who were given a portion of the Scripture? They believe in superstition and evil powers, and they say of those who disbelieve: “These are better guided on the way than the believers.”"
+    },
+    {
+      "verseNumber": 52,
+      "verseString": "أُولَٰئِكَ الَّذِينَ لَعَنَهُمُ اللَّهُ ۖ وَمَنْ يَلْعَنِ اللَّهُ فَلَنْ تَجِدَ لَهُ نَصِيرًا",
+      "verseStringB": "Those are they whom Allah has cursed. Whomever Allah curses, you will find no helper for him."
+    },
+    {
+      "verseNumber": 53,
+      "verseString": "أَمْ لَهُمْ نَصِيبٌ مِنَ الْمُلْكِ فَإِذًا لَا يُؤْتُونَ النَّاسَ نَقِيرًا",
+      "verseStringB": "Or do they have a share in sovereignty? If that was the case, they would not give people a speck."
+    },
+    {
+      "verseNumber": 54,
+      "verseString": "أَمْ يَحْسُدُونَ النَّاسَ عَلَىٰ مَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ ۖ فَقَدْ آتَيْنَا آلَ إِبْرَاهِيمَ الْكِتَابَ وَالْحِكْمَةَ وَآتَيْنَاهُمْ مُلْكًا عَظِيمًا",
+      "verseStringB": "Or do they envy people for what Allah has given them from His grace? We have given the House of Abraham the Book and Wisdom, and We have given them a great kingdom."
+    },
+    {
+      "verseNumber": 55,
+      "verseString": "فَمِنْهُمْ مَنْ آمَنَ بِهِ وَمِنْهُمْ مَنْ صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا",
+      "verseStringB": "Among them are those who believed in it, and among them are those who held back from it. Hell is a sufficient Inferno."
+    },
+    {
+      "verseNumber": 56,
+      "verseString": "إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِنَا سَوْفَ نُصْلِيهِمْ نَارًا كُلَّمَا نَضِجَتْ جُلُودُهُمْ بَدَّلْنَاهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا الْعَذَابَ ۗ إِنَّ اللَّهَ كَانَ عَزِيزًا حَكِيمًا",
+      "verseStringB": "Those who reject Our communications—We will scorch them in a Fire. Every time their skins are cooked, We will replace them with other skins, so that they taste the suffering. Allah is Most Powerful, Most Wise."
+    },
+    {
+      "verseNumber": 57,
+      "verseString": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ لَهُمْ فِيهَا أَزْوَاجٌ مُطَهَّرَةٌ ۖ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا",
+      "verseStringB": "As for those who believe and do righteous deeds, We will admit them into Gardens beneath which rivers flow, remaining there forever. They will have purified spouses, and We will admit them into abundant shade."
+    },
+    {
+      "verseNumber": 58,
+      "verseString": "إِنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُمْ بَيْنَ النَّاسِ أَنْ تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُمْ بِهِ ۗ إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
+      "verseStringB": "Allah instructs you to return trusts to their owners, and when you judge between people, to judge with justice. Excellent are Allah’s instructions to you. Allah is Hearing, Seeing."
+    },
+    {
+      "verseNumber": 59,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ ۖ فَإِنْ تَنَازَعْتُمْ فِي شَيْءٍ فَرُدُّوهُ إِلَى اللَّهِ وَالرَّسُولِ إِنْ كُنْتُمْ تُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
+      "verseStringB": "O you who believe! Obey Allah, and obey the Messenger, and those in authority among you. If you dispute about anything, refer it to Allah and the Messenger, if you believe in Allah and the Last Day. That is best, and a most excellent resolution."
+    },
+    {
+      "verseNumber": 60,
+      "verseString": "أَلَمْ تَرَ إِلَى الَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ يُرِيدُونَ أَنْ يَتَحَاكَمُوا إِلَى الطَّاغُوتِ وَقَدْ أُمِرُوا أَنْ يَكْفُرُوا بِهِ وَيُرِيدُ الشَّيْطَانُ أَنْ يُضِلَّهُمْ ضَلَالًا بَعِيدًا",
+      "verseStringB": "Have you not observed those who claim that they believe in what was revealed to you, and in what was revealed before you, yet they seek tyrannical sources of legislation, despite being commanded to reject them? Satan wants to mislead them far away."
+    },
+    {
+      "verseNumber": 61,
+      "verseString": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا إِلَىٰ مَا أَنْزَلَ اللَّهُ وَإِلَى الرَّسُولِ رَأَيْتَ الْمُنَافِقِينَ يَصُدُّونَ عَنْكَ صُدُودًا",
+      "verseStringB": "And when it is said to them, “Come to what Allah has revealed, and to the Messenger,” you see the hypocrites shunning you completely."
+    },
+    {
+      "verseNumber": 62,
+      "verseString": "فَكَيْفَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ بِمَا قَدَّمَتْ أَيْدِيهِمْ ثُمَّ جَاءُوكَ يَحْلِفُونَ بِاللَّهِ إِنْ أَرَدْنَا إِلَّا إِحْسَانًا وَتَوْفِيقًا",
+      "verseStringB": "How about when a disaster strikes them because of what their hands have put forward, then they come to you, swearing by Allah: “We intended nothing but goodwill and reconciliation”?"
+    },
+    {
+      "verseNumber": 63,
+      "verseString": "أُولَٰئِكَ الَّذِينَ يَعْلَمُ اللَّهُ مَا فِي قُلُوبِهِمْ فَأَعْرِضْ عَنْهُمْ وَعِظْهُمْ وَقُلْ لَهُمْ فِي أَنْفُسِهِمْ قَوْلًا بَلِيغًا",
+      "verseStringB": "They are those whom Allah knows what is in their hearts. So turn away from them, and counsel them, and say to them concerning themselves penetrating words."
+    },
+    {
+      "verseNumber": 64,
+      "verseString": "وَمَا أَرْسَلْنَا مِنْ رَسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ اللَّهِ ۚ وَلَوْ أَنَّهُمْ إِذْ ظَلَمُوا أَنْفُسَهُمْ جَاءُوكَ فَاسْتَغْفَرُوا اللَّهَ وَاسْتَغْفَرَ لَهُمُ الرَّسُولُ لَوَجَدُوا اللَّهَ تَوَّابًا رَحِيمًا",
+      "verseStringB": "We did not send any messenger except to be obeyed by Allah’s leave. Had they, when they wronged themselves, come to you, and prayed for Allah's forgiveness, and the Messenger had prayed for their forgiveness, they would have found Allah Relenting and Merciful."
+    },
+    {
+      "verseNumber": 65,
+      "verseString": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنْفُسِهِمْ حَرَجًا مِمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
+      "verseStringB": "But no, by your Lord, they will not believe, until they call you to arbitrate in their disputes, and then find within themselves no resentment regarding your decisions, and submit themselves completely."
+    },
+    {
+      "verseNumber": 66,
+      "verseString": "وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ اقْتُلُوا أَنْفُسَكُمْ أَوِ اخْرُجُوا مِنْ دِيَارِكُمْ مَا فَعَلُوهُ إِلَّا قَلِيلٌ مِنْهُمْ ۖ وَلَوْ أَنَّهُمْ فَعَلُوا مَا يُوعَظُونَ بِهِ لَكَانَ خَيْرًا لَهُمْ وَأَشَدَّ تَثْبِيتًا",
+      "verseStringB": "Had We decreed for them, “Lay down your lives,” or, “Leave your homes,” they would not have done it, except for a few of them. Had they done what they were instructed to do, it would have been better for them, and a firmer confirmation."
+    },
+    {
+      "verseNumber": 67,
+      "verseString": "وَإِذًا لَآتَيْنَاهُمْ مِنْ لَدُنَّا أَجْرًا عَظِيمًا",
+      "verseStringB": "And We would have given them, from Our presence, a rich compensation."
+    },
+    {
+      "verseNumber": 68,
+      "verseString": "وَلَهَدَيْنَاهُمْ صِرَاطًا مُسْتَقِيمًا",
+      "verseStringB": "And We would have guided them on a straight path."
+    },
+    {
+      "verseNumber": 69,
+      "verseString": "وَمَنْ يُطِعِ اللَّهَ وَالرَّسُولَ فَأُولَٰئِكَ مَعَ الَّذِينَ أَنْعَمَ اللَّهُ عَلَيْهِمْ مِنَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ وَالصَّالِحِينَ ۚ وَحَسُنَ أُولَٰئِكَ رَفِيقًا",
+      "verseStringB": "Whoever obeys Allah and the Messenger—these are with those whom Allah has favored—among the prophets, and the sincere, and the martyrs, and the upright. Excellent are these as companions."
+    },
+    {
+      "verseNumber": 70,
+      "verseString": "ذَٰلِكَ الْفَضْلُ مِنَ اللَّهِ ۚ وَكَفَىٰ بِاللَّهِ عَلِيمًا",
+      "verseStringB": "This is the grace from Allah. Allah suffices as Knower."
+    },
+    {
+      "verseNumber": 71,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا خُذُوا حِذْرَكُمْ فَانْفِرُوا ثُبَاتٍ أَوِ انْفِرُوا جَمِيعًا",
+      "verseStringB": "O you who believe! Take your precautions, and mobilize in groups, or mobilize all together."
+    },
+    {
+      "verseNumber": 72,
+      "verseString": "وَإِنَّ مِنْكُمْ لَمَنْ لَيُبَطِّئَنَّ فَإِنْ أَصَابَتْكُمْ مُصِيبَةٌ قَالَ قَدْ أَنْعَمَ اللَّهُ عَلَيَّ إِذْ لَمْ أَكُنْ مَعَهُمْ شَهِيدًا",
+      "verseStringB": "Among you is he who lags behind. Then, when a calamity befalls you, he says, “Allah has favored me, that I was not martyred with them.”"
+    },
+    {
+      "verseNumber": 73,
+      "verseString": "وَلَئِنْ أَصَابَكُمْ فَضْلٌ مِنَ اللَّهِ لَيَقُولَنَّ كَأَنْ لَمْ تَكُنْ بَيْنَكُمْ وَبَيْنَهُ مَوَدَّةٌ يَا لَيْتَنِي كُنْتُ مَعَهُمْ فَأَفُوزَ فَوْزًا عَظِيمًا",
+      "verseStringB": "But when some bounty from Allah comes to you, he says—as if no affection existed between you and him—“If only I had been with them, I would have achieved a glorious victory.”"
+    },
+    {
+      "verseNumber": 74,
+      "verseString": "فَلْيُقَاتِلْ فِي سَبِيلِ اللَّهِ الَّذِينَ يَشْرُونَ الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ ۚ وَمَنْ يُقَاتِلْ فِي سَبِيلِ اللَّهِ فَيُقْتَلْ أَوْ يَغْلِبْ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا",
+      "verseStringB": "Let those who sell this life for the Hereafter fight in Allah’s way. Whoever fights in Allah’s way, and then is killed, or achieves victory, We will grant him an excellent compensation."
+    },
+    {
+      "verseNumber": 75,
+      "verseString": "وَمَا لَكُمْ لَا تُقَاتِلُونَ فِي سَبِيلِ اللَّهِ وَالْمُسْتَضْعَفِينَ مِنَ الرِّجَالِ وَالنِّسَاءِ وَالْوِلْدَانِ الَّذِينَ يَقُولُونَ رَبَّنَا أَخْرِجْنَا مِنْ هَٰذِهِ الْقَرْيَةِ الظَّالِمِ أَهْلُهَا وَاجْعَلْ لَنَا مِنْ لَدُنْكَ وَلِيًّا وَاجْعَلْ لَنَا مِنْ لَدُنْكَ نَصِيرًا",
+      "verseStringB": "And why would you not fight in the way of Allah, and helpless men, and women, and children cry out, “Our Lord, save us from this town whose people are oppressive, and appoint for us from Your Presence a Protector, and appoint for us from Your Presence a Victor.”"
+    },
+    {
+      "verseNumber": 76,
+      "verseString": "الَّذِينَ آمَنُوا يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ وَالَّذِينَ كَفَرُوا يُقَاتِلُونَ فِي سَبِيلِ الطَّاغُوتِ فَقَاتِلُوا أَوْلِيَاءَ الشَّيْطَانِ ۖ إِنَّ كَيْدَ الشَّيْطَانِ كَانَ ضَعِيفًا",
+      "verseStringB": "Those who believe fight in Allah’s way, while those who disbelieve fight in the way of the rebellious. So fight Satan’s allies. Satan’s tactics are always weak."
+    },
+    {
+      "verseNumber": 77,
+      "verseString": "أَلَمْ تَرَ إِلَى الَّذِينَ قِيلَ لَهُمْ كُفُّوا أَيْدِيَكُمْ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ فَلَمَّا كُتِبَ عَلَيْهِمُ الْقِتَالُ إِذَا فَرِيقٌ مِنْهُمْ يَخْشَوْنَ النَّاسَ كَخَشْيَةِ اللَّهِ أَوْ أَشَدَّ خَشْيَةً ۚ وَقَالُوا رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا الْقِتَالَ لَوْلَا أَخَّرْتَنَا إِلَىٰ أَجَلٍ قَرِيبٍ ۗ قُلْ مَتَاعُ الدُّنْيَا قَلِيلٌ وَالْآخِرَةُ خَيْرٌ لِمَنِ اتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا",
+      "verseStringB": "Have you not considered those who were told, “Restrain your hands, and perform the prayer, and give charity regularly?” But when fighting was ordained for them, a faction of them feared people as Allah ought to be feared, or even more. And they said, “Our Lord, why did You ordain fighting for us? If only You would postpone it for us for a short while.” Say, “The enjoyment of this life is brief, but the Hereafter is better for the righteous, and you will not be wronged one bit.”"
+    },
+    {
+      "verseNumber": 78,
+      "verseString": "أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ وَلَوْ كُنْتُمْ فِي بُرُوجٍ مُشَيَّدَةٍ ۗ وَإِنْ تُصِبْهُمْ حَسَنَةٌ يَقُولُوا هَٰذِهِ مِنْ عِنْدِ اللَّهِ ۖ وَإِنْ تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا هَٰذِهِ مِنْ عِنْدِكَ ۚ قُلْ كُلٌّ مِنْ عِنْدِ اللَّهِ ۖ فَمَالِ هَٰؤُلَاءِ الْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
+      "verseStringB": "Wherever you may be, death will catch up with you, even if you were in fortified towers. When something good comes their way, they say, “This is from Allah.” But when something bad befalls them, they say, “This is from you.” Say, “All is from Allah.” What is the matter with these people, that they hardly understand a thing?"
+    },
+    {
+      "verseNumber": 79,
+      "verseString": "مَا أَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ اللَّهِ ۖ وَمَا أَصَابَكَ مِنْ سَيِّئَةٍ فَمِنْ نَفْسِكَ ۚ وَأَرْسَلْنَاكَ لِلنَّاسِ رَسُولًا ۚ وَكَفَىٰ بِاللَّهِ شَهِيدًا",
+      "verseStringB": "Whatever good befalls you, is from Allah. And whatever bad befalls you, is from yourself. We sent you to humanity as a messenger, and Allah is enough as Witness."
+    },
+    {
+      "verseNumber": 80,
+      "verseString": "مَنْ يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ ۖ وَمَنْ تَوَلَّىٰ فَمَا أَرْسَلْنَاكَ عَلَيْهِمْ حَفِيظًا",
+      "verseStringB": "Whoever obeys the Messenger is obeying Allah. And whoever turns away—We did not send you as their keeper."
+    },
+    {
+      "verseNumber": 81,
+      "verseString": "وَيَقُولُونَ طَاعَةٌ فَإِذَا بَرَزُوا مِنْ عِنْدِكَ بَيَّتَ طَائِفَةٌ مِنْهُمْ غَيْرَ الَّذِي تَقُولُ ۖ وَاللَّهُ يَكْتُبُ مَا يُبَيِّتُونَ ۖ فَأَعْرِضْ عَنْهُمْ وَتَوَكَّلْ عَلَى اللَّهِ ۚ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
+      "verseStringB": "They profess obedience. But when they leave your presence, some of them conspire something different from what you said. But Allah records what they conspire. So avoid them, and put your trust in Allah. Allah is enough as Trustee."
+    },
+    {
+      "verseNumber": 82,
+      "verseString": "أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ ۚ وَلَوْ كَانَ مِنْ عِنْدِ غَيْرِ اللَّهِ لَوَجَدُوا فِيهِ اخْتِلَافًا كَثِيرًا",
+      "verseStringB": "Do they not ponder the Quran? Had it been from anyone other than Allah, they would have found in it many inconsistencies."
+    },
+    {
+      "verseNumber": 83,
+      "verseString": "وَإِذَا جَاءَهُمْ أَمْرٌ مِنَ الْأَمْنِ أَوِ الْخَوْفِ أَذَاعُوا بِهِ ۖ وَلَوْ رَدُّوهُ إِلَى الرَّسُولِ وَإِلَىٰ أُولِي الْأَمْرِ مِنْهُمْ لَعَلِمَهُ الَّذِينَ يَسْتَنْبِطُونَهُ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ لَاتَّبَعْتُمُ الشَّيْطَانَ إِلَّا قَلِيلًا",
+      "verseStringB": "And when some news of security or alarm comes their way, they broadcast it. Had they referred it to the Messenger, and to those in authority among them, those who can draw conclusions from it would have understood it. Were it not for Allah’s blessing and mercy upon you: you would have followed Satan, except for a few."
+    },
+    {
+      "verseNumber": 84,
+      "verseString": "فَقَاتِلْ فِي سَبِيلِ اللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ ۚ وَحَرِّضِ الْمُؤْمِنِينَ ۖ عَسَى اللَّهُ أَنْ يَكُفَّ بَأْسَ الَّذِينَ كَفَرُوا ۚ وَاللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ تَنْكِيلًا",
+      "verseStringB": "So fight in the way of Allah; you are responsible only for yourself. And rouse the believers. Perhaps Allah will restrain the strength of those who disbelieve. Allah is Superior in Might, and More Punishing."
+    },
+    {
+      "verseNumber": 85,
+      "verseString": "مَنْ يَشْفَعْ شَفَاعَةً حَسَنَةً يَكُنْ لَهُ نَصِيبٌ مِنْهَا ۖ وَمَنْ يَشْفَعْ شَفَاعَةً سَيِّئَةً يَكُنْ لَهُ كِفْلٌ مِنْهَا ۗ وَكَانَ اللَّهُ عَلَىٰ كُلِّ شَيْءٍ مُقِيتًا",
+      "verseStringB": "Whoever intercedes for a good cause, shares in it. And whoever intercedes for an evil cause, shares in its burdens. Allah is Controller over all things."
+    },
+    {
+      "verseNumber": 86,
+      "verseString": "وَإِذَا حُيِّيتُمْ بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا ۗ إِنَّ اللَّهَ كَانَ عَلَىٰ كُلِّ شَيْءٍ حَسِيبًا",
+      "verseStringB": "When you are greeted with a greeting, respond with a better greeting, or return it. Allah keeps count of all things."
+    },
+    {
+      "verseNumber": 87,
+      "verseString": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ الْقِيَامَةِ لَا رَيْبَ فِيهِ ۗ وَمَنْ أَصْدَقُ مِنَ اللَّهِ حَدِيثًا",
+      "verseStringB": "Allah—there is no god except He. He will gather you on the Day of Resurrection—about which there is no doubt. And who is truer in speech than Allah?"
+    },
+    {
+      "verseNumber": 88,
+      "verseString": "فَمَا لَكُمْ فِي الْمُنَافِقِينَ فِئَتَيْنِ وَاللَّهُ أَرْكَسَهُمْ بِمَا كَسَبُوا ۚ أَتُرِيدُونَ أَنْ تَهْدُوا مَنْ أَضَلَّ اللَّهُ ۖ وَمَنْ يُضْلِلِ اللَّهُ فَلَنْ تَجِدَ لَهُ سَبِيلًا",
+      "verseStringB": "What is the matter with you, divided into two groups regarding the hypocrites, when Allah Himself overwhelmed them because of what they did? Do you want to guide those whom Allah has misguided? Whomever Allah misguides—you will never find a path for him."
+    },
+    {
+      "verseNumber": 89,
+      "verseString": "وَدُّوا لَوْ تَكْفُرُونَ كَمَا كَفَرُوا فَتَكُونُونَ سَوَاءً ۖ فَلَا تَتَّخِذُوا مِنْهُمْ أَوْلِيَاءَ حَتَّىٰ يُهَاجِرُوا فِي سَبِيلِ اللَّهِ ۚ فَإِنْ تَوَلَّوْا فَخُذُوهُمْ وَاقْتُلُوهُمْ حَيْثُ وَجَدْتُمُوهُمْ ۖ وَلَا تَتَّخِذُوا مِنْهُمْ وَلِيًّا وَلَا نَصِيرًا",
+      "verseStringB": "They would love to see you disbelieve, just as they disbelieve, so you would become equal. So do not befriend any of them, unless they emigrate in Allah’s way. If they turn away, seize them and execute them wherever you may find them; and do not take from among them allies or supporters."
+    },
+    {
+      "verseNumber": 90,
+      "verseString": "إِلَّا الَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍ بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ أَوْ جَاءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَنْ يُقَاتِلُوكُمْ أَوْ يُقَاتِلُوا قَوْمَهُمْ ۚ وَلَوْ شَاءَ اللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَاتَلُوكُمْ ۚ فَإِنِ اعْتَزَلُوكُمْ فَلَمْ يُقَاتِلُوكُمْ وَأَلْقَوْا إِلَيْكُمُ السَّلَمَ فَمَا جَعَلَ اللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
+      "verseStringB": "Except those who join a people with whom you have a treaty, or those who come to you reluctant to fight you, or fight their own people. Had Allah willed, He would have empowered them, and they would have fought you. If they withdraw from you, and do not fight you, and offer you peace, then Allah assigns no excuse for you against them."
+    },
+    {
+      "verseNumber": 91,
+      "verseString": "سَتَجِدُونَ آخَرِينَ يُرِيدُونَ أَنْ يَأْمَنُوكُمْ وَيَأْمَنُوا قَوْمَهُمْ كُلَّ مَا رُدُّوا إِلَى الْفِتْنَةِ أُرْكِسُوا فِيهَا ۚ فَإِنْ لَمْ يَعْتَزِلُوكُمْ وَيُلْقُوا إِلَيْكُمُ السَّلَمَ وَيَكُفُّوا أَيْدِيَهُمْ فَخُذُوهُمْ وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ ۚ وَأُولَٰئِكُمْ جَعَلْنَا لَكُمْ عَلَيْهِمْ سُلْطَانًا مُبِينًا",
+      "verseStringB": "You will find others who desire to be secure from you, and secure from their own people. But whenever they are tempted into civil discord, they plunge into it. If they do not withdraw from you, nor offer you peace, nor restrain their hands, then seize them and execute them wherever you find them. Against these, We have given you explicit authorization."
+    },
+    {
+      "verseNumber": 92,
+      "verseString": "وَمَا كَانَ لِمُؤْمِنٍ أَنْ يَقْتُلَ مُؤْمِنًا إِلَّا خَطَأً ۚ وَمَنْ قَتَلَ مُؤْمِنًا خَطَأً فَتَحْرِيرُ رَقَبَةٍ مُؤْمِنَةٍ وَدِيَةٌ مُسَلَّمَةٌ إِلَىٰ أَهْلِهِ إِلَّا أَنْ يَصَّدَّقُوا ۚ فَإِنْ كَانَ مِنْ قَوْمٍ عَدُوٍّ لَكُمْ وَهُوَ مُؤْمِنٌ فَتَحْرِيرُ رَقَبَةٍ مُؤْمِنَةٍ ۖ وَإِنْ كَانَ مِنْ قَوْمٍ بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ فَدِيَةٌ مُسَلَّمَةٌ إِلَىٰ أَهْلِهِ وَتَحْرِيرُ رَقَبَةٍ مُؤْمِنَةٍ ۖ فَمَنْ لَمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِنَ اللَّهِ ۗ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+      "verseStringB": "Never should a believer kill another believer, unless by mistake. Anyone who kills a believer by mistake must set free a believing slave, and pay compensation to the victim’s family—unless they remit it as a charity. If the victim belonged to a people hostile to you, but is a believer, then the compensation is to free a believing slave. If he belonged to a people with whom you have a treaty, then compensation should be handed over to his family, and a believing slave set free. Anyone who lacks the means must fast for two consecutive months, by way of repentance to Allah. Allah is Knowing and Wise."
+    },
+    {
+      "verseNumber": 93,
+      "verseString": "وَمَنْ يَقْتُلْ مُؤْمِنًا مُتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ خَالِدًا فِيهَا وَغَضِبَ اللَّهُ عَلَيْهِ وَلَعَنَهُ وَأَعَدَّ لَهُ عَذَابًا عَظِيمًا",
+      "verseStringB": "And whoever kills a believer intentionally, his penalty is Hell, where he will remain indefinitely. And Allah is angry with him, and has cursed him, and has prepared for him horrible suffering."
+    },
+    {
+      "verseNumber": 94,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا ضَرَبْتُمْ فِي سَبِيلِ اللَّهِ فَتَبَيَّنُوا وَلَا تَقُولُوا لِمَنْ أَلْقَىٰ إِلَيْكُمُ السَّلَامَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ الْحَيَاةِ الدُّنْيَا فَعِنْدَ اللَّهِ مَغَانِمُ كَثِيرَةٌ ۚ كَذَٰلِكَ كُنْتُمْ مِنْ قَبْلُ فَمَنَّ اللَّهُ عَلَيْكُمْ فَتَبَيَّنُوا ۚ إِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "verseStringB": "O you who believe! When you journey in Allah’s way, investigate, and do not say to him who offers you peace, “You are not a believer,” aspiring for the goods of this world. With Allah are abundant riches. You yourselves were like this before, and Allah bestowed favor on you—so investigate. Allah is aware of what you do."
+    },
+    {
+      "verseNumber": 95,
+      "verseString": "لَا يَسْتَوِي الْقَاعِدُونَ مِنَ الْمُؤْمِنِينَ غَيْرُ أُولِي الضَّرَرِ وَالْمُجَاهِدُونَ فِي سَبِيلِ اللَّهِ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ ۚ فَضَّلَ اللَّهُ الْمُجَاهِدِينَ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ عَلَى الْقَاعِدِينَ دَرَجَةً ۚ وَكُلًّا وَعَدَ اللَّهُ الْحُسْنَىٰ ۚ وَفَضَّلَ اللَّهُ الْمُجَاهِدِينَ عَلَى الْقَاعِدِينَ أَجْرًا عَظِيمًا",
+      "verseStringB": "Not equal are the inactive among the believers—except the disabled—and the strivers in Allah’s way with their wealth and their lives. Allah favors the strivers with their wealth and their lives above the inactive, by a degree. But Allah has promised good to both. Yet Allah favors the strivers, over the inactive, with an excellent reward."
+    },
+    {
+      "verseNumber": 96,
+      "verseString": "دَرَجَاتٍ مِنْهُ وَمَغْفِرَةً وَرَحْمَةً ۚ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+      "verseStringB": "Ranks from Him, and forgiveness, and mercy. Allah is Forgiving and Merciful."
+    },
+    {
+      "verseNumber": 97,
+      "verseString": "إِنَّ الَّذِينَ تَوَفَّاهُمُ الْمَلَائِكَةُ ظَالِمِي أَنْفُسِهِمْ قَالُوا فِيمَ كُنْتُمْ ۖ قَالُوا كُنَّا مُسْتَضْعَفِينَ فِي الْأَرْضِ ۚ قَالُوا أَلَمْ تَكُنْ أَرْضُ اللَّهِ وَاسِعَةً فَتُهَاجِرُوا فِيهَا ۚ فَأُولَٰئِكَ مَأْوَاهُمْ جَهَنَّمُ ۖ وَسَاءَتْ مَصِيرًا",
+      "verseStringB": "While the angels are removing the souls of those who have wronged themselves, they will say, “What was the matter with you?” They will say, “We were oppressed in the land.” They will say, “Was Allah’s earth not vast enough for you to emigrate in it?” These—their refuge is Hell—a horrible destination."
+    },
+    {
+      "verseNumber": 98,
+      "verseString": "إِلَّا الْمُسْتَضْعَفِينَ مِنَ الرِّجَالِ وَالنِّسَاءِ وَالْوِلْدَانِ لَا يَسْتَطِيعُونَ حِيلَةً وَلَا يَهْتَدُونَ سَبِيلًا",
+      "verseStringB": "Except for the weak among men, and women, and children, who have no means to act, and no means to find a way out."
+    },
+    {
+      "verseNumber": 99,
+      "verseString": "فَأُولَٰئِكَ عَسَى اللَّهُ أَنْ يَعْفُوَ عَنْهُمْ ۚ وَكَانَ اللَّهُ عَفُوًّا غَفُورًا",
+      "verseStringB": "These—Allah may well pardon them. Allah is Pardoning, Forgiving."
+    },
+    {
+      "verseNumber": 100,
+      "verseString": "وَمَنْ يُهَاجِرْ فِي سَبِيلِ اللَّهِ يَجِدْ فِي الْأَرْضِ مُرَاغَمًا كَثِيرًا وَسَعَةً ۚ وَمَنْ يَخْرُجْ مِنْ بَيْتِهِ مُهَاجِرًا إِلَى اللَّهِ وَرَسُولِهِ ثُمَّ يُدْرِكْهُ الْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُ عَلَى اللَّهِ ۗ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+      "verseStringB": "Whoever migrates in Allah’s way will find on earth many places of refuge and plentitude. Whoever leaves his home, emigrating to Allah and His Messenger, and is overtaken by death, his compensation falls on Allah. Allah is Forgiving and Merciful."
+    },
+    {
+      "verseNumber": 101,
+      "verseString": "وَإِذَا ضَرَبْتُمْ فِي الْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَنْ تَقْصُرُوا مِنَ الصَّلَاةِ إِنْ خِفْتُمْ أَنْ يَفْتِنَكُمُ الَّذِينَ كَفَرُوا ۚ إِنَّ الْكَافِرِينَ كَانُوا لَكُمْ عَدُوًّا مُبِينًا",
+      "verseStringB": "When you travel in the land, there is no blame on you for shortening the prayer, if you fear that the unbelievers may attack you. The unbelievers are your obvious enemies."
+    },
+    {
+      "verseNumber": 102,
+      "verseString": "وَإِذَا كُنْتَ فِيهِمْ فَأَقَمْتَ لَهُمُ الصَّلَاةَ فَلْتَقُمْ طَائِفَةٌ مِنْهُمْ مَعَكَ وَلْيَأْخُذُوا أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا فَلْيَكُونُوا مِنْ وَرَائِكُمْ وَلْتَأْتِ طَائِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا فَلْيُصَلُّوا مَعَكَ وَلْيَأْخُذُوا حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ الَّذِينَ كَفَرُوا لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُمْ مَيْلَةً وَاحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِنْ كَانَ بِكُمْ أَذًى مِنْ مَطَرٍ أَوْ كُنْتُمْ مَرْضَىٰ أَنْ تَضَعُوا أَسْلِحَتَكُمْ ۖ وَخُذُوا حِذْرَكُمْ ۗ إِنَّ اللَّهَ أَعَدَّ لِلْكَافِرِينَ عَذَابًا مُهِينًا",
+      "verseStringB": "When you are among them, and you stand to lead them in prayer, let a group of them stand with you, and let them hold their weapons. Then, when they have done their prostrations, let them withdraw to the rear, and let another group, that have not prayed yet, come forward and pray with you; and let them take their precautions and their weapons. Those who disbelieve would like you to neglect your weapons and your equipment, so they could attack you in a single assault. You commit no error if you are hampered by rain or are sick, by putting down your weapons, but take precautions. Allah has prepared for the unbelievers a demeaning punishment."
+    },
+    {
+      "verseNumber": 103,
+      "verseString": "فَإِذَا قَضَيْتُمُ الصَّلَاةَ فَاذْكُرُوا اللَّهَ قِيَامًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا اطْمَأْنَنْتُمْ فَأَقِيمُوا الصَّلَاةَ ۚ إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا",
+      "verseStringB": "When you have completed the prayer, remember Allah—standing, or sitting, or on your sides. Then, when you feel secure, perform the prayer. The prayer is a duty on believers at appointed times."
+    },
+    {
+      "verseNumber": 104,
+      "verseString": "وَلَا تَهِنُوا فِي ابْتِغَاءِ الْقَوْمِ ۖ إِنْ تَكُونُوا تَأْلَمُونَ فَإِنَّهُمْ يَأْلَمُونَ كَمَا تَأْلَمُونَ ۖ وَتَرْجُونَ مِنَ اللَّهِ مَا لَا يَرْجُونَ ۗ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+      "verseStringB": "And do not falter in the pursuit of the enemy. If you are aching, they are aching as you are aching, but you expect from Allah what they cannot expect. Allah is Knowledgeable and Wise."
+    },
+    {
+      "verseNumber": 105,
+      "verseString": "إِنَّا أَنْزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ لِتَحْكُمَ بَيْنَ النَّاسِ بِمَا أَرَاكَ اللَّهُ ۚ وَلَا تَكُنْ لِلْخَائِنِينَ خَصِيمًا",
+      "verseStringB": "We revealed to you the Book, in truth, so that you judge between people according to what Allah has shown you. And do not be an advocate for the traitors."
+    },
+    {
+      "verseNumber": 106,
+      "verseString": "وَاسْتَغْفِرِ اللَّهَ ۖ إِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
+      "verseStringB": "And ask Allah for forgiveness. Allah is Forgiving and Merciful."
+    },
+    {
+      "verseNumber": 107,
+      "verseString": "وَلَا تُجَادِلْ عَنِ الَّذِينَ يَخْتَانُونَ أَنْفُسَهُمْ ۚ إِنَّ اللَّهَ لَا يُحِبُّ مَنْ كَانَ خَوَّانًا أَثِيمًا",
+      "verseStringB": "And do not argue on behalf of those who betray their own selves. Allah does not love the deceitful sinner."
+    },
+    {
+      "verseNumber": 108,
+      "verseString": "يَسْتَخْفُونَ مِنَ النَّاسِ وَلَا يَسْتَخْفُونَ مِنَ اللَّهِ وَهُوَ مَعَهُمْ إِذْ يُبَيِّتُونَ مَا لَا يَرْضَىٰ مِنَ الْقَوْلِ ۚ وَكَانَ اللَّهُ بِمَا يَعْمَلُونَ مُحِيطًا",
+      "verseStringB": "They hide from people, but they cannot hide from Allah. He is with them, while they plot by night with words He does not approve. Allah comprehends what they do."
+    },
+    {
+      "verseNumber": 109,
+      "verseString": "هَا أَنْتُمْ هَٰؤُلَاءِ جَادَلْتُمْ عَنْهُمْ فِي الْحَيَاةِ الدُّنْيَا فَمَنْ يُجَادِلُ اللَّهَ عَنْهُمْ يَوْمَ الْقِيَامَةِ أَمْ مَنْ يَكُونُ عَلَيْهِمْ وَكِيلًا",
+      "verseStringB": "Here you are, arguing on their behalf in the present life, but who will argue with Allah on their behalf on the Day of Resurrection? Or who will be their representative?"
+    },
+    {
+      "verseNumber": 110,
+      "verseString": "وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ ثُمَّ يَسْتَغْفِرِ اللَّهَ يَجِدِ اللَّهَ غَفُورًا رَحِيمًا",
+      "verseStringB": "Whoever commits evil, or wrongs his soul, then implores Allah for forgiveness, will find Allah Forgiving and Merciful."
+    },
+    {
+      "verseNumber": 111,
+      "verseString": "وَمَنْ يَكْسِبْ إِثْمًا فَإِنَّمَا يَكْسِبُهُ عَلَىٰ نَفْسِهِ ۚ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+      "verseStringB": "And whoever commits a sin, earns it against himself. Allah is Knowing and Wise."
+    },
+    {
+      "verseNumber": 112,
+      "verseString": "وَمَنْ يَكْسِبْ خَطِيئَةً أَوْ إِثْمًا ثُمَّ يَرْمِ بِهِ بَرِيئًا فَقَدِ احْتَمَلَ بُهْتَانًا وَإِثْمًا مُبِينًا",
+      "verseStringB": "And whoever commits a mistake, or a sin, and then blames it on an innocent person, has taken a slander and a blatant sin."
+    },
+    {
+      "verseNumber": 113,
+      "verseString": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكَ وَرَحْمَتُهُ لَهَمَّتْ طَائِفَةٌ مِنْهُمْ أَنْ يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِنْ شَيْءٍ ۚ وَأَنْزَلَ اللَّهُ عَلَيْكَ الْكِتَابَ وَالْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُنْ تَعْلَمُ ۚ وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا",
+      "verseStringB": "Were it not for Allah’s grace towards you, and His mercy, a group of them would have misled you. But they mislead only themselves, and they cannot harm you in any way. Allah revealed to you the Scripture and Wisdom, and He taught you what you never knew. Allah’s favor upon you is great."
+    },
+    {
+      "verseNumber": 114,
+      "verseString": "لَا خَيْرَ فِي كَثِيرٍ مِنْ نَجْوَاهُمْ إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَاحٍ بَيْنَ النَّاسِ ۚ وَمَنْ يَفْعَلْ ذَٰلِكَ ابْتِغَاءَ مَرْضَاتِ اللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا",
+      "verseStringB": "There is no good in much of their secret talks, except for whoever advocates charity, or kindness, or reconciliation between people. Whoever does this, seeking Allah’s approval, We will grant him an excellent compensation."
+    },
+    {
+      "verseNumber": 115,
+      "verseString": "وَمَنْ يُشَاقِقِ الرَّسُولَ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُ الْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ الْمُؤْمِنِينَ نُوَلِّهِ مَا تَوَلَّىٰ وَنُصْلِهِ جَهَنَّمَ ۖ وَسَاءَتْ مَصِيرًا",
+      "verseStringB": "Whoever makes a breach with the Messenger, after guidance has become clear to him, and follows other than the believers’ path, We will direct him in the direction he has chosen, and commit him to Hell—a terrible destination."
+    },
+    {
+      "verseNumber": 116,
+      "verseString": "إِنَّ اللَّهَ لَا يَغْفِرُ أَنْ يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَنْ يَشَاءُ ۚ وَمَنْ يُشْرِكْ بِاللَّهِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا",
+      "verseStringB": "Allah does not forgive associating others with Him, but He forgives anything less than that, to whomever He wills. Whoever ascribes partners to Allah has gone far astray."
+    },
+    {
+      "verseNumber": 117,
+      "verseString": "إِنْ يَدْعُونَ مِنْ دُونِهِ إِلَّا إِنَاثًا وَإِنْ يَدْعُونَ إِلَّا شَيْطَانًا مَرِيدًا",
+      "verseStringB": "They invoke in His stead only females. They invoke none but a defiant devil."
+    },
+    {
+      "verseNumber": 118,
+      "verseString": "لَعَنَهُ اللَّهُ ۘ وَقَالَ لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًا مَفْرُوضًا",
+      "verseStringB": "Allah has cursed him. And he said, “I will take to myself my due share of Your servants.”"
+    },
+    {
+      "verseNumber": 119,
+      "verseString": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَآمُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ الْأَنْعَامِ وَلَآمُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ اللَّهِ ۚ وَمَنْ يَتَّخِذِ الشَّيْطَانَ وَلِيًّا مِنْ دُونِ اللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُبِينًا",
+      "verseStringB": "“And I will mislead them, and I will entice them, and I will prompt them to slit the ears of livestock, and I will prompt them to alter Allah’s creation.” Whoever takes Satan as a master, instead of Allah, has suffered an obvious loss."
+    },
+    {
+      "verseNumber": 120,
+      "verseString": "يَعِدُهُمْ وَيُمَنِّيهِمْ ۖ وَمَا يَعِدُهُمُ الشَّيْطَانُ إِلَّا غُرُورًا",
+      "verseStringB": "He promises them, and he raises their expectations, but Satan promises them nothing but delusions."
+    },
+    {
+      "verseNumber": 121,
+      "verseString": "أُولَٰئِكَ مَأْوَاهُمْ جَهَنَّمُ وَلَا يَجِدُونَ عَنْهَا مَحِيصًا",
+      "verseStringB": "These—their housing is Hell, and they will find no escape from it."
+    },
+    {
+      "verseNumber": 122,
+      "verseString": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ وَعْدَ اللَّهِ حَقًّا ۚ وَمَنْ أَصْدَقُ مِنَ اللَّهِ قِيلًا",
+      "verseStringB": "But as for those who believe and do righteous deeds, We will admit them into Gardens beneath which rivers flow, where they will dwell forever. The promise of Allah is true—and who is more truthful in speech than Allah?"
+    },
+    {
+      "verseNumber": 123,
+      "verseString": "لَيْسَ بِأَمَانِيِّكُمْ وَلَا أَمَانِيِّ أَهْلِ الْكِتَابِ ۗ مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ وَلَا يَجِدْ لَهُ مِنْ دُونِ اللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "verseStringB": "It is not in accordance with your desires, nor in accordance with the desires of the People of the Scripture. Whoever works evil will pay for it, and he will find no protector or helper for himself apart from Allah."
+    },
+    {
+      "verseNumber": 124,
+      "verseString": "وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ مِنْ ذَكَرٍ أَوْ أُنْثَىٰ وَهُوَ مُؤْمِنٌ فَأُولَٰئِكَ يَدْخُلُونَ الْجَنَّةَ وَلَا يُظْلَمُونَ نَقِيرًا",
+      "verseStringB": "But whoever works righteousness, whether male or female, and is a believer—these will enter Paradise, and will not be wronged a bit."
+    },
+    {
+      "verseNumber": 125,
+      "verseString": "وَمَنْ أَحْسَنُ دِينًا مِمَّنْ أَسْلَمَ وَجْهَهُ لِلَّهِ وَهُوَ مُحْسِنٌ وَاتَّبَعَ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا ۗ وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا",
+      "verseStringB": "And who is better in religion than he who submits himself wholly to Allah, and is a doer of good, and follows the faith of Abraham the Monotheist? Allah has chosen Abraham for a friend."
+    },
+    {
+      "verseNumber": 126,
+      "verseString": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ وَكَانَ اللَّهُ بِكُلِّ شَيْءٍ مُحِيطًا",
+      "verseStringB": "To Allah belongs whatever is in the heavens and whatever is on earth, and Allah surrounds all things."
+    },
+    {
+      "verseNumber": 127,
+      "verseString": "وَيَسْتَفْتُونَكَ فِي النِّسَاءِ ۖ قُلِ اللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَىٰ عَلَيْكُمْ فِي الْكِتَابِ فِي يَتَامَى النِّسَاءِ اللَّاتِي لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ وَتَرْغَبُونَ أَنْ تَنْكِحُوهُنَّ وَالْمُسْتَضْعَفِينَ مِنَ الْوِلْدَانِ وَأَنْ تَقُومُوا لِلْيَتَامَىٰ بِالْقِسْطِ ۚ وَمَا تَفْعَلُوا مِنْ خَيْرٍ فَإِنَّ اللَّهَ كَانَ بِهِ عَلِيمًا",
+      "verseStringB": "They ask you for a ruling about women. Say, “Allah gives you a ruling about them, and so does what is stated to you in the Book about widowed women from whom you withhold what is decreed for them, yet you desire to marry them, and about helpless children: that you should treat the orphans with fairness.” Whatever good you do, surely Allah knows it."
+    },
+    {
+      "verseNumber": 128,
+      "verseString": "وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا فَلَا جُنَاحَ عَلَيْهِمَا أَنْ يُصْلِحَا بَيْنَهُمَا صُلْحًا ۚ وَالصُّلْحُ خَيْرٌ ۗ وَأُحْضِرَتِ الْأَنْفُسُ الشُّحَّ ۚ وَإِنْ تُحْسِنُوا وَتَتَّقُوا فَإِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "verseStringB": "If a woman fears maltreatment or neglect from her husband, there is no blame on them if they reconcile their differences, for reconciliation is best. Souls are prone to greed. But if you are virtuous and reverent—Allah is Cognizant of what you do."
+    },
+    {
+      "verseNumber": 129,
+      "verseString": "وَلَنْ تَسْتَطِيعُوا أَنْ تَعْدِلُوا بَيْنَ النِّسَاءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا كُلَّ الْمَيْلِ فَتَذَرُوهَا كَالْمُعَلَّقَةِ ۚ وَإِنْ تُصْلِحُوا وَتَتَّقُوا فَإِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
+      "verseStringB": "You will never be able to treat women with equal fairness, no matter how much you desire it. Do not be so biased as to leave another suspended. If you make amends and act righteously—Allah is Forgiving and Merciful."
+    },
+    {
+      "verseNumber": 130,
+      "verseString": "وَإِنْ يَتَفَرَّقَا يُغْنِ اللَّهُ كُلًّا مِنْ سَعَتِهِ ۚ وَكَانَ اللَّهُ وَاسِعًا حَكِيمًا",
+      "verseStringB": "And if they separate, Allah will enrich both from His abundance. Allah is Bounteous and Wise."
+    },
+    {
+      "verseNumber": 131,
+      "verseString": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَلَقَدْ وَصَّيْنَا الَّذِينَ أُوتُوا الْكِتَابَ مِنْ قَبْلِكُمْ وَإِيَّاكُمْ أَنِ اتَّقُوا اللَّهَ ۚ وَإِنْ تَكْفُرُوا فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ وَكَانَ اللَّهُ غَنِيًّا حَمِيدًا",
+      "verseStringB": "To Allah belongs whatever is in the heavens, and whatever is on earth. We have instructed those who were given the Scripture before you, and you, to be conscious of Allah. But if you refuse—to Allah belongs whatever is in the heavens, and whatever is on earth. Allah is Beyond need, Praiseworthy."
+    },
+    {
+      "verseNumber": 132,
+      "verseString": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
+      "verseStringB": "To Allah belongs whatever is in the heavens, and whatever is on earth. Allah suffices as Manager."
+    },
+    {
+      "verseNumber": 133,
+      "verseString": "إِنْ يَشَأْ يُذْهِبْكُمْ أَيُّهَا النَّاسُ وَيَأْتِ بِآخَرِينَ ۚ وَكَانَ اللَّهُ عَلَىٰ ذَٰلِكَ قَدِيرًا",
+      "verseStringB": "If He so wills, He can do away with you, O people, and bring others, and Allah is capable of that."
+    },
+    {
+      "verseNumber": 134,
+      "verseString": "مَنْ كَانَ يُرِيدُ ثَوَابَ الدُّنْيَا فَعِنْدَ اللَّهِ ثَوَابُ الدُّنْيَا وَالْآخِرَةِ ۚ وَكَانَ اللَّهُ سَمِيعًا بَصِيرًا",
+      "verseStringB": "Whoever desires the reward of this world—with Allah is the reward of this world and the next. Allah is Hearing, Seeing."
+    },
+    {
+      "verseNumber": 135,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ بِالْقِسْطِ شُهَدَاءَ لِلَّهِ وَلَوْ عَلَىٰ أَنْفُسِكُمْ أَوِ الْوَالِدَيْنِ وَالْأَقْرَبِينَ ۚ إِنْ يَكُنْ غَنِيًّا أَوْ فَقِيرًا فَاللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا الْهَوَىٰ أَنْ تَعْدِلُوا ۚ وَإِنْ تَلْوُوا أَوْ تُعْرِضُوا فَإِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "verseStringB": "O you who believe! Stand firmly for justice, witnesses for Allah, even if against yourselves, or your parents, or your relatives. Whether one is rich or poor, Allah takes care of both. So do not follow your desires, lest you swerve. If you deviate or turn away—Allah is Aware of what you do."
+    },
+    {
+      "verseNumber": 136,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا آمِنُوا بِاللَّهِ وَرَسُولِهِ وَالْكِتَابِ الَّذِي نَزَّلَ عَلَىٰ رَسُولِهِ وَالْكِتَابِ الَّذِي أَنْزَلَ مِنْ قَبْلُ ۚ وَمَنْ يَكْفُرْ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا",
+      "verseStringB": "O you who believe! Believe in Allah and His Messenger, and the Book He revealed to His Messenger, and the Book He revealed before. Whoever rejects Allah, His angels, His Books, His messengers, and the Last Day, has clearly gone far astray."
+    },
+    {
+      "verseNumber": 137,
+      "verseString": "إِنَّ الَّذِينَ آمَنُوا ثُمَّ كَفَرُوا ثُمَّ آمَنُوا ثُمَّ كَفَرُوا ثُمَّ ازْدَادُوا كُفْرًا لَمْ يَكُنِ اللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ سَبِيلًا",
+      "verseStringB": "Those who believe, and then disbelieve, and then believe, and then disbelieve, and then increase in disbelief: Allah will not forgive them, nor will He guide them to a way."
+    },
+    {
+      "verseNumber": 138,
+      "verseString": "بَشِّرِ الْمُنَافِقِينَ بِأَنَّ لَهُمْ عَذَابًا أَلِيمًا",
+      "verseStringB": "Inform the hypocrites that they will have a painful punishment."
+    },
+    {
+      "verseNumber": 139,
+      "verseString": "الَّذِينَ يَتَّخِذُونَ الْكَافِرِينَ أَوْلِيَاءَ مِنْ دُونِ الْمُؤْمِنِينَ ۚ أَيَبْتَغُونَ عِنْدَهُمُ الْعِزَّةَ فَإِنَّ الْعِزَّةَ لِلَّهِ جَمِيعًا",
+      "verseStringB": "Those who take disbelievers as allies instead of believers. Do they seek glory in them? All glory belongs to Allah."
+    },
+    {
+      "verseNumber": 140,
+      "verseString": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِي الْكِتَابِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ اللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا مَعَهُمْ حَتَّىٰ يَخُوضُوا فِي حَدِيثٍ غَيْرِهِ ۚ إِنَّكُمْ إِذًا مِثْلُهُمْ ۗ إِنَّ اللَّهَ جَامِعُ الْمُنَافِقِينَ وَالْكَافِرِينَ فِي جَهَنَّمَ جَمِيعًا",
+      "verseStringB": "And He has revealed to you in the Book, that when you hear Allah’s revelations being rejected or ridiculed, do not sit with them until they engage in some other subject. Otherwise, you would be like them. Allah will gather the hypocrites and the unbelievers, into Gehenna, altogether."
+    },
+    {
+      "verseNumber": 141,
+      "verseString": "الَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِنْ كَانَ لَكُمْ فَتْحٌ مِنَ اللَّهِ قَالُوا أَلَمْ نَكُنْ مَعَكُمْ وَإِنْ كَانَ لِلْكَافِرِينَ نَصِيبٌ قَالُوا أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُمْ مِنَ الْمُؤْمِنِينَ ۚ فَاللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ الْقِيَامَةِ ۗ وَلَنْ يَجْعَلَ اللَّهُ لِلْكَافِرِينَ عَلَى الْمُؤْمِنِينَ سَبِيلًا",
+      "verseStringB": "Those who lie in wait for you: if you attain victory from Allah, they say, “Were we not with you?” But if the unbelievers get a turn, they say, “Did we not side with you, and defend you from the believers?” Allah will judge between you on the Day of Resurrection, and Allah will give the unbelievers no means of overcoming the believers."
+    },
+    {
+      "verseNumber": 142,
+      "verseString": "إِنَّ الْمُنَافِقِينَ يُخَادِعُونَ اللَّهَ وَهُوَ خَادِعُهُمْ وَإِذَا قَامُوا إِلَى الصَّلَاةِ قَامُوا كُسَالَىٰ يُرَاءُونَ النَّاسَ وَلَا يَذْكُرُونَ اللَّهَ إِلَّا قَلِيلًا",
+      "verseStringB": "The hypocrites seek to deceive Allah, but He is deceiving them. And when they rise for prayer, they rise reluctantly, only to be seen by people, and seldom remembering Allah."
+    },
+    {
+      "verseNumber": 143,
+      "verseString": "مُذَبْذَبِينَ بَيْنَ ذَٰلِكَ لَا إِلَىٰ هَٰؤُلَاءِ وَلَا إِلَىٰ هَٰؤُلَاءِ ۚ وَمَنْ يُضْلِلِ اللَّهُ فَلَنْ تَجِدَ لَهُ سَبِيلًا",
+      "verseStringB": "Wavering in between: neither with these nor with those. Whomever Allah sends astray—you will never find for him a way."
+    },
+    {
+      "verseNumber": 144,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا الْكَافِرِينَ أَوْلِيَاءَ مِنْ دُونِ الْمُؤْمِنِينَ ۚ أَتُرِيدُونَ أَنْ تَجْعَلُوا لِلَّهِ عَلَيْكُمْ سُلْطَانًا مُبِينًا",
+      "verseStringB": "O you who believe! Do not take the disbelievers as protectors instead of believers. Do you want to give Allah a clear case against you?"
+    },
+    {
+      "verseNumber": 145,
+      "verseString": "إِنَّ الْمُنَافِقِينَ فِي الدَّرْكِ الْأَسْفَلِ مِنَ النَّارِ وَلَنْ تَجِدَ لَهُمْ نَصِيرًا",
+      "verseStringB": "The hypocrites will be in the lowest depths of the Fire, and you will find no helper for them."
+    },
+    {
+      "verseNumber": 146,
+      "verseString": "إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَاعْتَصَمُوا بِاللَّهِ وَأَخْلَصُوا دِينَهُمْ لِلَّهِ فَأُولَٰئِكَ مَعَ الْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ اللَّهُ الْمُؤْمِنِينَ أَجْرًا عَظِيمًا",
+      "verseStringB": "Except those who repent, reform, and hold fast to Allah, and devote their faith entirely to Allah. These are with the believers, and Allah will grant the believers a magnificent reward."
+    },
+    {
+      "verseNumber": 147,
+      "verseString": "مَا يَفْعَلُ اللَّهُ بِعَذَابِكُمْ إِنْ شَكَرْتُمْ وَآمَنْتُمْ ۚ وَكَانَ اللَّهُ شَاكِرًا عَلِيمًا",
+      "verseStringB": "What would Allah accomplish by your punishment, if you are thankful and faithful? Allah is Appreciative, Cognizant."
+    },
+    {
+      "verseNumber": 148,
+      "verseString": "لَا يُحِبُّ اللَّهُ الْجَهْرَ بِالسُّوءِ مِنَ الْقَوْلِ إِلَّا مَنْ ظُلِمَ ۚ وَكَانَ اللَّهُ سَمِيعًا عَلِيمًا",
+      "verseStringB": "Allah does not like the public uttering of bad language—unless someone was wronged. Allah is Hearing and Knowing."
+    },
+    {
+      "verseNumber": 149,
+      "verseString": "إِنْ تُبْدُوا خَيْرًا أَوْ تُخْفُوهُ أَوْ تَعْفُوا عَنْ سُوءٍ فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
+      "verseStringB": "If you let a good deed be shown, or conceal it, or pardon an offense—Allah is Pardoning and Capable."
+    },
+    {
+      "verseNumber": 150,
+      "verseString": "إِنَّ الَّذِينَ يَكْفُرُونَ بِاللَّهِ وَرُسُلِهِ وَيُرِيدُونَ أَنْ يُفَرِّقُوا بَيْنَ اللَّهِ وَرُسُلِهِ وَيَقُولُونَ نُؤْمِنُ بِبَعْضٍ وَنَكْفُرُ بِبَعْضٍ وَيُرِيدُونَ أَنْ يَتَّخِذُوا بَيْنَ ذَٰلِكَ سَبِيلًا",
+      "verseStringB": "Those who deny Allah and His messengers, and wish to differentiate between Allah and His messengers, and say, “We believe in some, and we reject some,” and wish to pursue a path in between."
+    },
+    {
+      "verseNumber": 151,
+      "verseString": "أُولَٰئِكَ هُمُ الْكَافِرُونَ حَقًّا ۚ وَأَعْتَدْنَا لِلْكَافِرِينَ عَذَابًا مُهِينًا",
+      "verseStringB": "These are the unbelievers, truly. We have prepared for the unbelievers a humiliating punishment."
+    },
+    {
+      "verseNumber": 152,
+      "verseString": "وَالَّذِينَ آمَنُوا بِاللَّهِ وَرُسُلِهِ وَلَمْ يُفَرِّقُوا بَيْنَ أَحَدٍ مِنْهُمْ أُولَٰئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ ۗ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+      "verseStringB": "As for those who believe in Allah and His messengers, and make no distinction between any of them—He will give them their rewards. Allah is Forgiving and Merciful."
+    },
+    {
+      "verseNumber": 153,
+      "verseString": "يَسْأَلُكَ أَهْلُ الْكِتَابِ أَنْ تُنَزِّلَ عَلَيْهِمْ كِتَابًا مِنَ السَّمَاءِ ۚ فَقَدْ سَأَلُوا مُوسَىٰ أَكْبَرَ مِنْ ذَٰلِكَ فَقَالُوا أَرِنَا اللَّهَ جَهْرَةً فَأَخَذَتْهُمُ الصَّاعِقَةُ بِظُلْمِهِمْ ۚ ثُمَّ اتَّخَذُوا الْعِجْلَ مِنْ بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَاتُ فَعَفَوْنَا عَنْ ذَٰلِكَ ۚ وَآتَيْنَا مُوسَىٰ سُلْطَانًا مُبِينًا",
+      "verseStringB": "The People of the Scripture challenge you to bring down to them a book from the sky. They had asked Moses for something even greater. They said, “Show us, Allah, plainly.” So the thunderbolt struck them for their wickedness. Then they took up the calf, even after the clear proofs came to them. Yet We pardoned that, and We gave Moses compelling proof."
+    },
+    {
+      "verseNumber": 154,
+      "verseString": "وَرَفَعْنَا فَوْقَهُمُ الطُّورَ بِمِيثَاقِهِمْ وَقُلْنَا لَهُمُ ادْخُلُوا الْبَابَ سُجَّدًا وَقُلْنَا لَهُمْ لَا تَعْدُوا فِي السَّبْتِ وَأَخَذْنَا مِنْهُمْ مِيثَاقًا غَلِيظًا",
+      "verseStringB": "And We raised the Mount above them in accordance with their covenant, and We said to them, “Enter the gate with humility,” and We said to them, “Do not violate the Sabbath”, and We received from them a solemn pledge."
+    },
+    {
+      "verseNumber": 155,
+      "verseString": "فَبِمَا نَقْضِهِمْ مِيثَاقَهُمْ وَكُفْرِهِمْ بِآيَاتِ اللَّهِ وَقَتْلِهِمُ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ وَقَوْلِهِمْ قُلُوبُنَا غُلْفٌ ۚ بَلْ طَبَعَ اللَّهُ عَلَيْهَا بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "verseStringB": "But for their violation of their covenant, and their denial of Allah’s revelations, and their killing of the prophets unjustly, and for their saying, “Our minds are closed.” In fact, Allah has sealed them for their disbelief—so they do not believe, except for a few."
+    },
+    {
+      "verseNumber": 156,
+      "verseString": "وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ بُهْتَانًا عَظِيمًا",
+      "verseStringB": "And for their faithlessness, and their saying against Mary a monstrous slander."
+    },
+    {
+      "verseNumber": 157,
+      "verseString": "وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِنْ شُبِّهَ لَهُمْ ۚ وَإِنَّ الَّذِينَ اخْتَلَفُوا فِيهِ لَفِي شَكٍّ مِنْهُ ۚ مَا لَهُمْ بِهِ مِنْ عِلْمٍ إِلَّا اتِّبَاعَ الظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًا",
+      "verseStringB": "And for their saying, “We have killed the Messiah, Jesus, son of Mary, the Messenger of Allah.” In fact, they did not kill him, nor did they crucify him, but it appeared to them as if they did. Those who differ about him are in doubt about it. They have no knowledge of it, except the following of assumptions. They certainly did not kill him."
+    },
+    {
+      "verseNumber": 158,
+      "verseString": "بَلْ رَفَعَهُ اللَّهُ إِلَيْهِ ۚ وَكَانَ اللَّهُ عَزِيزًا حَكِيمًا",
+      "verseStringB": "But Allah raised him up to Himself. Allah is Mighty and Wise."
+    },
+    {
+      "verseNumber": 159,
+      "verseString": "وَإِنْ مِنْ أَهْلِ الْكِتَابِ إِلَّا لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ ۖ وَيَوْمَ الْقِيَامَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا",
+      "verseStringB": "There is none among the People of the Scripture but will believe in him before his death. And on the Day of Resurrection, he will be a witness against them."
+    },
+    {
+      "verseNumber": 160,
+      "verseString": "فَبِظُلْمٍ مِنَ الَّذِينَ هَادُوا حَرَّمْنَا عَلَيْهِمْ طَيِّبَاتٍ أُحِلَّتْ لَهُمْ وَبِصَدِّهِمْ عَنْ سَبِيلِ اللَّهِ كَثِيرًا",
+      "verseStringB": "Because of wrongdoing by the Jews, We denied them good things that were permitted for them; and for their deterring many from Allah’s path."
+    },
+    {
+      "verseNumber": 161,
+      "verseString": "وَأَخْذِهِمُ الرِّبَا وَقَدْ نُهُوا عَنْهُ وَأَكْلِهِمْ أَمْوَالَ النَّاسِ بِالْبَاطِلِ ۚ وَأَعْتَدْنَا لِلْكَافِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "verseStringB": "And for their taking usury, although they were forbidden it; and for their consuming people's wealth dishonestly. We have prepared for the faithless among them a painful punishment."
+    },
+    {
+      "verseNumber": 162,
+      "verseString": "لَٰكِنِ الرَّاسِخُونَ فِي الْعِلْمِ مِنْهُمْ وَالْمُؤْمِنُونَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ ۚ وَالْمُقِيمِينَ الصَّلَاةَ ۚ وَالْمُؤْتُونَ الزَّكَاةَ وَالْمُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ أُولَٰئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا",
+      "verseStringB": "But those among them firmly rooted in knowledge, and the believers, believe in what was revealed to you, and in what was revealed before you; and the observers of prayers, and the givers of charity, and the believers in Allah and the Last Day—upon these We will bestow an immense reward."
+    },
+    {
+      "verseNumber": 163,
+      "verseString": "إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَىٰ نُوحٍ وَالنَّبِيِّينَ مِنْ بَعْدِهِ ۚ وَأَوْحَيْنَا إِلَىٰ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ ۚ وَآتَيْنَا دَاوُودَ زَبُورًا",
+      "verseStringB": "We inspired you, as We inspired Noah and the prophets after him. And We inspired Abraham, and Ishmael, and Isaac, and Jacob, and the Patriarchs, and Jesus, and Job, and Jonah, and Aaron, and Solomon. And to David, We gave the Psalms."
+    },
+    {
+      "verseNumber": 164,
+      "verseString": "وَرُسُلًا قَدْ قَصَصْنَاهُمْ عَلَيْكَ مِنْ قَبْلُ وَرُسُلًا لَمْ نَقْصُصْهُمْ عَلَيْكَ ۚ وَكَلَّمَ اللَّهُ مُوسَىٰ تَكْلِيمًا",
+      "verseStringB": "Some messengers We have already told you about, while some messengers We never told you about. And Allah spoke to Moses in a conversation."
+    },
+    {
+      "verseNumber": 165,
+      "verseString": "رُسُلًا مُبَشِّرِينَ وَمُنْذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ ۚ وَكَانَ اللَّهُ عَزِيزًا حَكِيمًا",
+      "verseStringB": "Messengers delivering good news, and bringing warnings, so that people may have no excuse before Allah after the coming of the messengers. Allah is Powerful and Wise."
+    },
+    {
+      "verseNumber": 166,
+      "verseString": "لَٰكِنِ اللَّهُ يَشْهَدُ بِمَا أَنْزَلَ إِلَيْكَ ۖ أَنْزَلَهُ بِعِلْمِهِ ۖ وَالْمَلَائِكَةُ يَشْهَدُونَ ۚ وَكَفَىٰ بِاللَّهِ شَهِيدًا",
+      "verseStringB": "But Allah Himself testifies to what He revealed to you. He revealed it with His knowledge. And the angels testify. And Allah suffices as Witness."
+    },
+    {
+      "verseNumber": 167,
+      "verseString": "إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا",
+      "verseStringB": "Those who disbelieve, and repel from Allah’s path, have gone far astray."
+    },
+    {
+      "verseNumber": 168,
+      "verseString": "إِنَّ الَّذِينَ كَفَرُوا وَظَلَمُوا لَمْ يَكُنِ اللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ طَرِيقًا",
+      "verseStringB": "Those who disbelieve and transgress—Allah is not about to forgive them, nor will He guide them to any path."
+    },
+    {
+      "verseNumber": 169,
+      "verseString": "إِلَّا طَرِيقَ جَهَنَّمَ خَالِدِينَ فِيهَا أَبَدًا ۚ وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
+      "verseStringB": "Except to the path to Hell, where they will dwell forever. And that is easy for Allah."
+    },
+    {
+      "verseNumber": 170,
+      "verseString": "يَا أَيُّهَا النَّاسُ قَدْ جَاءَكُمُ الرَّسُولُ بِالْحَقِّ مِنْ رَبِّكُمْ فَآمِنُوا خَيْرًا لَكُمْ ۚ وَإِنْ تَكْفُرُوا فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+      "verseStringB": "O, people! The Messenger has come to you with the truth from your Lord, so believe: it is better for you. But if you disbelieve, to Allah belongs whatsoever is in the heavens and the earth. And Allah is Knowledgeable and Wise."
+    },
+    {
+      "verseNumber": 171,
+      "verseString": "يَا أَهْلَ الْكِتَابِ لَا تَغْلُوا فِي دِينِكُمْ وَلَا تَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ ۚ إِنَّمَا الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ رَسُولُ اللَّهِ وَكَلِمَتُهُ أَلْقَاهَا إِلَىٰ مَرْيَمَ وَرُوحٌ مِنْهُ ۖ فَآمِنُوا بِاللَّهِ وَرُسُلِهِ ۖ وَلَا تَقُولُوا ثَلَاثَةٌ ۚ انْتَهُوا خَيْرًا لَكُمْ ۚ إِنَّمَا اللَّهُ إِلَٰهٌ وَاحِدٌ ۖ سُبْحَانَهُ أَنْ يَكُونَ لَهُ وَلَدٌ ۘ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
+      "verseStringB": "O People of the Scripture! Do not exaggerate in your religion, and do not say about Allah except the truth. Jesus Christ, son of Mary, is the Messenger of Allah, and His Word which He conveyed to Mary, and a Spirit from Him. So believe in Allah and His messengers, and do not say, “Trinity.” Refrain, for your own good. Allah is only One God. Glory be to Him—that He should have a child. To Him belongs everything in the heavens and on earth, and Allah is a sufficient Protector."
+    },
+    {
+      "verseNumber": 172,
+      "verseString": "لَنْ يَسْتَنْكِفَ الْمَسِيحُ أَنْ يَكُونَ عَبْدًا لِلَّهِ وَلَا الْمَلَائِكَةُ الْمُقَرَّبُونَ ۚ وَمَنْ يَسْتَنْكِفْ عَنْ عِبَادَتِهِ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًا",
+      "verseStringB": "The Messiah did not refuse to be a servant of Allah, nor did the near angels. Whoever refuses His worship, and is too arrogant—He will gather them to Himself, all together."
+    },
+    {
+      "verseNumber": 173,
+      "verseString": "فَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُمْ مِنْ فَضْلِهِ ۖ وَأَمَّا الَّذِينَ اسْتَنْكَفُوا وَاسْتَكْبَرُوا فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًا وَلَا يَجِدُونَ لَهُمْ مِنْ دُونِ اللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "verseStringB": "But as for those who believe and perform righteous deeds, He will pay them their rewards in full, and He will increase them out of His bounty. But as for those who refuse and are too proud, He will punish them with agonizing punishment, and they will find no protector or helper for themselves apart from Allah."
+    },
+    {
+      "verseNumber": 174,
+      "verseString": "يَا أَيُّهَا النَّاسُ قَدْ جَاءَكُمْ بُرْهَانٌ مِنْ رَبِّكُمْ وَأَنْزَلْنَا إِلَيْكُمْ نُورًا مُبِينًا",
+      "verseStringB": "O, people! Conclusive evidence has come to you from your Lord, and We sent down to you a brilliant light."
+    },
+    {
+      "verseNumber": 175,
+      "verseString": "فَأَمَّا الَّذِينَ آمَنُوا بِاللَّهِ وَاعْتَصَمُوا بِهِ فَسَيُدْخِلُهُمْ فِي رَحْمَةٍ مِنْهُ وَفَضْلٍ وَيَهْدِيهِمْ إِلَيْهِ صِرَاطًا مُسْتَقِيمًا",
+      "verseStringB": "As for those who believe in Allah, and hold fast to Him, He will admit them into mercy and bounty from Him, and He will guide them to Himself along a straight path."
+    },
+    {
+      "verseNumber": 176,
+      "verseString": "يَسْتَفْتُونَكَ قُلِ اللَّهُ يُفْتِيكُمْ فِي الْكَلَالَةِ ۚ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ ۚ وَهُوَ يَرِثُهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ ۚ فَإِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ مِمَّا تَرَكَ ۚ وَإِنْ كَانُوا إِخْوَةً رِجَالًا وَنِسَاءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ ۗ يُبَيِّنُ اللَّهُ لَكُمْ أَنْ تَضِلُّوا ۗ وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
+      "verseStringB": "They ask you for a ruling. Say, “Allah gives you a ruling regarding the person who has neither parents nor children. If a man dies and leaves no children, and he had a sister, she receives one-half of his estate. And he inherits from her if she leaves no children. But if there are two sisters, they receive two-thirds of the estate. If the siblings are men and women, the male receives the share of two females.” Allah makes things clear for you, lest you err. Allah has knowledge of all things."
+    }
+  ],
+  "nameEnglish": "Women",
+  "nameTrans": "an-Nisa'",
+  "nameArabic": "النساء",
+  "chapterNumber": 4,
+  "nVerses": 176
+}

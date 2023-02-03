@@ -1,0 +1,114 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "لَا أُقْسِمُ بِهَٰذَا الْبَلَدِ",
+      "verseStringB": "I swear by this land."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَأَنْتَ حِلٌّ بِهَٰذَا الْبَلَدِ",
+      "verseStringB": "And you are free in this land."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَوَالِدٍ وَمَا وَلَدَ",
+      "verseStringB": "And by a father and what he fathered."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي كَبَدٍ",
+      "verseStringB": "We created the human being in distress."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "أَيَحْسَبُ أَنْ لَنْ يَقْدِرَ عَلَيْهِ أَحَدٌ",
+      "verseStringB": "Does he think that none will ever have power over him?"
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "يَقُولُ أَهْلَكْتُ مَالًا لُبَدًا",
+      "verseStringB": "He says, “I have squandered vast wealth.”"
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "أَيَحْسَبُ أَنْ لَمْ يَرَهُ أَحَدٌ",
+      "verseStringB": "Does he think that no one sees him?"
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "أَلَمْ نَجْعَلْ لَهُ عَيْنَيْنِ",
+      "verseStringB": "Did We not make for him two eyes?"
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "وَلِسَانًا وَشَفَتَيْنِ",
+      "verseStringB": "And a tongue, and two lips?"
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "وَهَدَيْنَاهُ النَّجْدَيْنِ",
+      "verseStringB": "And We guided him to the two ways?"
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "فَلَا اقْتَحَمَ الْعَقَبَةَ",
+      "verseStringB": "But he did not brave the ascent."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "وَمَا أَدْرَاكَ مَا الْعَقَبَةُ",
+      "verseStringB": "And how would you know what the ascent is?"
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "فَكُّ رَقَبَةٍ",
+      "verseStringB": "The freeing of a slave."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ",
+      "verseStringB": "Or the feeding on a day of hunger."
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "يَتِيمًا ذَا مَقْرَبَةٍ",
+      "verseStringB": "Of an orphaned relative."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
+      "verseStringB": "Or a destitute in the dust."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ",
+      "verseStringB": "Then he becomes of those who believe, and advise one another to patience, and advise one another to kindness."
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "أُولَٰئِكَ أَصْحَابُ الْمَيْمَنَةِ",
+      "verseStringB": "These are the people of happiness."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ أَصْحَابُ الْمَشْأَمَةِ",
+      "verseStringB": "But as for those who defy Our revelations—these are the people of misery."
+    },
+    {
+      "verseNumber": 20,
+      "verseString": "عَلَيْهِمْ نَارٌ مُؤْصَدَةٌ",
+      "verseStringB": "Upon them is a padlocked Fire."
+    }
+  ],
+  "nameEnglish": "The Land",
+  "nameTrans": "al-Balad",
+  "nameArabic": "الـبلد",
+  "chapterNumber": 90,
+  "nVerses": 20
+}

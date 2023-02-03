@@ -1,0 +1,54 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "verseStringB": "Did We not soothe your heart for you?"
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "وَوَضَعْنَا عَنْكَ وِزْرَكَ",
+      "verseStringB": "And lift your burden from you."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "الَّذِي أَنْقَضَ ظَهْرَكَ",
+      "verseStringB": "Which weighed down your back?"
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "verseStringB": "And We raised your reputation for you?"
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "verseStringB": "With difficulty, there is ease."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "verseStringB": "With difficulty, there is ease."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "فَإِذَا فَرَغْتَ فَانْصَبْ",
+      "verseStringB": "When your work is done, turn to devotion."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَإِلَىٰ رَبِّكَ فَارْغَبْ",
+      "verseStringB": "And be eager for your Lord."
+    }
+  ],
+  "nameEnglish": "The Soothing",
+  "nameTrans": "ash-Sharh",
+  "nameArabic": "الـشرح",
+  "chapterNumber": 94,
+  "nVerses": 8
+}

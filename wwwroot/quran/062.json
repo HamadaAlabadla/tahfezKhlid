@@ -1,0 +1,69 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ الْمَلِكِ الْقُدُّوسِ الْعَزِيزِ الْحَكِيمِ",
+      "verseStringB": "Everything in the heavens and the earth praises Allah—the Sovereign, the Holy, the Almighty, the Wise."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "هُوَ الَّذِي بَعَثَ فِي الْأُمِّيِّينَ رَسُولًا مِنْهُمْ يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَإِنْ كَانُوا مِنْ قَبْلُ لَفِي ضَلَالٍ مُبِينٍ",
+      "verseStringB": "It is He who sent among the unlettered a messenger from among themselves; reciting to them His revelations, and purifying them, and teaching them the Scripture and Wisdom; although they were previously clearly misguided."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ ۚ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+      "verseStringB": "And others among them, who have not yet joined them. He is the Glorious, the Wise."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "ذَٰلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ ۚ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
+      "verseStringB": "That is Allah’s grace, which He gives to whom He wills. Allah is Lord of infinite grace."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "مَثَلُ الَّذِينَ حُمِّلُوا التَّوْرَاةَ ثُمَّ لَمْ يَحْمِلُوهَا كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا ۚ بِئْسَ مَثَلُ الْقَوْمِ الَّذِينَ كَذَّبُوا بِآيَاتِ اللَّهِ ۚ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
+      "verseStringB": "The example of those who were entrusted with the Torah, but failed to uphold it, is that of a donkey carrying volumes of knowledge. Terrible is the example of the people who reject Allah’s signs. Allah does not guide the wrongdoing people."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "قُلْ يَا أَيُّهَا الَّذِينَ هَادُوا إِنْ زَعَمْتُمْ أَنَّكُمْ أَوْلِيَاءُ لِلَّهِ مِنْ دُونِ النَّاسِ فَتَمَنَّوُا الْمَوْتَ إِنْ كُنْتُمْ صَادِقِينَ",
+      "verseStringB": "Say, “O you who follow Judaism! If you claim to be the friends of Allah, to the exclusion of the rest of humanity, then wish for death, if what you say is true.”"
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "وَلَا يَتَمَنَّوْنَهُ أَبَدًا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۚ وَاللَّهُ عَلِيمٌ بِالظَّالِمِينَ",
+      "verseStringB": "But they will not wish for it, ever, because of what their hands have done. And Allah knows the wrongdoers."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "قُلْ إِنَّ الْمَوْتَ الَّذِي تَفِرُّونَ مِنْهُ فَإِنَّهُ مُلَاقِيكُمْ ۖ ثُمَّ تُرَدُّونَ إِلَىٰ عَالِمِ الْغَيْبِ وَالشَّهَادَةِ فَيُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُونَ",
+      "verseStringB": "Say, “The death from which you are fleeing will meet you. Then you will be returned to the Knower of the unknown and the known, and He will inform you of what you used to do.”"
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا نُودِيَ لِلصَّلَاةِ مِنْ يَوْمِ الْجُمُعَةِ فَاسْعَوْا إِلَىٰ ذِكْرِ اللَّهِ وَذَرُوا الْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ",
+      "verseStringB": "O you who believe! When you are called to the congregational prayer, proceed to Allah’s remembrance, and drop all business. That is better for you—if you only knew."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "فَإِذَا قُضِيَتِ الصَّلَاةُ فَانْتَشِرُوا فِي الْأَرْضِ وَابْتَغُوا مِنْ فَضْلِ اللَّهِ وَاذْكُرُوا اللَّهَ كَثِيرًا لَعَلَّكُمْ تُفْلِحُونَ",
+      "verseStringB": "Then, when the prayer is concluded, disperse throughout the land, and seek Allah’s bounty, and remember Allah often, so that you may prosper."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "وَإِذَا رَأَوْا تِجَارَةً أَوْ لَهْوًا انْفَضُّوا إِلَيْهَا وَتَرَكُوكَ قَائِمًا ۚ قُلْ مَا عِنْدَ اللَّهِ خَيْرٌ مِنَ اللَّهْوِ وَمِنَ التِّجَارَةِ ۚ وَاللَّهُ خَيْرُ الرَّازِقِينَ",
+      "verseStringB": "Yet whenever they come across some business or some entertainment, they scramble towards it, and they leave you standing. Say, “What is with Allah is better than entertainment and business, and Allah is the Best of providers.”"
+    }
+  ],
+  "nameEnglish": "Friday",
+  "nameTrans": "al-Jumu'ah",
+  "nameArabic": "الـجـمـعـة",
+  "chapterNumber": 62,
+  "nVerses": 11
+}

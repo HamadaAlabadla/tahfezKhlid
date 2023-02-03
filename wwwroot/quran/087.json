@@ -1,0 +1,109 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
+      "verseStringB": "Praise the Name of your Lord, the Most High."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "الَّذِي خَلَقَ فَسَوَّىٰ",
+      "verseStringB": "He who creates and regulates."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "وَالَّذِي قَدَّرَ فَهَدَىٰ",
+      "verseStringB": "He who measures and guides."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "وَالَّذِي أَخْرَجَ الْمَرْعَىٰ",
+      "verseStringB": "He who produces the pasture."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "فَجَعَلَهُ غُثَاءً أَحْوَىٰ",
+      "verseStringB": "Then reduces it to light debris."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "سَنُقْرِئُكَ فَلَا تَنْسَىٰ",
+      "verseStringB": "We will make you read, so do not forget."
+    },
+    {
+      "verseNumber": 7,
+      "verseString": "إِلَّا مَا شَاءَ اللَّهُ ۚ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَىٰ",
+      "verseStringB": "Except what Allah wills. He knows what is declared, and what is hidden."
+    },
+    {
+      "verseNumber": 8,
+      "verseString": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+      "verseStringB": "We will facilitate for you the Way of Ease."
+    },
+    {
+      "verseNumber": 9,
+      "verseString": "فَذَكِّرْ إِنْ نَفَعَتِ الذِّكْرَىٰ",
+      "verseStringB": "So remind, if the reminder is beneficial."
+    },
+    {
+      "verseNumber": 10,
+      "verseString": "سَيَذَّكَّرُ مَنْ يَخْشَىٰ",
+      "verseStringB": "He who fears will take notice."
+    },
+    {
+      "verseNumber": 11,
+      "verseString": "وَيَتَجَنَّبُهَا الْأَشْقَى",
+      "verseStringB": "But the most wretched will avoid it."
+    },
+    {
+      "verseNumber": 12,
+      "verseString": "الَّذِي يَصْلَى النَّارَ الْكُبْرَىٰ",
+      "verseStringB": "He who will enter the Gigantic Fire."
+    },
+    {
+      "verseNumber": 13,
+      "verseString": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "verseStringB": "Where he will neither die, nor live."
+    },
+    {
+      "verseNumber": 14,
+      "verseString": "قَدْ أَفْلَحَ مَنْ تَزَكَّىٰ",
+      "verseStringB": "Successful is he who purifies himself."
+    },
+    {
+      "verseNumber": 15,
+      "verseString": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّىٰ",
+      "verseStringB": "And remembers the Name of his Lord, and prays."
+    },
+    {
+      "verseNumber": 16,
+      "verseString": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا",
+      "verseStringB": "But you prefer the present life."
+    },
+    {
+      "verseNumber": 17,
+      "verseString": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ",
+      "verseStringB": "Even though the Hereafter is better and more lasting."
+    },
+    {
+      "verseNumber": 18,
+      "verseString": "إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ",
+      "verseStringB": "This is in the earlier scriptures."
+    },
+    {
+      "verseNumber": 19,
+      "verseString": "صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ",
+      "verseStringB": "The Scriptures of Abraham and Moses."
+    }
+  ],
+  "nameEnglish": "The Most High",
+  "nameTrans": "al-A'la",
+  "nameArabic": "الأعـلى",
+  "chapterNumber": 87,
+  "nVerses": 19
+}

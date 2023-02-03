@@ -1,0 +1,44 @@
+{
+  "verses": [
+    {
+      "verseNumber": 0,
+      "verseString": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "verseStringB": "In the name of Allah, the Compassionate, the Merciful."
+    },
+    {
+      "verseNumber": 1,
+      "verseString": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+      "verseStringB": "Say, “I seek refuge in the Lord of humankind."
+    },
+    {
+      "verseNumber": 2,
+      "verseString": "مَلِكِ النَّاسِ",
+      "verseStringB": "The King of humankind."
+    },
+    {
+      "verseNumber": 3,
+      "verseString": "إِلَٰهِ النَّاسِ",
+      "verseStringB": "The God of humankind."
+    },
+    {
+      "verseNumber": 4,
+      "verseString": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+      "verseStringB": "From the evil of the sneaky whisperer."
+    },
+    {
+      "verseNumber": 5,
+      "verseString": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+      "verseStringB": "Who whispers into the hearts of people."
+    },
+    {
+      "verseNumber": 6,
+      "verseString": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "verseStringB": "From among the jinn and among humankind.”"
+    }
+  ],
+  "nameEnglish": "Humankind",
+  "nameTrans": "an-Nas",
+  "nameArabic": "الـناس",
+  "chapterNumber": 114,
+  "nVerses": 6
+}

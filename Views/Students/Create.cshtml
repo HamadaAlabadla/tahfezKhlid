@@ -1,0 +1,81 @@
+﻿@using tahfezKhalid.Models
+@model tahfezKhalid.Models.Student
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>إضافة طالب جديد</h1>
+<p>
+    <a class="btn btn-outline-success" asp-action="AddParentToSession" asp-route-sessionId = "@ViewBag.sessionId">إضافة ولي أمر للحلقة</a>
+    <a class="btn btn-outline-success"  asp-area="Identity" asp-page="/Account/Register" asp-route-Id="2" asp-route-sessionId = "@ViewBag.sessionId">إضافة ولي أمر جديد</a>
+</p>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdentificationNumber" class="control-label"></label>
+                <input asp-for="IdentificationNumber" class="form-control" />
+                <span asp-validation-for="IdentificationNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <input type="hidden" asp-for="DateAdded" class="form-control" />
+            </div>*@
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input type="file" name="file" class="form-control" autocomplete="Image" aria-required="true" />
+            </div>
+            <div class="form-group">
+                <label asp-for="SessionId" class="control-label"></label>
+                <select  asp-for="SessionId" class ="form-control" asp-items="ViewBag.Session"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ParentId" class="control-label"></label>
+                <select asp-for="ParentId" class ="form-control" asp-items="ViewBag.ParentId"></select>
+            </div>
+            <div class="form-group">
+                @{
+                    var list0 = ViewBag.surahCount as List<Surah>;
+                }
+                <label asp-for="Surah" class="control-label"></label>
+                <select id="surah" asp-for="Surah"  class="form-control" asp-items="@ViewBag.surah" onchange="changeSurah(document.getElementById('surah').value)"></select>
+                <span asp-validation-for="Surah" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                    <label asp-for="Verse" class="control-label"></label>
+                    <select id="verse" asp-for="Verse" class="form-control" asp-items="@ViewBag.verse" ></select>
+                    <span asp-validation-for="Verse" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FinalExam" class="control-label"></label>
+                    <select asp-for="FinalExam" class="form-control" asp-items="@ViewBag.exams"></select>
+                    <span asp-validation-for="FinalExam" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="إضافة" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a class="btn btn-outline-secondary" asp-action="IndexStudent" asp-route-SessionId="@ViewBag.sessionId">عودة إلى القائمة</a>
+    </div>
+    @section Scripts{
+        <script type="text/javascript" src="~/signalr/dist/browser/signalr.js"></script>
+        <script type="text/javascript" src="~/js/student.js"></script>
+    }
+
