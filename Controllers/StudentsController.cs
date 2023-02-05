@@ -195,22 +195,35 @@ namespace tahfezKhalid.Controllers
                     session.StayNumberExams += 2;
                     session.NumberExams += 2;
                     await contextSession.UpdateSessionAsync(session);
-                    var parents = await contextSession.GetAllParentBySessionId(student.SessionId);
-                    foreach (var parent in parents)
+                    //var parents = await contextSession.GetAllParentBySessionId(student.SessionId);
+                    //foreach (var parent in parents)
+                    //{
+                    //    if(parent.Students.Count() == 0)
+                    //    {
+                    //        var userSession = await _contextUserSession.GetUserSession(parent.Id, student.SessionId);
+                    //        await _contextUserSession.DeleteUserSession(userSession);
+                    //    }
+                    //    foreach (var item in parent.Students)
+                    //    {
+                    //        if((student.Session.Students.FirstOrDefault(x => x.Id == item.Id)) == null)
+                    //        {
+                    //            var userSession = await _contextUserSession.GetUserSession(parent.Id,student.SessionId);
+                    //            await _contextUserSession.DeleteUserSession(userSession);
+                    //        }
+                    //    }
+                    //}
+                    var userSessions = await _contextUserSession.GetUserSessionsBySessionID(student.SessionId);
+                    foreach (UserSession userSession in userSessions)
                     {
-                        if(parent.Students.Count() == 0)
+                        if (userSession.user.TypeUser == TypeUser.ولي_أمر)
                         {
-                            var userSession = await _contextUserSession.GetUserSession(parent.Id, student.SessionId);
-                            await _contextUserSession.DeleteUserSession(userSession);
-                        }
-                        foreach (var item in parent.Students)
-                        {
-                            if((student.Session.Students.FirstOrDefault(x => x.Id == item.Id)) == null)
+                            var studentSession = userSession.user.Students.FirstOrDefault(x => x.SessionId == student.SessionId);
+                            if (studentSession == null)
                             {
-                                var userSession = await _contextUserSession.GetUserSession(parent.Id,student.SessionId);
                                 await _contextUserSession.DeleteUserSession(userSession);
                             }
                         }
+
                     }
                     return RedirectToAction(nameof(IndexStudent), new { sessionId = student.SessionId });
                 }
@@ -250,14 +263,14 @@ namespace tahfezKhalid.Controllers
         [Obsolete]
 
         // GET: Students/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null || (await context.GetAllStudents()) == null)
             {
                 return NotFound();
             }
 
-            var student = await context.GetStudent((int)id);
+            var student = await context.GetStudent(id);
 
             if (student == null)
             {
@@ -297,9 +310,9 @@ namespace tahfezKhalid.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Obsolete]
-        public async Task<IActionResult> Edit(int id, IFormFile file, [Bind("Id,Name,IdentificationNumber,DateOfBirth,DateAdded,Image,SessionId,ParentId,Surah,Verse,FinalExam")] Student student)
+        public async Task<IActionResult> Edit(string id, IFormFile file, [Bind("Id,Name,IdentificationNumber,DateOfBirth,DateAdded,Image,SessionId,ParentId,Surah,Verse,FinalExam")] Student student)
         {
-            if (id != student.Id)
+            if (!id.Equals(student.Id))
             {
                 return NotFound();
             }
@@ -383,14 +396,14 @@ namespace tahfezKhalid.Controllers
 
         [Authorize(Roles = "admin,memorizer")]
         // GET: Students/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null || (await context.GetAllStudents()) == null)
             {
                 return NotFound();
             }
 
-            var student = await context.GetStudent((int)id);
+            var student = await context.GetStudent(id);
 
             if (student == null)
             {
@@ -404,7 +417,7 @@ namespace tahfezKhalid.Controllers
         // POST: Students/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id,int SessionId)
+        public async Task<IActionResult> DeleteConfirmed(string id,int SessionId)
         {
             if ((await context.GetAllStudents()) == null)
             {
@@ -417,9 +430,9 @@ namespace tahfezKhalid.Controllers
         }
 
         [Authorize(Roles = "admin,memorizer")]
-        async Task<bool> StudentExists(int id)
+        async Task<bool> StudentExists(string id)
         {
-            return (await context.GetAllStudents()).Any(e => e.Id == id);
+            return (await context.GetAllStudents()).Any(e => e.Id.Equals(id));
         }
     }
 }

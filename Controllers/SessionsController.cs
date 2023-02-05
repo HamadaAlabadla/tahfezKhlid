@@ -75,8 +75,25 @@ namespace tahfezKhalid.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
-            ViewData["userMemorizers"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.محفظ), "Id", "Name");
-            ViewData["userSupervisors"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.مشرف), "Id", "Name");
+            var userMem = userManager.Users.Where(x => x.TypeUser == TypeUser.محفظ);
+            var userSup = userManager.Users.Where(x => x.TypeUser == TypeUser.مشرف);
+            if (userMem != null)
+                ViewData["userMemorizers"] = new SelectList(userMem, "Id", "Name");
+            else
+            {
+                ModelState.AddModelError(string.Empty, "No Memorizer in System");
+                ViewData["userMemorizers"] = null;
+            }
+
+            if (userSup != null)
+                ViewData["userSupervisors"] = new SelectList(userSup, "Id", "Name");
+            else
+            {
+                ModelState.AddModelError(string.Empty, "No Supervisors in System");
+                ViewData["userSupervisors"] = null;
+            }
+
+
             return View();
         }
 
@@ -130,10 +147,21 @@ namespace tahfezKhalid.Controllers
 
             var userMemorizer = session.UserSessions.FirstOrDefault(x => x.user.TypeUser == TypeUser.محفظ);
             var userSupervisor = session.UserSessions.FirstOrDefault(x => x.user.TypeUser == TypeUser.مشرف);
-            ViewData["userMemorizers"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.محفظ), "Id", "Name", userMemorizer.userId);
-            ViewData["userSupervisors"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.مشرف), "Id", "Name", userSupervisor.userId);
-            ViewData["oldMemorizerId"] = session.UserSessions.FirstOrDefault(x => x.user.TypeUser == TypeUser.محفظ).userId;
-            ViewData["oldSupervisorId"] = session.UserSessions.FirstOrDefault(x => x.user.TypeUser == TypeUser.مشرف).userId;
+            if (userMemorizer != null)
+                ViewData["userMemorizers"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.محفظ), "Id", "Name", userMemorizer.userId);
+            else
+                ViewData["userMemorizers"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.محفظ), "Id", "Name");
+
+            if (userSupervisor != null)
+                ViewData["userSupervisors"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.مشرف), "Id", "Name", userSupervisor.userId);
+            else
+                ViewData["userSupervisors"] = new SelectList(userManager.Users.Where(x => x.TypeUser == TypeUser.مشرف), "Id", "Name");
+            var oldMem = session.UserSessions.FirstOrDefault(x => x.user.TypeUser == TypeUser.محفظ);
+            var oldSup = session.UserSessions.FirstOrDefault(x => x.user.TypeUser == TypeUser.مشرف);
+            if(oldMem != null)
+                ViewData["oldMemorizerId"] = oldMem.userId;
+            if(oldSup != null)
+                ViewData["oldSupervisorId"] = oldSup.userId;
             return View(session);
         }
 

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using tahfezKhalid.Data;
 
@@ -11,9 +12,10 @@ using tahfezKhalid.Data;
 namespace tahfezKhalid.Migrations
 {
     [DbContext(typeof(tahfezKhalidContext))]
-    partial class tahfezKhalidContextModelSnapshot : ModelSnapshot
+    [Migration("20230204105949_reportnew")]
+    partial class reportnew
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -53,7 +53,7 @@ public class tahfezKhalidContext : IdentityDbContext<User>
         builder.Entity<DailyReport>()
             .HasOne(x => x.student)
             .WithMany(b => b.DailyReports)
-            .HasForeignKey(x => new {  x.IdentificationNumber,x.studentId });
+            .HasForeignKey(x => x.studentId );
 
 
 
@@ -91,7 +91,7 @@ public class tahfezKhalidContext : IdentityDbContext<User>
                 Name = "حماده حسام العبادلة",
                 PhoneNumber = "0595195186",
                 UserName = "407069541",
-                NormalizedUserName = "407069541",
+                NormalizedUserName = "4070695410",
                 TypeUser = TypeUser.آدمن,
                 PasswordHash = password.HashPassword(null, "407069541"),
             });
@@ -107,7 +107,7 @@ public class tahfezKhalidContext : IdentityDbContext<User>
 
             });
 
-        builder.Entity<Student>().HasKey(x => new { x.IdentificationNumber, x.Id });
+        builder.Entity<Student>().HasKey(x =>  x.Id );
         builder.Entity<Absence>().HasKey(x => new { x.dateAbsence, x.Id });
     }
 

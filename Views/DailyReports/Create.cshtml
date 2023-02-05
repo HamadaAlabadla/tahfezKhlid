@@ -1,6 +1,6 @@
 ﻿@using Microsoft.CodeAnalysis.Options
 @using tahfezKhalid.Models
-@model IEnumerable<tahfezKhalid.Models.DailyReport>
+@model tahfezKhalid.Models.ListDailyReport;
 
 @{
     ViewData["Title"] = "Create";
@@ -10,139 +10,151 @@
 <h1>إضافة التقرير اليومي لحلقة @ViewData["sessionName"]</h1>
 
 <hr />
-<form asp-action="Create">
+
 <table class="table text-center">
     <thead>
         <tr>
-            <th>
+            <th style="max-width:30px">
                 الرقم
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.student.Name)
+                @Html.DisplayNameFor(model => model.ReportItems.First().student.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SurahSavedFrom)
+                @Html.DisplayNameFor(model => model.ReportItems.First().SurahSavedFrom)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VerseSavedFrom)
+                @Html.DisplayNameFor(model => model.ReportItems.First().VerseSavedFrom)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SurahSavedTo)
+                @Html.DisplayNameFor(model => model.ReportItems.First().SurahSavedTo)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VerseSavedTo)
+                @Html.DisplayNameFor(model => model.ReportItems.First().VerseSavedTo)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NumPagesSaved)
+                @Html.DisplayNameFor(model => model.ReportItems.First().NumPagesSaved)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SurahReviewFrom)
+                @Html.DisplayNameFor(model => model.ReportItems.First().SurahReviewFrom)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VerseReviewFrom)
+                @Html.DisplayNameFor(model => model.ReportItems.First().VerseReviewFrom)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SurahReviewTo)
+                @Html.DisplayNameFor(model => model.ReportItems.First().SurahReviewTo)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VerseReviewTo)
+                @Html.DisplayNameFor(model => model.ReportItems.First().VerseReviewTo)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NumPagesReview)
+                @Html.DisplayNameFor(model => model.ReportItems.First().NumPagesReview)
             </th>
 
             <th></th>
         </tr>
     </thead>
     <tbody>
-        
-            @{
-                int i = 1;
-            }
-            @foreach (var item in Model)
+        @*<form asp-action="Create" enctype="multipart/form-data">*@
+            @using(Html.BeginForm("Create","DailyReports",FormMethod.Post))
             {
-                <tr style="max-height:150px">
-                    
-                    <td>
-                            @i
-                    </td>
-                    @{
+                for (int i = 0; i < Model.ReportItems.Count; i++)
+                {
+                    var SSF ="SurahSavedFrom_"+(i+1);
+                    var SRF ="SurahReviewFrom_"+(i+1);
+                    var VSF ="VerseSavedFrom_"+(i+1);
+                    var VRF ="VerseReviewFrom_"+(i+1);
+                    @Html.HiddenFor(x => x.ReportItems[i].studentId)
+                    @Html.HiddenFor(x => x.ReportItems[i].SurahSavedFrom , new {id=SSF})
+                    @Html.HiddenFor(x => x.ReportItems[i].SurahReviewFrom , new {id=SRF})
+                    @Html.HiddenFor(x => x.ReportItems[i].VerseSavedFrom , new {id=VSF})
+                    @Html.HiddenFor(x => x.ReportItems[i].VerseReviewFrom , new {id=VRF})
+                    //@Html.Hidden("Absence",0)
 
-                        var ListSurah = ViewBag.ListSurah as List<Surah>;
-                        var surahSavedName = ListSurah.FirstOrDefault(x => x.index == @item.SurahSavedFrom).titleAr;
-                        var surahReviewName = ListSurah.FirstOrDefault(x => x.index == @item.SurahReviewFrom).titleAr;
-                        var ListSurahSaved = new SelectList(ListSurah.OrderByDescending(x => x.index).Skip(114 -item.SurahSavedFrom), "index", "titleAr");
-                        var ListSurahReview = new SelectList(ListSurah.OrderByDescending(x => x.index).Skip(114 -item.SurahReviewFrom), "index", "titleAr");
+                    var ListSurah = ViewData["ListSurah"] as List<Surah>;
+                    var surahSavedName = ListSurah.FirstOrDefault(x => x.index == Model.ReportItems[i].SurahSavedFrom).titleAr;
+                    var surahReviewName = ListSurah.FirstOrDefault(x => x.index == Model.ReportItems[i].SurahReviewFrom).titleAr;
+                    var ListSurahSaved = new SelectList(ListSurah.OrderByDescending(x => x.index).Skip(114 -Model.ReportItems[i].SurahSavedFrom), "index", "titleAr");
+                    var ListSurahReview = new SelectList(ListSurah.OrderByDescending(x => x.index).Take(114 -Model.ReportItems[i].SurahSavedFrom), "index", "titleAr");
 
-                        var list= new List<Option<string>>();
-                        int j = item.VerseSavedFrom;
-                        for (; j <= ListSurah.FirstOrDefault(x => x.index == @item.SurahSavedFrom).count; j++)
-                        {
-                            var option = new Option<string>(j + "", j + "");
-                            list.Add(option);
-                        }
-                        j = item.VerseSavedFrom;
-                        var listVerseSaved = new SelectList(list, "Feature", "Name", new Option<string>(j + "", j + ""));
-
-                        list = new List<Option<string>>();
-                        j = item.VerseReviewFrom;
-                        for ( ; j <= ListSurah.FirstOrDefault(x => x.index == @item.SurahReviewFrom).count; j++)
-                        {
-                            var option = new Option<string>(j + "", j + "");
-                            list.Add(option);
-                        }
-                        j = item.VerseReviewFrom;
-                        var listVerseReview = new SelectList(list, "Feature", "Name", new Option<string>(j + "", j + ""));
+                    var list= new List<Option<string>>();
+                    int j = Model.ReportItems[i].VerseSavedFrom;
+                    for (; j <= ListSurah.FirstOrDefault(x => x.index == Model.ReportItems[i].SurahSavedFrom).count; j++)
+                    {
+                        var option = new Option<string>(j + "", j + "");
+                        list.Add(option);
                     }
-                    <td style="min-width:150px">
-                            @Html.DisplayFor(model => item.student.Name)
-                    </td>
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <input type="hidden" name="[@i].Id" asp-for="@item.Id" />
-                    <input id="SurahSavedFrom_@i" type="hidden" asp-for="@item.SurahSavedFrom" />
-                    <input id="SurahReviewFrom_@i" type="hidden" asp-for="@item.SurahReviewFrom" />
-                    <input id="VerseSavedFrom_@i" type="hidden" asp-for="@item.VerseSavedFrom" />
-                    <input id="VerseReviewFrom_@i" type="hidden" asp-for="@item.VerseReviewFrom" />
-                    <input id="Absence_@i" name="Absence" type="hidden" value="0" />
+                    j = Model.ReportItems[i].VerseSavedFrom;
+                    var listVerseSaved = new SelectList(list, "Feature", "Name", new Option<string>(j + "", j + ""));
 
-                    <input type="hidden" asp-for="@item.IdentificationNumber" />
+                    list = new List<Option<string>>();
+                    j = Model.ReportItems[i].VerseReviewFrom;
+                    for ( ; j <= ListSurah.FirstOrDefault(x => x.index == Model.ReportItems[i].SurahReviewFrom).count; j++)
+                    {
+                        var option = new Option<string>(j + "", j + "");
+                        list.Add(option);
+                    }
+                    j = Model.ReportItems[i].VerseReviewFrom;
+                    var listVerseReview = new SelectList(list, "Feature", "Name", new Option<string>(j + "", j + ""));
+
+
+
+                    <tr>
+                        <td style="max-width:30px">
+                            @(i+1)
+                        </td>
+
+                        <td style="min-width:150px">
+                            @Html.DisplayFor(model => model.ReportItems[i].student.Name)
+                        </td>
 
                         <td style="min-width:100px">
                             <input disabled value="@surahSavedName" class="form-control" />
                         </td>
+
                         <td style="min-width:70px">
-                            <input disabled asp-for="@item.VerseSavedFrom" class="form-control" />
+                            <input disabled asp-for="@Model.ReportItems[i].VerseSavedFrom" class="form-control" />
                         </td>
+
                         <td style="min-width:100px">
-                            <select id="surah_@i" onchange="changeSurah((document.getElementById('surah_'+@i)).value+'_'+@i)" asp-for="@item.SurahSavedTo" asp-items="@ListSurahSaved" class="form-control" ></select>
+                            <select id="surah_@(i+1)" onchange="changeSurah((document.getElementById('surah_'+@(i+1))).value+'_'+@(i+1))" asp-for="@Model.ReportItems[i].SurahSavedTo" asp-items="@ListSurahSaved" class="form-control" ></select>
                         </td>
+
                         <td style="min-width:70px">
-                            <select id="verse_@i"  onchange="changeNumPages('_'+@i)" asp-for="@item.VerseSavedTo" asp-items="@listVerseSaved" class="form-control" ></select>
+                            <select id="verse_@(i+1)"  onchange="changeNumPages('_'+@(i+1))" asp-for="@Model.ReportItems[i].VerseSavedTo" asp-items="@listVerseSaved" class="form-control" ></select>
                         </td>
+
                         <td  style="min-width:70px">
-                            <input id="numPagesSaved_@i" readonly asp-for="@item.NumPagesSaved" class="form-control" />
+                            <input id="numPagesSaved_@(i+1)" readonly asp-for="@Model.ReportItems[i].NumPagesSaved" class="form-control" />
                         </td>
 	
+
 
                         <td style="min-width:100px">
                             <input disabled value="@surahReviewName" class="form-control" />
                         </td>
+
                         <td style="min-width:70px" >
-                            <input disabled asp-for="@item.VerseReviewFrom" class="form-control" />
+                            <input disabled asp-for="@Model.ReportItems[i].VerseReviewFrom" class="form-control" />
                         </td>
+
                         <td style="min-width:100px" >
-                            <select id="surahReview_@i" onchange="changeSurahReview((document.getElementById('surahReview_'+@i)).value+'_'+@i)"  asp-for="@item.SurahReviewTo" asp-items="@ListSurahReview" class="form-control" ></select>
+                            <select id="surahReview_@(i+1)" onchange="changeSurahReview((document.getElementById('surahReview_'+@(i+1))).value+'_'+@(i+1))"  asp-for="@Model.ReportItems[i].SurahReviewTo" asp-items="@ListSurahReview" class="form-control" ></select>
                         </td>
+
                         <td style="min-width:70px">
-                            <select id="verseReview_@i" onchange="changeNumPagesReview('_'+@i)" asp-for="@item.VerseReviewTo" asp-items="@listVerseReview" class="form-control" ></select>
+                            <select id="verseReview_@(i+1)" onchange="changeNumPagesReview('_'+@(i+1))" asp-for="@Model.ReportItems[i].VerseReviewTo" asp-items="@listVerseReview" class="form-control" ></select>
                         </td>
+
                         <td style="min-width:70px" >
-                            <input id="numPagesReview_@i" readonly asp-for="@item.NumPagesReview" class="form-control" />
+                            <input id="numPagesReview_@(i+1)" readonly asp-for="@Model.ReportItems[i].NumPagesReview" class="form-control" />
                         </td>
-                        
-                        <td id="remove_@i">
+
+
+
+                        <td id="remove_@(i+1)">
                             <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                                <p class="btn btn-danger" style="font-weight:900;cursor: pointer; panding:10px" >غياب</p>
+                            <p class="btn btn-danger" style="font-weight:900;cursor: pointer; panding:10px" >غياب</p>
                             </div>
                             <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
                                 <div class="modal-dialog modal-xl">
@@ -156,9 +168,9 @@
                                                             <i style="height:70px;color:red" class="fa fa-exclamation-triangle" aria-hidden="true"></i>
                                                         </div>
                                                         <p class="mb-4 text-danger">هل أنت متأكد من تسجيل الطالب ك غياب ؟ </p>
-                                                        <p class="btn btn-outline-success" onclick="createAbsence(1,@i)">غياب بإذن</p>
-                                                        <p class="btn btn-outline-danger" onclick="createAbsence(2,@i)">غياب بدون إذن</p>
-                                                            <button id="close_@i" class="btn btn-success"  type="button" data-bs-dismiss="modal" aria-label="Close">
+                                                        <p class="btn btn-outline-success" onclick="createAbsence(1,@(i+1))">غياب بإذن</p>
+                                                        <p class="btn btn-outline-danger" onclick="createAbsence(2,@(i+1))">غياب بدون إذن</p>
+                                                        <button id="close_@(i+1)" class="btn btn-success"  type="button" data-bs-dismiss="modal" aria-label="Close">
                                                             <i class="fas fa-xmark fa-fw"></i>
                                                             إغلاق النافذة
                                                         </button>
@@ -170,20 +182,143 @@
                                 </div>
                             </div>
                         </td>
-                    @{
-                        i++;
-                    }
-                </tr>
+                        
+                    </tr>
+                }
+
+                <tr><td>
+                <br />
+                <br />
+                <div style="" class="form-group">
+                    <input type="submit" value="إضافة التقرير" class="btn btn-primary" />
+                </div>
+                </td></tr>
+
+                @*int i = 1;
+                @foreach (var item in Model.ReportItems)
+                {
+                    @Html.HiddenFor(x => x.ReportItems[i-1].Id)
+                    <tr style="max-height:150px">
+                    
+                        <td>
+                                @i
+                        </td>
+                        @{
+
+                            var ListSurah = ViewData["ListSurah"] as List<Surah>;
+                            var surahSavedName = ListSurah.FirstOrDefault(x => x.index == @item.SurahSavedFrom).titleAr;
+                            var surahReviewName = ListSurah.FirstOrDefault(x => x.index == @item.SurahReviewFrom).titleAr;
+                            var ListSurahSaved = new SelectList(ListSurah.OrderByDescending(x => x.index).Skip(114 -item.SurahSavedFrom), "index", "titleAr");
+                            var ListSurahReview = new SelectList(ListSurah.OrderByDescending(x => x.index).Take(114 -item.SurahSavedFrom), "index", "titleAr");
+
+                            var list= new List<Option<string>>();
+                            int j = item.VerseSavedFrom;
+                            for (; j <= ListSurah.FirstOrDefault(x => x.index == @item.SurahSavedFrom).count; j++)
+                            {
+                                var option = new Option<string>(j + "", j + "");
+                                list.Add(option);
+                            }
+                            j = item.VerseSavedFrom;
+                            var listVerseSaved = new SelectList(list, "Feature", "Name", new Option<string>(j + "", j + ""));
+
+                            list = new List<Option<string>>();
+                            j = item.VerseReviewFrom;
+                            for ( ; j <= ListSurah.FirstOrDefault(x => x.index == @item.SurahReviewFrom).count; j++)
+                            {
+                                var option = new Option<string>(j + "", j + "");
+                                list.Add(option);
+                            }
+                            j = item.VerseReviewFrom;
+                            var listVerseReview = new SelectList(list, "Feature", "Name", new Option<string>(j + "", j + ""));
+                        }
+                        <td style="min-width:150px">
+                                @Html.DisplayFor(model => item.student.Name)
+                        </td>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" name="[@i].Id" asp-for="@item.Id" />
+                        <input id="SurahSavedFrom_@i" type="hidden" asp-for="@item.SurahSavedFrom" />
+                        <input id="SurahReviewFrom_@i" type="hidden" asp-for="@item.SurahReviewFrom" />
+                        <input id="VerseSavedFrom_@i" type="hidden" asp-for="@item.VerseSavedFrom" />
+                        <input id="VerseReviewFrom_@i" type="hidden" asp-for="@item.VerseReviewFrom" />
+                        <input id="Absence_@i" name="Absence" type="hidden" value="0" />
+
+                        <input type="hidden" asp-for="@item.IdentificationNumber" />
+
+                            <td style="min-width:100px">
+                                <input disabled value="@surahSavedName" class="form-control" />
+                            </td>
+                            <td style="min-width:70px">
+                                <input disabled asp-for="@item.VerseSavedFrom" class="form-control" />
+                            </td>
+                            <td style="min-width:100px">
+                                <select id="surah_@i" onchange="changeSurah((document.getElementById('surah_'+@i)).value+'_'+@i)" asp-for="@item.SurahSavedTo" asp-items="@ListSurahSaved" class="form-control" ></select>
+                            </td>
+                            <td style="min-width:70px">
+                                <select id="verse_@i"  onchange="changeNumPages('_'+@i)" asp-for="@item.VerseSavedTo" asp-items="@listVerseSaved" class="form-control" ></select>
+                            </td>
+                            <td  style="min-width:70px">
+                                <input id="numPagesSaved_@i" readonly asp-for="@item.NumPagesSaved" class="form-control" />
+                            </td>
+	
+
+                            <td style="min-width:100px">
+                                <input disabled value="@surahReviewName" class="form-control" />
+                            </td>
+                            <td style="min-width:70px" >
+                                <input disabled asp-for="@item.VerseReviewFrom" class="form-control" />
+                            </td>
+                            <td style="min-width:100px" >
+                                <select id="surahReview_@i" onchange="changeSurahReview((document.getElementById('surahReview_'+@i)).value+'_'+@i)"  asp-for="@item.SurahReviewTo" asp-items="@ListSurahReview" class="form-control" ></select>
+                            </td>
+                            <td style="min-width:70px">
+                                <select id="verseReview_@i" onchange="changeNumPagesReview('_'+@i)" asp-for="@item.VerseReviewTo" asp-items="@listVerseReview" class="form-control" ></select>
+                            </td>
+                            <td style="min-width:70px" >
+                                <input id="numPagesReview_@i" readonly asp-for="@item.NumPagesReview" class="form-control" />
+                            </td>
+                        
+                            <td id="remove_@i">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                    <p class="btn btn-danger" style="font-weight:900;cursor: pointer; panding:10px" >غياب</p>
+                                </div>
+                                <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                            <div class="modal-body text-center pb-5">
+                                                <div class="container">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-lg-8">
+                                                            <div>
+                                                                <i style="height:70px;color:red" class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                                                            </div>
+                                                            <p class="mb-4 text-danger">هل أنت متأكد من تسجيل الطالب ك غياب ؟ </p>
+                                                            <p class="btn btn-outline-success" onclick="createAbsence(1,@i)">غياب بإذن</p>
+                                                            <p class="btn btn-outline-danger" onclick="createAbsence(2,@i)">غياب بدون إذن</p>
+                                                                <button id="close_@i" class="btn btn-success"  type="button" data-bs-dismiss="modal" aria-label="Close">
+                                                                <i class="fas fa-xmark fa-fw"></i>
+                                                                إغلاق النافذة
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        @{
+                            i++;
+                        }
+                    </tr>
+                }*@
+                
             }
-            
+        @*</form>*@
     </tbody>
 </table>
-    <br />
-    <br />
-    <div style="" class="form-group">
-        <input type="submit" value="إضافة التقرير" class="btn btn-primary" />
-    </div>
-</form>
+    
+
 <br />
 <br />
 <br />

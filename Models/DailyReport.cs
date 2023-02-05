@@ -10,14 +10,9 @@ namespace tahfezKhalid.Models
         [Required(ErrorMessage = "اسم الطالب مطلوب")]
         [Display(Name = "اسم الطالب")]
 
-        public int studentId { get; set; }
+        public string studentId { get; set; }
 
-        [Required(ErrorMessage = "رقم الهوية مطلوب")]
-        [Display(Name = "رقم الهوية")]
-        [StringLength(9)]
-        [RegularExpression("^[0-9]+$")]
-        [DataType(DataType.PhoneNumber)]
-        public string IdentificationNumber { get; set; }
+       
         public Student student { get; set; }
 
         [Required(ErrorMessage = "الحفظ مطلوب")]
@@ -68,7 +63,7 @@ namespace tahfezKhalid.Models
         [Display(Name = "عدد صفحات المراجعه")]
         public double NumPagesReview { get; set; }
         public DateTime DateReport { get; set; }
-        [Display(Name ="المحفظ البدبل")]
-        public string MemorizerNew { get; set; }
+
+        public bool View { get; set; } = false;
     }
 }

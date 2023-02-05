@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>طلاب حلقة @ViewBag.sessionName </h1>
+<h1>طلاب حلقة @ViewData["sessionName"] </h1>
 
 <p>
-    <a class="btn btn-outline-success" asp-action="Create" asp-route-Id = "@ViewBag.sessionId">إضافة طالب جديد</a>
+    <a class="btn btn-outline-success" asp-action="Create" asp-route-Id = "@ViewData["sessionId"]">إضافة طالب جديد</a>
 </p>
 <table class="table">
     <thead>

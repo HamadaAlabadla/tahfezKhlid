@@ -6,7 +6,7 @@ namespace tahfezKhalid.Models
     public class Student
     {
         [Required]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [Required(ErrorMessage = "الاسم بالكامل مطلوب")]
         [Display(Name = "الإسم بالكامل")]

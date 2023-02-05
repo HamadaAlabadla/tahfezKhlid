@@ -34,9 +34,20 @@ namespace tahfezKhalid.Controllers
         }
 
         // GET: DailyReports
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int sessionId = -1)
         {
-            return View(await _context.GetAllDailyReports());
+            var webClient = new WebClient();
+            var json = webClient.DownloadString("wwwroot/Quran.json");
+            var surah = JsonConvert.DeserializeObject<List<Surah>>(json);
+            ViewData["ListSurah"] = surah;
+            if (sessionId == -1)
+                return View(await _context.GetAllDailyReports(x => x.DateReport.Year == DateTime.Now.Year && x.DateReport.Month == DateTime.Now.Month));
+            else
+            {
+                var session = await _contextSession.GetSession(sessionId);
+                ViewData["sessionName"] = session.Name;
+                return View(await _context.GetAllDailyReports(x => x.student.SessionId == sessionId && x.DateReport.Year == DateTime.Now.Year && x.DateReport.Month == DateTime.Now.Month));
+            }
         }
 
         // GET: DailyReports/Details/5
@@ -57,6 +68,10 @@ namespace tahfezKhalid.Controllers
         //}
 
         // GET: DailyReports/Create
+#pragma warning disable CA1041 // Provide ObsoleteAttribute message
+        [Obsolete]
+#pragma warning restore CA1041 // Provide ObsoleteAttribute message
+        [HttpGet]
         public async Task<IActionResult> Create(int sessionId)
         {
             var userId = userManager.GetUserId(HttpContext.User);
@@ -68,7 +83,10 @@ namespace tahfezKhalid.Controllers
                 var surah = JsonConvert.DeserializeObject<List<Surah>>(json);
 
                 var session = await _contextSession.GetSession(sessionId);
-                var reports = new List<DailyReport>();
+                var reports = new ListDailyReport()
+                {
+                    ReportItems = new List<DailyReport>(),
+                };
                 foreach (var item in session.Students)
                 {
                     var lastReport = await _context.GetLastDailyReportByStudentId(item.Id);
@@ -91,10 +109,9 @@ namespace tahfezKhalid.Controllers
                     }
 
 
-                    reports.Add(new DailyReport
+                    reports.ReportItems.Add(new DailyReport
                     {
-                        Id = item.Id,
-                        IdentificationNumber = item.IdentificationNumber,
+                        studentId = item.Id,
                         student = item,
                         SurahSavedFrom = surahSaveNum,
                         VerseSavedFrom = versSaveNum,
@@ -117,18 +134,19 @@ namespace tahfezKhalid.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(DailyReport dailyReport)
+        public async Task<IActionResult> Create(ListDailyReport listDailyReport)
         {
             if (ModelState.IsValid)
             {
-
-                //var getDaileReport = await GetDailyReport(dailyReport.Id, dailyReport.DateReport);
-                //if (getDaileReport != null)
-                 //   _context.Add(dailyReport);
-               // await _context.SaveChangesAsync();
+                foreach (var dailyReport in listDailyReport.ReportItems)
+                {
+                    await _context.CreateDailyReport(dailyReport);
+                }
+                
                 return RedirectToAction(nameof(Index));
             }
-            return View(dailyReport);
+
+            return View(listDailyReport);
         }
 
         // GET: DailyReports/Edit/5

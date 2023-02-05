@@ -6,13 +6,13 @@ namespace tahfezKhalid.Services
 {
     public interface IManageStudentService
     {
-        Task<Student> GetStudent(int studentId);
+        Task<Student> GetStudent(string studentId);
         Task<List<Student>> GetAllStudents();
         Task<List<Student>> GetAllStudentsBySessionId(int sessionId);
         Task<List<Student>> GetAllStudentsByParentId(string parentId);
         Task<Student> CreateStudent(Student student);
         Task<Student> UpdateStudent(Student student);
-        Task<Student> DeleteStudent(int studentId);
+        Task<Student> DeleteStudent(string studentId);
 
     }
 
@@ -34,7 +34,7 @@ namespace tahfezKhalid.Services
             return student;
         }
 
-        public async Task<Student> DeleteStudent(int studentId)
+        public async Task<Student> DeleteStudent(string studentId)
         {
             var getStudent = await GetStudent(studentId);
 
@@ -64,9 +64,9 @@ namespace tahfezKhalid.Services
             return getStudents;
         }
 
-        public async Task<Student> GetStudent(int studentId)
+        public async Task<Student> GetStudent(string studentId)
         {
-            var getStudent = await context.Students.Include(x => x.Session).Include(x => x.Parent).FirstOrDefaultAsync(x => x.Id == studentId);
+            var getStudent = await context.Students.Include(x => x.Session).Include(x => x.Parent).FirstOrDefaultAsync(x => x.Id.Equals(studentId));
             return getStudent;
         }
 

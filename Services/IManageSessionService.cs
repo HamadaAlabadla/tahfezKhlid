@@ -155,10 +155,10 @@ namespace tahfezKhalid.Services
             getSession.StudentsNumber = session.StudentsNumber;
             getSession.NumberPages = session.NumberPages;
             getSession.StayNumberExams = session.StayNumberExams;
-            getSession.UserSessions = new List<UserSession>();
+            //getSession.UserSessions = new List<UserSession>();
 
-            foreach (var item in session.UserSessions)
-                getSession.UserSessions.Add(item);
+            //foreach (var item in session.UserSessions)
+            //    getSession.UserSessions.Add(item);
             
 
             context.Update(getSession);

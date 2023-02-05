@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3qptKva/A8laX0CKr5jKVzcpUCSOso2dqhiBevWAlFs=",
+  "Hash": "xSOGhpRNikINNiUzpRN/1mu9FDFDAJasFcV+nkCE9Pg=",
   "Source": "tahfezKhalid",
   "BasePath": "_content/tahfezKhalid",
   "Mode": "Default",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\student.jpg"
+    },
+    {
+      "Identity": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Students\\photo_5242625244471082686_y.jpg",
+      "SourceId": "tahfezKhalid",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\",
+      "BasePath": "_content/tahfezKhalid",
+      "RelativePath": "images/Students/photo_5242625244471082686_y.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Students\\photo_5242625244471082686_y.jpg"
     },
     {
       "Identity": "D:\\c#\\Asp.net\\project fact\\tahfezKhlid\\wwwroot\\images\\Students\\Screenshot_1.png",

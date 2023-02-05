@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using tahfezKhalid.Data;
 
@@ -11,9 +12,10 @@ using tahfezKhalid.Data;
 namespace tahfezKhalid.Migrations
 {
     [DbContext(typeof(tahfezKhalidContext))]
-    partial class tahfezKhalidContextModelSnapshot : ModelSnapshot
+    [Migration("20230204085627_studentnew")]
+    partial class studentnew
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -52,28 +54,28 @@ namespace tahfezKhalid.Migrations
                         new
                         {
                             Id = "1512fd48-56b8-407a-8547-271fea42ca72",
-                            ConcurrencyStamp = "8b1fd7d2-056b-43c9-b0a3-6fd87ed59019",
+                            ConcurrencyStamp = "65314982-5f00-4544-b36e-fff035d84f8c",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "db614589-c68b-4633-a0a6-5d3518eda78e",
-                            ConcurrencyStamp = "bef3a48d-1e44-404b-b692-d14ea41a6a4a",
+                            ConcurrencyStamp = "5438c0d7-3a8a-4bda-b441-f041c7433b9a",
                             Name = "memorizer",
                             NormalizedName = "MEMORIZER"
                         },
                         new
                         {
                             Id = "1b50282d-c47e-4873-99c0-4b0124f1c26e",
-                            ConcurrencyStamp = "58045918-c527-43eb-a5bf-91183069df94",
+                            ConcurrencyStamp = "0bed43a7-ac39-4cf8-b805-219e02796f89",
                             Name = "parent",
                             NormalizedName = "PARENT"
                         },
                         new
                         {
                             Id = "1bg4282d-ca7e-4873-99c0-4b0fe4f12f6e",
-                            ConcurrencyStamp = "8b9b8201-e19d-43b3-9dfd-f7a03dcb380a",
+                            ConcurrencyStamp = "3785f1f8-d388-4c0f-8190-3a6472a7cb9f",
                             Name = "supervisor",
                             NormalizedName = "SUPERVISOR"
                         });
@@ -280,16 +282,16 @@ namespace tahfezKhalid.Migrations
                         {
                             Id = "1512fd48-56b8-407a-8547-271fea42ca72",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a146ad63-ae49-4dee-a8ca-ee669a29ba90",
+                            ConcurrencyStamp = "5eba112f-f334-4d3a-b82c-eeda032c1068",
                             EmailConfirmed = false,
                             IdentificationNumber = "407069541",
                             LockoutEnabled = false,
                             Name = "حماده حسام العبادلة",
                             NormalizedUserName = "4070695410",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEDNZdiiAIaeZ5emC7bDF9pulS5u1NNFWXhlPScG34/qe54vD1/Xv2WV4VT9Eji2kw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFZVLJwTx/O2Y3k8JLqFIGGJGz7kYm0o3JmdSPPbWwvmX3hTiw6uNLQESyq7mcwu6g==",
                             PhoneNumber = "0595195186",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0cd7e184-cdc3-421d-8792-757a8eaef62c",
+                            SecurityStamp = "200dfeb3-b485-48f7-9181-ca4a6ddd5a70",
                             TwoFactorEnabled = false,
                             TypeUser = 0,
                             UserName = "407069541"
@@ -331,6 +333,9 @@ namespace tahfezKhalid.Migrations
                     b.Property<DateTime>("DateReport")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("MemorizerNew")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("NumPagesReview")
                         .HasColumnType("float");
 
@@ -360,9 +365,6 @@ namespace tahfezKhalid.Migrations
 
                     b.Property<int>("VerseSavedTo")
                         .HasColumnType("int");
-
-                    b.Property<bool>("View")
-                        .HasColumnType("bit");
 
                     b.Property<string>("studentId")
                         .IsRequired()

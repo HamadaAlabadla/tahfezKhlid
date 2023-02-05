@@ -10,6 +10,7 @@ namespace tahfezKhalid.Services
         Task<UserSession> GetUserSession(string userId, int sessionId);
         Task<UserSession> DeleteUserSession(UserSession userSession);
         Task<UserSession> UpdateUserSession(UserSession userSession);
+        Task<List<UserSession>> GetUserSessionsBySessionID(int sessionId);
     }
 
     public class ManageUserSessionService : IManageUserSessionService
@@ -52,6 +53,12 @@ namespace tahfezKhalid.Services
         public Task<UserSession> GetUserSession(string userId, int sessionId)
         {
             return context.UserSession.FirstOrDefaultAsync(x => x.userId == userId && x.sessionId == sessionId);
+        }
+
+        public async Task<List<UserSession>> GetUserSessionsBySessionID(int sessionId)
+        {
+            var userSessions = await context.UserSession.Include(x => x.user).Include(x => x.user.Students).Include(x => x.session).Where(x => x.sessionId== sessionId).ToListAsync();
+            return userSessions;
         }
 
         public async Task<UserSession> UpdateUserSession(UserSession userSession)

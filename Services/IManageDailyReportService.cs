@@ -9,8 +9,8 @@ namespace tahfezKhalid.Services
         Task<DailyReport> CreateDailyReport(DailyReport dailyReport);
         Task<DailyReport> UpdateDailyReport(DailyReport dailyReport);
         Task<DailyReport> GetDailyReport(int dailyReportId, DateTime date);
-        Task<DailyReport> GetLastDailyReportByStudentId(int studentId);
-        Task<DailyReport> GetBeforLastDailyReportByStudentId(int studentId);
+        Task<DailyReport> GetLastDailyReportByStudentId(string studentId);
+        Task<DailyReport> GetBeforLastDailyReportByStudentId(string studentId);
         Task<List<DailyReport>> GetAllDailyReports(Func<DailyReport,bool> fun = null);
     }
 
@@ -25,9 +25,18 @@ namespace tahfezKhalid.Services
 
         public async Task<DailyReport> CreateDailyReport(DailyReport dailyReport)
         {
+            dailyReport.Id = 0;
+            dailyReport.View = false;
             dailyReport.DateReport = DateTime.Now;
-            await _context.AddAsync(dailyReport);
-            await _context.SaveChangesAsync();
+            var report = await _context.DailyReport.FirstOrDefaultAsync(x => x.DateReport.Year == dailyReport.DateReport.Year
+                                                                        && x.DateReport.Month == dailyReport.DateReport.Month
+                                                                        && x.DateReport.Day == dailyReport.DateReport.Day
+                                                                        && x.studentId.Equals(dailyReport.studentId));
+            if (report == null)
+            {
+                await _context.AddAsync(dailyReport);
+                await _context.SaveChangesAsync();
+            }
             var dailyReportNew = await GetLastDailyReportByStudentId(dailyReport.studentId);
             return dailyReportNew;
         }
@@ -39,9 +48,9 @@ namespace tahfezKhalid.Services
             return _context.DailyReport.Include(x => x.student).Where(fun).ToList();
         }
 
-        public async Task<DailyReport> GetBeforLastDailyReportByStudentId(int studentId)
+        public async Task<DailyReport> GetBeforLastDailyReportByStudentId(string studentId)
         {
-            var getDailyReports = await _context.DailyReport.Include(x => x.student).Where(x => x.studentId == studentId).ToListAsync();
+            var getDailyReports = await _context.DailyReport.Include(x => x.student).Where(x => x.studentId.Equals(studentId)).ToListAsync();
             if (getDailyReports.Count() == 0)
                 return null;
             else if(getDailyReports.Count() == 1)
@@ -60,12 +69,12 @@ namespace tahfezKhalid.Services
             return getDailyReport;
         }
 
-        public async Task<DailyReport> GetLastDailyReportByStudentId(int studentId)
+        public async Task<DailyReport> GetLastDailyReportByStudentId(string studentId)
         {
             var reports = await GetAllDailyReports();
             if (reports.Count() == 0)
                 return null;
-            var getDailyReportLast = await _context.DailyReport.Include(x => x.student).OrderBy(x => x.Id).LastAsync(x => x.studentId == studentId);
+            var getDailyReportLast = await _context.DailyReport.Include(x => x.student).OrderBy(x => x.DateReport).LastAsync(x => x.studentId.Equals(studentId));
             return getDailyReportLast; 
         }
 

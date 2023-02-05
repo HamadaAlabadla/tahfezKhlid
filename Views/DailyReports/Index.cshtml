@@ -1,102 +1,107 @@
-﻿@model IEnumerable<tahfezKhalid.Models.DailyReport>
+﻿@using tahfezKhalid.Models;
+@using System.Globalization;
+@model IEnumerable<tahfezKhalid.Models.DailyReport>
 
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1> التقارير اليومية لحلقة @ViewData["sessionName"] عن شهر @DateTime.Now.Month</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+@{
+    var countDays = 0;
+    var dateTime = DateTime.Now;
+    countDays = dateTime.Day;
+    dateTime = new DateTime(dateTime.Year, dateTime.Month, 1);
+}
 <table class="table">
+
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.student)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SurahSavedFrom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VerseSavedFrom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SurahSavedTo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VerseSavedTo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NumPagesSaved)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SurahReviewFrom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VerseReviewFrom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SurahReviewTo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VerseReviewTo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NumPagesReview)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateReport)
-            </th>
-            <th></th>
+            @for (int q = 0; q < countDays; q++)
+            {
+
+                <th colspan="" style="min-width: 426.78px">
+                    @dateTime.ToString("dddd")<br> 
+                    @dateTime.ToShortDateString()
+                </th>
+
+            }
         </tr>
+        
+        <tr class="text-center">
+            <th>
+                الرقم
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.student.Name)
+            </th>
+        @for (int q = 1; q <= countDays; q++)
+        {
+           
+            
+
+            
+            <th>
+                الحفظ <br />
+                من  إلى
+            </th>
+            <th>
+                الحفظ
+            </th>
+            <th>
+                المراجعة <br />
+                من  إلى
+            </th>
+            <th>
+                المراجعة
+            </th>
+            dateTime = dateTime.AddDays(1);
+        }
+         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
+        @{
+            var i = 1;
+            var surah = ViewData["ListSurah"] as List<Surah>;
+        }
+    @foreach (var item in Model) {
+        <tr class="text-center">
             <td>
-                @Html.DisplayFor(modelItem => item.student.IdentificationNumber)
+                @i
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SurahSavedFrom)
+            <td style="max-width:215px" >
+                @Html.DisplayFor(modelItem => item.student.Name)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VerseSavedFrom)
+            <td class="align-content-center" style="min-width:150px">
+                @Html.DisplayFor(modelItem => surah[item.SurahSavedFrom - 1].titleAr) - @Html.DisplayFor(modelItem => surah[item.SurahSavedTo - 1].titleAr)<br>
+                @Html.DisplayFor(modelItem => item.VerseSavedFrom) - @Html.DisplayFor(modelItem => item.VerseSavedTo)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SurahSavedTo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VerseSavedTo)
-            </td>
-            <td>
+            <td style="max-width:30px">
                 @Html.DisplayFor(modelItem => item.NumPagesSaved)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SurahReviewFrom)
+            <td  class="align-content-center" style="min-width:150px">
+                @Html.DisplayFor(modelItem => surah[item.SurahReviewFrom - 1].titleAr) - @Html.DisplayFor(modelItem => surah[item.SurahReviewTo - 1].titleAr)<br>
+                @Html.DisplayFor(modelItem => item.VerseReviewFrom) - @Html.DisplayFor(modelItem => item.VerseReviewTo)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VerseReviewFrom)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SurahReviewTo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VerseReviewTo)
-            </td>
-            <td>
+            
+            <td style="max-width:30px">
                 @Html.DisplayFor(modelItem => item.NumPagesReview)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.DateReport)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
+            </td>*@
         </tr>
-}
+            i++;
+    }
     </tbody>
 </table>
