@@ -21,32 +21,46 @@ namespace tahfezKhalid.Controllers
         private readonly IManageSessionService _contextSession;
         private readonly UserManager<User> userManager;
         private readonly IManageDailyReportService _context;
+        private readonly IManageAbsenceService _contextAbsence;
 
         public DailyReportsController(IManageDailyReportService context,
             IManageStudentService contextStudent,
             IManageSessionService contextSession,
-            UserManager<User> userManager)
+            UserManager<User> userManager,
+            IManageAbsenceService contextAbsence)
         {
             this.userManager = userManager;
             _context = context;
             _contextStudent = contextStudent;
             _contextSession = contextSession;
+            _contextAbsence = contextAbsence;
         }
 
         // GET: DailyReports
-        public async Task<IActionResult> Index(int sessionId = -1)
+        public async Task<IActionResult> Index(int sessionId = -1 , int Year = -1, int month = -1)
         {
+            if (Year == -1)
+                Year = DateTime.Now.Year;
+            if (month == -1)
+                month = DateTime.Now.Month;
+            ViewData["year"] = Year;
+            ViewData["month"] = month;
             var webClient = new WebClient();
             var json = webClient.DownloadString("wwwroot/Quran.json");
             var surah = JsonConvert.DeserializeObject<List<Surah>>(json);
             ViewData["ListSurah"] = surah;
+            var session = await _contextSession.GetSession(sessionId);
             if (sessionId == -1)
-                return View(await _context.GetAllDailyReports(x => x.DateReport.Year == DateTime.Now.Year && x.DateReport.Month == DateTime.Now.Month));
+            {
+                ViewData["Absence"] = await _contextAbsence.GetAllAbsenceList(x => x.dateAbsence.Year == Year && x.dateAbsence.Month == month);
+                return View(await _context.GetAllDailyReports(x => x.DateReport.Year == Year && x.DateReport.Month == month));
+            }
             else
             {
-                var session = await _contextSession.GetSession(sessionId);
+                ViewData["Absence"] = await _contextAbsence.GetAllAbsenceList(x =>x.student.SessionId == sessionId&& x.dateAbsence.Year == Year && x.dateAbsence.Month == month);
                 ViewData["sessionName"] = session.Name;
-                return View(await _context.GetAllDailyReports(x => x.student.SessionId == sessionId && x.DateReport.Year == DateTime.Now.Year && x.DateReport.Month == DateTime.Now.Month));
+                ViewData["sessionId"] = session.Id;
+                return View(await _context.GetAllDailyReports(x => x.student.SessionId == sessionId && x.DateReport.Year == Year && x.DateReport.Month == month));
             }
         }
 
@@ -134,16 +148,37 @@ namespace tahfezKhalid.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(ListDailyReport listDailyReport)
+        public async Task<IActionResult> Create(List<int> Absence,List<string> reason, ListDailyReport listDailyReport)
         {
             if (ModelState.IsValid)
             {
+                var i = 0;
                 foreach (var dailyReport in listDailyReport.ReportItems)
                 {
-                    await _context.CreateDailyReport(dailyReport);
+                    if (Absence[i] ==0)
+                        await _context.CreateDailyReport(dailyReport);
+                    else if (Absence[i] <= 3)
+                    {
+                        var abs = new Absence()
+                        {
+                            dateAbsence = DateTime.Now,
+                            studentId = dailyReport.studentId,
+                            TypeAbsence = (typeAbsence)Absence[i],
+                            reason = ""
+                        };
+                        if (Absence[i] == 1)
+                            abs.reason = reason[i];
+
+                        _contextAbsence.CreateAbsence(abs);
+                    }
+                    i++;
                 }
-                
-                return RedirectToAction(nameof(Index));
+                var student = await _contextStudent.GetStudent(listDailyReport.ReportItems.FirstOrDefault().studentId);
+                var sessionId = -1;
+                if (student != null)
+                    sessionId = student.SessionId;
+
+                return RedirectToAction(nameof(Index),new { sessionId = sessionId, Year = DateTime.Now.Year, month = DateTime.Now.Month });
             }
 
             return View(listDailyReport);

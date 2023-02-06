@@ -5,11 +5,14 @@ namespace tahfezKhalid.Models
     public class Absence
     {
         public int Id { get; set; }
-        public int studentId { get; set; }
+        public string studentId { get; set; }
         public Student student { get; set; }
         public DateTime dateAbsence { get; set; }
         [Display(Name ="الحالة")]
         public typeAbsence TypeAbsence { get; set; }
+        [MaxLength(50)]
+        public string reason { get; set; }
+
     }
 
     public enum typeAbsence

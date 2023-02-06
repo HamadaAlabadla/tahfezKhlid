@@ -14,19 +14,19 @@
         <br />
         <br />
         <!-- Masthead Avatar Image-->
-        @if (ViewBag.Type == "آدمن")
+        @if (ViewData["Type"].Equals("آدمن"))
         {
             <img class="masthead-avatar mb-5 rounded-circle" src="~/images/avataaars.svg" alt="..." />
         }
-        @if (ViewBag.Type == "محفظ")
+        @if (ViewData["Type"].Equals("محفظ"))
         {
             <img class="masthead-avatar mb-5 rounded-circle" src="~/images/memorizer.jpg" alt="..." />
         }
-        @if (ViewBag.Type == "مشرف")
+        @if (ViewData["Type"].Equals("مشرف"))
         {
             <img class="masthead-avatar mb-5 rounded-circle" src="~/images/supervisor.webp" alt="..." />
         }
-        @if (ViewBag.Type == "ولي_أمر")
+        @if (ViewData["Type"].Equals("ولي_أمر"))
         {
                 <img class="masthead-avatar mb-5 rounded-circle" src="~/images/parent.png" alt="..." />
         }
@@ -44,7 +44,7 @@
     </div>
 </header>
 
-@if (ViewBag.Type == "آدمن")
+@if (ViewData["Type"].Equals("آدمن"))
 {
     <!-- Portfolio Section-->
     <section class="page-section portfolio" id="portfolio">
@@ -301,7 +301,7 @@
         
 </section>
 
-}else if(ViewBag.Type == "محفظ")
+}else if(ViewData["Type"].Equals("محفظ"))
 {
     <!-- Portfolio Section-->
         <section class="page-section portfolio justify-content-center text-center" id="portfolio">
@@ -333,6 +333,13 @@
                             </div>
                         </div>
                     </a>
+                    <br />
+                    <br />
+                    <br />
+                    <p style="padding:10px">
+                        <a class="btn btn-outline-success" asp-action="Create" asp-controller="DailyReports" asp-route-sessionId = "@item.Id">إدخال التقرير اليومي</a>
+                        <a class="btn btn-outline-success" asp-action="Index" asp-controller="DailyReports" asp-route-sessionId = "@item.Id">تقاير الحلقة</a>
+                    </p>
                 }
             </div>
         </div>

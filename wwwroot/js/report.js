@@ -119,16 +119,27 @@ connection.on("changeNumSurahReview", (numPages, i) => {
 
 
 
-const createAbsence = ( typeAbsence, i) => connection2.invoke("AddAbsenceNow", typeAbsence, i);
-connection2.on("removeTr", (typeAbsence, i) => {
-    document.getElementById("Absence_" + i).value = typeAbsence;
-    document.getElementById("close_" + i).click();
-    document.getElementById("surah_" + i).style.display = "none";
-    document.getElementById("verse_" + i).style.display = "none";
-    document.getElementById("numPagesSaved_" + i).style.display = "none";
-    document.getElementById("surahReview_" + i).style.display = "none";
-    document.getElementById("verseReview_" + i).style.display = "none";
-    document.getElementById("numPagesReview_" + i).style.display = "none";
-    document.getElementById("remove_" + i).style.display = "none";
+//const createAbsence = ( typeAbsence, i) => connection2.invoke("AddAbsenceNow", typeAbsence, i);
+//connection2.on("removeTr", (typeAbsence, i) => {
+//    document.getElementById("Absence_" + i).value = typeAbsence;
+//    document.getElementById("close_" + i).click();
+//    document.getElementById("surah_" + i).style.display = "none";
+//    document.getElementById("verse_" + i).style.display = "none";
+//    document.getElementById("numPagesSaved_" + i).style.display = "none";
+//    document.getElementById("surahReview_" + i).style.display = "none";
+//    document.getElementById("verseReview_" + i).style.display = "none";
+//    document.getElementById("numPagesReview_" + i).style.display = "none";
+//    document.getElementById("remove_" + i).style.display = "none";
 
-});
+//});
+
+function createAbsence(typeAbsence, i) {
+    document.getElementById("Absence_" + i).value = typeAbsence;
+    document.getElementById("remove_" + i).style.display = "none";
+    document.getElementById("surah_" + i).setAttribute('readonly', true);
+    document.getElementById("verse_" + i).setAttribute('readonly', true);
+    document.getElementById("numPagesSaved_" + i).setAttribute('readonly', true);
+    document.getElementById("surahReview_" + i).setAttribute('readonly', true);
+    document.getElementById("verseReview_" + i).setAttribute('readonly', true);
+    document.getElementById("numPagesReview_" + i).setAttribute('readonly', true);
+}

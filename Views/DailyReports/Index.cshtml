@@ -1,36 +1,73 @@
-﻿@using tahfezKhalid.Models;
+﻿@using Microsoft.CodeAnalysis.Options;
+@using tahfezKhalid.Models;
 @using System.Globalization;
 @model IEnumerable<tahfezKhalid.Models.DailyReport>
 
 @{
+
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var listYear = new List<Option<string>>();
+    for (int q = DateTime.Now.Year; q >=1 ; q--)
+    {
+        listYear.Add(new Option<string>(q +"" ,q +""));
+    }
+    var yearSelect = new SelectList(listYear, "Feature", "Name",ViewData["year"]);
+    var listMonth = new List<Option<string>>();
+    for (int q = DateTime.Now.Month; q >= 1; q--)
+    {
+        listMonth.Add(new Option<string>(q + "", q + ""));
+    }
+    var monthSelect = new SelectList(listMonth, "Feature", "Name",ViewData["month"]);
 }
 
 <h1> التقارير اليومية لحلقة @ViewData["sessionName"] عن شهر @DateTime.Now.Month</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
+
+<form asp-action="Index" asp-controller="DailyReports" >
+    <input name="sessionId" type="hidden" value=" @ViewData["sessionId"]" />
+    <label for="year">Year</label>
+    <select class="form-control-sm" id="year" name="Year" asp-items="@yearSelect" ></select>
+    <label for="month">Month</label>
+    <select class="form-control-sm" id="month" name="month" asp-items="@monthSelect"></select>
+    <input class="form-control-sm btn btn-success" type="submit" value="عرض"/>
+</form>
+<br />
+<br />
+<br />
+
 @{
     var countDays = 0;
     var dateTime = DateTime.Now;
     countDays = dateTime.Day;
     dateTime = new DateTime(dateTime.Year, dateTime.Month, 1);
 }
-<table class="table">
+<table class="table" style=font-size: 10%">
 
     <thead>
-        <tr>
+        <tr class="text-center">
+            <th></th>
+            <th></th>
             @for (int q = 0; q < countDays; q++)
             {
-
-                <th colspan="" style="min-width: 426.78px">
-                    @dateTime.ToString("dddd")<br> 
-                    @dateTime.ToShortDateString()
-                </th>
-
+                if (q % 2 == 0)
+                {
+                    <th  colspan="4" style="min-width: 426.78px ;background-color: rgb(26, 188, 156)">
+                        @dateTime.ToString("dddd")<br> 
+                        @dateTime.ToShortDateString()
+                    </th>
+                }
+                else
+                {
+                    <th colspan="4" style="min-width: 426.78px ;background-color:rgb(18, 137, 113)">
+                        @dateTime.ToString("dddd")<br> 
+                        @dateTime.ToShortDateString()
+                    </th>
+                }
+                dateTime = new DateTime(dateTime.Year, dateTime.Month, dateTime.Day + 1);
             }
+            <th></th>
         </tr>
         
         <tr class="text-center">
@@ -41,26 +78,41 @@
                 @Html.DisplayNameFor(model => model.student.Name)
             </th>
         @for (int q = 1; q <= countDays; q++)
-        {
-           
-            
-
-            
-            <th>
-                الحفظ <br />
-                من  إلى
-            </th>
-            <th>
-                الحفظ
-            </th>
-            <th>
-                المراجعة <br />
-                من  إلى
-            </th>
-            <th>
-                المراجعة
-            </th>
-            dateTime = dateTime.AddDays(1);
+        { 
+            if(q % 2 ==1){
+                <th style="background-color:rgb(26, 188, 156)">
+                    الحفظ <br />
+                    من / إلى
+                </th >
+                <th style="background-color:rgb(26, 188, 156)">
+                    الحفظ
+                </th>
+                <th style="background-color:rgb(26, 188, 156)">
+                    المراجعة <br />
+                    من / إلى
+                </th>
+                <th style="background-color:rgb(26, 188, 156)">
+                    المراجعة
+                </th>
+            }
+            else
+            {
+                <th style="background-color:rgb(18, 137, 113)">
+                    الحفظ <br />
+                    من  إلى
+                </th >
+                <th style="background-color:rgb(18, 137, 113)">
+                    الحفظ
+                </th>
+                <th style="background-color:rgb(18, 137, 113)">
+                    المراجعة <br />
+                    من  إلى
+                </th>
+                <th style="background-color:rgb(18, 137, 113)">
+                    المراجعة
+                </th>
+            }
+                //dateTime = dateTime.AddDays(1);
         }
          </tr>
     </thead>
@@ -68,30 +120,68 @@
         @{
             var i = 1;
             var surah = ViewData["ListSurah"] as List<Surah>;
+            var p = 1;
+            var daylyReport = Model.FirstOrDefault();
+            var students = new List<Student>() ;
+            if(daylyReport != null)
+                students = daylyReport.student.Session.Students as List<Student>;
         }
-    @foreach (var item in Model) {
-        <tr class="text-center">
+    @foreach (var item in students) {
+            p = 1;
+            var x = 0;
+            var reports = Model.Where(x => x.studentId.Equals(item.Id)).ToList() ;
+            <tr class="text-center" style="background-color:rgb(196, 255, 229)">
             <td>
                 @i
             </td>
-            <td style="max-width:215px" >
-                @Html.DisplayFor(modelItem => item.student.Name)
+            <td style="min-width:215px" >
+                @Html.DisplayFor(modelItem => item.Name)
             </td>
-            <td class="align-content-center" style="min-width:150px">
-                @Html.DisplayFor(modelItem => surah[item.SurahSavedFrom - 1].titleAr) - @Html.DisplayFor(modelItem => surah[item.SurahSavedTo - 1].titleAr)<br>
-                @Html.DisplayFor(modelItem => item.VerseSavedFrom) - @Html.DisplayFor(modelItem => item.VerseSavedTo)
-            </td>
-            <td style="max-width:30px">
-                @Html.DisplayFor(modelItem => item.NumPagesSaved)
-            </td>
-            <td  class="align-content-center" style="min-width:150px">
-                @Html.DisplayFor(modelItem => surah[item.SurahReviewFrom - 1].titleAr) - @Html.DisplayFor(modelItem => surah[item.SurahReviewTo - 1].titleAr)<br>
-                @Html.DisplayFor(modelItem => item.VerseReviewFrom) - @Html.DisplayFor(modelItem => item.VerseReviewTo)
-            </td>
+            @for (var j = 0; j< countDays ; j++)
+            {
+                dateTime = new DateTime(dateTime.Year,dateTime.Month,p);
+                @if(x < reports.Count()&& p == reports[x].DateReport.Day)
+                {
+                    <td class="align-content-center" style="min-width:150px ; border-right: 1px solid ">
+                        @Html.DisplayFor(modelItem => surah[reports[x].SurahSavedFrom - 1].titleAr) - @Html.DisplayFor(modelItem => surah[reports[x].SurahSavedTo - 1].titleAr)<br>
+                        @Html.DisplayFor(modelItem => reports[x].VerseSavedFrom) - @Html.DisplayFor(modelItem => reports[x].VerseSavedTo)
+                    </td>
+                    <td style="max-width:30px">
+                        @Html.DisplayFor(modelItem => reports[x].NumPagesSaved)
+                    </td>
+                    <td  class="align-content-center" style="min-width:150px">
+                        @Html.DisplayFor(modelItem => surah[reports[x].SurahReviewFrom - 1].titleAr) - @Html.DisplayFor(modelItem => surah[reports[x].SurahReviewTo - 1].titleAr)<br>
+                        @Html.DisplayFor(modelItem => reports[x].VerseReviewFrom) - @Html.DisplayFor(modelItem => reports[x].VerseReviewTo)
+                    </td>
             
-            <td style="max-width:30px">
-                @Html.DisplayFor(modelItem => item.NumPagesReview)
-            </td>
+                    <td style="max-width:30px">
+                        @Html.DisplayFor(modelItem => reports[x].NumPagesReview)
+                    </td>
+                    x++;
+                }
+                else if(dateTime.DayOfWeek == DayOfWeek.Friday){
+                    <td colspan="4" style=" border-right: 1px solid">
+                        الجمعة
+                    </td>
+                }
+                else
+                {
+                    var abs = (ViewData["Absence"] as List<Absence> ).FirstOrDefault(x => x.dateAbsence.Year == dateTime.Year 
+                                                                                    && x.dateAbsence.Month == dateTime.Month 
+                                                                                    &&x.dateAbsence.Day == dateTime.Day
+                                                                                    &&x.studentId == item.Id);
+                    if(abs != null)
+                    {
+                        <td colspan="4" style="background-color:rgb(255, 174, 174); border-right: 1px solid ">
+                            @abs.TypeAbsence.ToString()<br />
+                            @abs.reason
+                        </td>
+                    }else{
+                        <td colspan="4" style="background-color:rgb(255, 174, 174); border-right: 1px solid ">لا يوجد تقرير</td>
+                    }
+                }
+                p++;
+            }
             @*<td>
                 @Html.DisplayFor(modelItem => item.DateReport)
             </td>

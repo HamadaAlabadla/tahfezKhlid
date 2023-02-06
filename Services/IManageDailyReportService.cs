@@ -44,8 +44,8 @@ namespace tahfezKhalid.Services
         public async Task<List<DailyReport>> GetAllDailyReports(Func<DailyReport, bool> fun = null)
         {
             if (fun == null)
-                return await _context.DailyReport.Include(x => x.student).ToListAsync();
-            return _context.DailyReport.Include(x => x.student).Where(fun).ToList();
+                return await _context.DailyReport.Include(x => x.student).Include(x => x.student.Session).ToListAsync();
+            return _context.DailyReport.Include(x => x.student).Include(x => x.student.Session).Where(fun).ToList();
         }
 
         public async Task<DailyReport> GetBeforLastDailyReportByStudentId(string studentId)

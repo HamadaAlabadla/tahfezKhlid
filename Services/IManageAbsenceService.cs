@@ -7,7 +7,8 @@ namespace tahfezKhalid.Services
     public interface IManageAbsenceService
     {
         Absence CreateAbsence(Absence absence);
-        Absence GetAbsenceByDateAbsence(int studentId, DateTime dateAbsence);
+        Absence GetAbsenceByDateAbsence(string studentId, DateTime dateAbsence);
+        Task<List<Absence>> GetAllAbsenceList(Func<Absence,bool> fun = null);
     }
     public class ManageAbsenceService : IManageAbsenceService
     {
@@ -28,7 +29,7 @@ namespace tahfezKhalid.Services
             return getAbsence;
         }
 
-        public Absence GetAbsenceByDateAbsence(int studentId, DateTime dateAbsence)
+        public Absence GetAbsenceByDateAbsence(string studentId, DateTime dateAbsence)
         {
             if (_context.Absences.Count() == 0)
                 return null;
@@ -39,5 +40,11 @@ namespace tahfezKhalid.Services
             return getAbsence;
         }
 
+        public async Task<List<Absence>> GetAllAbsenceList(Func<Absence, bool> fun = null)
+        {
+            if(fun == null)
+                return await _context.Absences.Include(x => x.student).Include(x => x.student.Session).ToListAsync();
+            return _context.Absences.Include(x => x.student).Include(x => x.student.Session).Where(fun).ToList();
+        }
     }
 }

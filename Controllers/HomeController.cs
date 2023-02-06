@@ -45,10 +45,10 @@ namespace tahfezKhlid.Controllers
             {
                 var sessions = user.UserSessions.Select(x => x.session).ToList();
 
-                if (sessions.Count == 1)
-                {
-                    return RedirectToAction("IndexStudent", "Students",new { sessionId = sessions.First().Id });
-                }
+                //if (sessions.Count == 1)
+                //{
+                //    return RedirectToAction("IndexStudent", "Students",new { sessionId = sessions.First().Id });
+                //}
 
                 ViewData["sessions"] = sessions;
             }

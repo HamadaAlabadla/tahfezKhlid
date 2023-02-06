@@ -64,12 +64,13 @@
                     var SRF ="SurahReviewFrom_"+(i+1);
                     var VSF ="VerseSavedFrom_"+(i+1);
                     var VRF ="VerseReviewFrom_"+(i+1);
+                    var ABS = "Absence_"+(i+1);
                     @Html.HiddenFor(x => x.ReportItems[i].studentId)
                     @Html.HiddenFor(x => x.ReportItems[i].SurahSavedFrom , new {id=SSF})
                     @Html.HiddenFor(x => x.ReportItems[i].SurahReviewFrom , new {id=SRF})
                     @Html.HiddenFor(x => x.ReportItems[i].VerseSavedFrom , new {id=VSF})
                     @Html.HiddenFor(x => x.ReportItems[i].VerseReviewFrom , new {id=VRF})
-                    //@Html.Hidden("Absence",0)
+                    <input id="@ABS" name="Absence" type="hidden" value="0">
 
                     var ListSurah = ViewData["ListSurah"] as List<Surah>;
                     var surahSavedName = ListSurah.FirstOrDefault(x => x.index == Model.ReportItems[i].SurahSavedFrom).titleAr;
@@ -99,7 +100,7 @@
 
 
 
-                    <tr>
+                    <tr id="tr_@(i+1)">
                         <td style="max-width:30px">
                             @(i+1)
                         </td>
@@ -153,10 +154,10 @@
 
 
                         <td id="remove_@(i+1)">
-                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal@(i+1)">
                             <p class="btn btn-danger" style="font-weight:900;cursor: pointer; panding:10px" >غياب</p>
                             </div>
-                            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="portfolio-modal modal fade" id="portfolioModal@(i+1)" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
                                 <div class="modal-dialog modal-xl">
                                     <div class="modal-content">
                                         <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
@@ -168,8 +169,9 @@
                                                             <i style="height:70px;color:red" class="fa fa-exclamation-triangle" aria-hidden="true"></i>
                                                         </div>
                                                         <p class="mb-4 text-danger">هل أنت متأكد من تسجيل الطالب ك غياب ؟ </p>
-                                                        <p class="btn btn-outline-success" onclick="createAbsence(1,@(i+1))">غياب بإذن</p>
-                                                        <p class="btn btn-outline-danger" onclick="createAbsence(2,@(i+1))">غياب بدون إذن</p>
+                                                        <input id="reason_@(i+1)" class="form-control-sm" name="reason" value="" />
+                                                        <p class="btn btn-outline-success" data-bs-dismiss="modal"  onclick="createAbsence(1,@(i+1))">غياب بإذن</p>
+                                                        <p class="btn btn-outline-danger" data-bs-dismiss="modal" onclick="createAbsence(2,@(i+1))">غياب بدون إذن</p>
                                                         <button id="close_@(i+1)" class="btn btn-success"  type="button" data-bs-dismiss="modal" aria-label="Close">
                                                             <i class="fas fa-xmark fa-fw"></i>
                                                             إغلاق النافذة

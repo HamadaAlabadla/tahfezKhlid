@@ -9,6 +9,8 @@
 
 <p>
     <a class="btn btn-outline-success" asp-action="Create" asp-route-Id = "@ViewData["sessionId"]">إضافة طالب جديد</a>
+
+    <a class="btn btn-outline-success" asp-action="Create" asp-controller="DailyReports" asp-route-sessionId = "@ViewData["sessionId"]">إدخال التقرير اليومي</a>
 </p>
 <table class="table">
     <thead>
